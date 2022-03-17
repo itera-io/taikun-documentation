@@ -1,35 +1,31 @@
----
-description: Overview of Flavors for each Cloud
----
-
-# Flavor Info
+# **Flavor Info**
 
 Sort flavors by size of CPU and RAM or use search bar.
 
-{% hint style="warning" %}
-To use a flavor for Server in Project, you have to assign the flavor to the project first. You can do so during [project creation](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/creating-a-new-project) or in Flavor Info tab.
-{% endhint %}
+???+ warning
+    To use a flavor for Server in Project, you have to assign the flavor to the project first. You can do so during [project creation](../projects/creating-a-new-project) or in *Flavor Info* tab.
 
-####
+## **Bind To Project**
 
-### Bind To Project
+Choose the *Cloud Type* and *Credentials* where your project is stored. After selecting flavor/s you can bind it/them to the project.
 
-Choose the _Cloud Type_ and _Credentials_ where your project is stored. After selecting flavor/s you can bind it/them to the project.
-
-![Fig. 1: Bind to Project](<../.gitbook/assets/bind flavor (3).gif>)
-
-
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/flavor-info/bind-flavor.gif "Bind to Project")
+  <figcaption>Fig .1: Bind to project</figcaption>
+</figure>
 
 An error message is displayed, if the flavor is already bound to the project.
 
-![](<../.gitbook/assets/flavor bounded.png>)
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/flavor-info/flavor-bounded.png "Flavor bounded")
 
+## **Flavor Project Bounds/Unbind Flavor**
 
+To overview all Flavors used in Projects use![](https://cloud.tcpro.cz:30100/swift/v1/KEY*c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/flavor-info/flavor-project-bounds.png)button. Flavors for each *Cloud* (Amazon, Azure, OpenStack) can be sorted by *Name*, *Project Name*, *CPU* and *RAM*.
 
-### Flavor Project Bounds/Unbind Flavor
+To unbind a flavor from a specific project, choose a Cloud, select the project-flavor bound and use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/flavor-info/unbind-flavor.png){: .middle} button.
 
-To overview all Flavors used in Projects use![](<../.gitbook/assets/Flavor Project Bounds.png>)button. Flavors for each _Cloud_ (Amazon, Azure, OpenStack) can be sorted by _Name_, _Project Name_, _CPU_ and _RAM_.
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/flavor-info/unbind.gif "Unbind Flavor")
+  <figcaption>Fig .2: Unbind flavor</figcaption>
+</figure>
 
-To unbind a flavor from a specific project, choose a Cloud, select the project-flavor bound and use![](<../.gitbook/assets/unbind (1).png>)button.
-
-![Fig. 2: Unbind Flavor](<../.gitbook/assets/unbind (2).gif>)

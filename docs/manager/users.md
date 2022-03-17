@@ -1,10 +1,6 @@
----
-description: Manage Users
----
+# **Users**
 
-# Users
-
-In **Users** tab is list of users for your organization. If you want change your settings, visit [**My Profile**](https://itera.gitbook.io/taikun/user-guide-1/manager/my-profile).
+In **Users** tab is list of users for your organization. If you want change your settings, visit [**My Profile**](../my-profile).
 
 For each user you can preview following:
 
@@ -19,80 +15,70 @@ For each user you can preview following:
 * Projects
 * Actions
 
-![Fig. 1: Users](<../.gitbook/assets/users (9).png>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/users/users.png "Users")
+  <figcaption>Fig .1: Users</figcaption>
+</figure>
 
-####
+**Find User**
 
-#### Find User
+To find user easier you can sort the list by *User Name*, *Display Name*, *Role*, *Approved*, *Partner* and *Creation Date* or use the *Search* bar above the list.
 
-To find user easier you can sort the list by _User Name_ and _Role_ or use the _Search_ bar above the list.
+## **Add User**
 
-####
+If you want to add a new user use![](https://cloud.tcpro.cz:30100/swift/v1/KEY*c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/users/add-user-btn.png)button in the upper right corner.
 
-#### Add User
+???+ warning
+    You can create a new user with **User** or **Manager** role.
 
-If you want to add a new user use![](<../.gitbook/assets/add userr.png>)button in the upper right corner.
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/users/add-user.png "Add New User")
+  <figcaption>Fig .2: Add User</figcaption>
+</figure>
 
-{% hint style="warning" %}
-You can create a new user with **User** or **Manager** role.
-{% endhint %}
+*User Name* - only alphanumeric characters and dash allowed
 
-![Fig. 2: Add User](<../.gitbook/assets/add user (10).png>)
+*Display Name* - name displayed in upper right corner (upper/lowecase and spaces allowed), optional
 
-_User Name_ - only alphanumeric characters and dash allowed
+*E-mail* - new user's e-mail address
 
-_Display Name_ - name displayed in upper right corner (upper/lowecase and spaces allowed), optional
+???+ warning
+    Token will be sent to the provided e-mail address and it expires in **3 hours**.
 
-_E-mail_ - new user's e-mail address
+Token redirects the user to the page, where a [new password will be set](../login).
 
-{% hint style="danger" %}
-Token will be sent to the provided e-mail address and it expires in **3 hours**.
-{% endhint %}
-
-Token redirects the user to the page, where a [new password will be set](https://itera.gitbook.io/taikun/user-guide-1/manager/login).
-
-_Role_ - choose between _Manager_ and _User_ role
-
-
-
-### Projects
-
-#### Edit assigned Projects
-
-Use pencil:pencil2:in _Projects_ column to assign user a project and update your changes.
-
-{% hint style="warning" %}
-You can assign a project to user with **User** role only.
-{% endhint %}
-
-{% hint style="info" %}
-You can also assign the project to the user in **** [**Projects**](https://itera.gitbook.io/taikun/user-guide-1/manager/projects).
-{% endhint %}
+*Role* - choose between *Manager* and *User* role
 
 
+## **Edit assigned Projects**
 
-### Actions
+Use pencil :pencil2: in *Projects* column to assign user a project and update your changes.
 
-#### Edit User
+???+ warning
+    You can assign a project to user with **User** role only.
 
-_User Name_ - change user's name
+???+ info
+    You can also assign the project to the user in [**Projects**](../projects/#assigned-users).
 
-_Display Name_ - change name displayed in upper right corner (upper/lowecase and spaces allowed)
+## **Actions**
 
-_E-mail_ - change user's e-mail address. User will then use this e-mail to login and can [confirm the e-mail](https://itera.gitbook.io/taikun/user-guide-1/manager/my-profile#settings) in _My Profile_
+### **Edit User**
 
-_Role_ - change role from _user_ to _manager_. The change cannot be undone because you can't change manager's role
+*User Name* - change user's name
 
-_Force User to Reset Password_ - user will be automatically logged out and receive e-mail with reset password request
+*Display Name* - change name displayed in upper right corner (upper/lowecase and spaces allowed)
 
-_User Disabled_ - logout and lock the user
+*E-mail* - change user's e-mail address. User will then use this e-mail to login and can [confirm the e-mail](../my-profile#change-e-mail) in *My Profile*
 
+*Role* - change role from *user* to *manager*. The change cannot be undone because you can't change manager's role
 
+*Force User to Reset Password* - user will be automatically logged out and receive e-mail with reset password request
 
-#### Delete User
+*User Disabled* - logout and lock the user
 
-If you want to delete some user, use the bin icon![](<../.gitbook/assets/delete (2).png>).
+### **Delete User**
 
-{% hint style="warning" %}
-You can delete a user only with **User** role only**.**
-{% endhint %}
+If you want to delete some user, use the bin icon![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/delete.png){: .middle}.
+
+???+ warning
+    You can delete a user only with **User** role only.

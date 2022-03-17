@@ -1,45 +1,46 @@
----
-description: Add/Delete Credentials for your Showback
----
 
-# Showback Credentials
+# **Showback Credentials**
 
-If you want to use external source for your [**Showback rules**](https://itera.gitbook.io/taikun/partner/showback-rules), add Showback Credentials you then will want to use.
+If you want to use external source for your [**Showback rules**](../showback-rules), add Showback Credentials you then will want to use.
 
-_Select organization_ for a better overview of Rules_._
+*Select organization* for a better overview of Rules.
 
 See table of added Showback credentials.
 
-![Fig. 1: Overview of Showback Credentials](<../.gitbook/assets/Showback credentials.png>)
+<figure markdown>
+  ![Fig. 1: Overview of Showback Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-credentials/showback-credentials.png)
+  <figcaption>Fig. 1: Kubernetes profiles</figcaption>
+</figure>
 
-Table consist of _ID_, _Name_, _Organization_, _URL_, bound _Rules_, date and time _Created_ and _Actions_.
-
-
-
-#### Actions
-
-![](<../.gitbook/assets/lock (3).png>)Lock the credentials - then credentials cannot be used in Showback rules and cannot be deleted
-
-![](../.gitbook/assets/unlock.png)Unlock credentials - then credentials are unlocked and you can use them again
-
-![](<../.gitbook/assets/delete (1).png>)Delete credentials - if no longer needed
+Table consist of *ID*, *Name*, *Organization*, *URL*, bound *Rules*, date and time *Created* and *Actions*.
 
 
+**Actions**
 
-### Add New Credentials
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/lock.png){: .middle} Lock the credentials - then credentials cannot be used in Showback rules and cannot be deleted
 
-With _Add Credential_ you can create a new showback credentials.
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/unlock.png){: .middle} Unlock credentials - then credentials are unlocked and you can use them again
 
-![Fig. 2: Add Showback Credentials](<../.gitbook/assets/add showback credentials (1).png>)
-
-_Organization_ - choose organization from drop-down selection
-
-_Name_ - choose name for your Showback Credentials (3-30 characters)
-
-_URL_ - add URL of the source
-
-_Username_ and _Password_ - use your _Prometheus_ or other credentials
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/delete.png){: .middle} Delete credentials - if no longer needed
 
 
+## **Add New Credentials**
 
-After you successfully added the credentials, you can see them in overview.
+With *Add Credential* you can create a new showback credentials.
+
+<figure markdown>
+  ![Fig. 2: Add Showback Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-credentials/add-showback-credentials.png)
+  <figcaption>Fig. 2: Add Kubernetes Profile</figcaption>
+</figure>
+
+
+*Organization* - choose organization from drop-down selection
+
+*Name* - choose name for your Showback Credentials (3-30 characters)
+
+*URL* - add URL of the source
+
+*Username* and *Password* - use your *Prometheus* or other credentials
+
+???+ info
+    After you successfully added the credentials, you can see them in overview.

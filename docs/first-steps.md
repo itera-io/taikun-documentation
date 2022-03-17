@@ -1,113 +1,122 @@
----
-description: >-
-  I am new in Taikun and I want to create Kubernetes cluster for my application.
-  This is the way how to
----
+#  **From Login to production Cluster**
+>I am new in Taikun and I want to create Kubernetes cluster for my application.    
+>This is the way how to.
 
-# From Login to production Cluster
-
-## Invitation Mail from Taikun, Reset Password & Login
-
-If you are completely new to Taikun, you will receive an invitation to your organization. First you need to reset your password (through _Visit_ button in received mail) and then you are redirected right to Taikun login page. By filling _E-mail_ and newly created _Password_, you will login to Taikun. First page you see is Dashboard of your organization.
-
-If [**Keycloak**](https://www.keycloak.org) is set for your organization, you can use it to login.
-
-![First Login](<.gitbook/assets/visit, reset password, login (1).gif>)
-
-If you [**forget your password**](https://itera.gitbook.io/taikun/guidelines/login#forgotten-password), you can reset it.
-
-See how to change your password **** [**here**](https://itera.gitbook.io/taikun/guidelines/verify-the-e-mail-address-and-change-the-password#change-password) and how to change your e-mail **** [**here**](https://itera.gitbook.io/taikun/guidelines/verify-the-e-mail-address-and-change-the-password#change-e-mail).
+## **Invitation Mail from Taikun, Reset Password & Login**
+[:fontawesome-solid-user:](http://185.22.98.126/user/login) **User**
+[:fontawesome-solid-user-tie:](http://185.22.98.126/manager/login/) **Manager**
+[:fontawesome-regular-handshake:](http://185.22.98.126/partner/login/) **Partner**
 
 
+If you are completely new to Taikun, you will receive an invitation to your organization. First you need to reset your password (through *Visit* button in received mail) and then you are redirected right to Taikun login page. By filling *E-mail* and newly created *Password*, you will login to Taikun. First page you see is the Dashboard of your organization.
 
-## Add Cloud Credentials
+If [**Keycloak**](https://www.keycloak.org) is set for your organization, you can use it to login.  
 
-Before you can create your own project, you have to add a cloud. Now you can choose from OpenStack, AWS or Azure.
+<figure markdown>
+  ![First Login](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/login.gif "First Login")   
+  <figcaption>Fig .1: First login</figcaption>
+</figure>
 
+If you [**forget your password**](../guidelines/login/#forgotten-password), you can reset it.   
+
+See how to change your password [**here**](../guidelines/change-mail-password/#change-password) and how to change your e-mail [**here**](../guidelines/change-mail-password/#change-e-mail).
+
+## **Add Cloud Credentials**
+[:fontawesome-solid-user-tie:](../manager/cloud-credentials/) **Manager**
+[:fontawesome-regular-handshake:](../partner/cloud-credentials/) **Partner**
+
+Before you can create your own project, you have to add a cloud. Now you can choose from OpenStack, AWS or Azure.   
 You just have to fill in correct credentials from your account and Taikun will connect with them.
 
+### **OpenStack**
 
+Before connecting the openstack cloud, you have to fulfill the [requirements](../guidelines/add-cloud-credentials/#openstack).
 
-### OpenStack
+<figure markdown>
+  ![OpenStack Cloud Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/add-cc-openstack.gif "OpenStack Cloud Credentials")   
+  <figcaption>Fig .2: Openstack cloud credentials</figcaption>
+</figure>
+   
+If you have trouble adding openstack credentials, see [how fill the fields](../guidelines/add-cloud-credentials/#openstack) and [where to find credentials](../guidelines/add-cloud-credentials/#openstack_1).
 
-Before connecting the openstack cloud, you have to fulfill the [requirements](https://itera.gitbook.io/taikun/guidelines/create-credentials#openstack).
+### **AWS**
 
-![OpenStack Cloud Credentials](<.gitbook/assets/add openstack.gif>)
+<figure markdown>
+  ![AWS Cloud Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/add-cc-aws.gif "AWS Cloud Credentials")
+  <figcaption>Fig .3: AWS cloud credentials</figcaption>
+</figure>
 
-If you have trouble adding openstack credentials, see [how fill the fields](https://itera.gitbook.io/taikun/guidelines/create-credentials#openstack) and [where to find credentials](https://itera.gitbook.io/taikun/guidelines/create-credentials/where-to-find-credentials#openstack).
+If you have trouble adding AWS credentials, see [how fill the fields](../guidelines/add-cloud-credentials/#amazon-web-services) and [where to find credentials](../guidelines/add-cloud-credentials/#aws).
 
+### **Azure**
 
+Before connecting the cloud you have to [create application registration](../guidelines/add-cloud-credentials/#azure) through commands.
 
-### AWS
+<figure markdown>
+  ![Azure Cloud credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/add-cc-azure.gif "Azure Cloud Credentials")
+  <figcaption>Fig .4: Azure cloud credentials</figcaption>
+</figure>
 
-![AWS Cloud Credentials](<.gitbook/assets/add awx.gif>)
+If you have trouble adding Azure credentials, see [how fill the fields](../guidelines/add-cloud-credentials/#azure) (at the bottom of the page) and [where to find credentials](../guidelines/add-cloud-credentials/where-to-find-credentials/#azure_1).
 
-If you have trouble adding AWS credentials, see [how fill the fields](https://itera.gitbook.io/taikun/guidelines/create-credentials#amazon-web-services) and [where to find credentials](https://itera.gitbook.io/taikun/guidelines/create-credentials/where-to-find-credentials#aws).
-
-
-
-### Azure
-
-Before connecting the cloud you have to [create application registration](https://itera.gitbook.io/taikun/guidelines/create-credentials#azure) with commands.
-
-![Azure Cloud credentials](<.gitbook/assets/add azure.gif>)
-
-If you have trouble adding AWS credentials, see [how fill the fields](https://itera.gitbook.io/taikun/guidelines/create-credentials#amazon-web-services) (at the bottom of the page) and [where to find credentials](https://itera.gitbook.io/taikun/guidelines/create-credentials/where-to-find-credentials#azure).
-
-
-
-## Project Creation
+## **Project Creation**
+[:fontawesome-solid-user-tie:](../manager/projects/creating-a-new-project/) **Manager**
+[:fontawesome-regular-handshake:](../partner/projects/creating-a-new-project/) **Partner**
 
 After you have successfully added cloud credentials, you can add a project! During project creation, you can choose a lot of features.
 
-![Add Project](<.gitbook/assets/add project (10).gif>)
+<figure markdown>
+  ![Add Project](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/add-project.gif "Add Project")
+  <figcaption>Fig .5: Add project</figcaption>
+</figure>
 
-In _Access Profile_, _Alerting Profile_ and _Kubernetes Profile_ you have by default option _default_. These profiles are created with new organization creation. You can also create a new profile and then choose from drop-down selection. If you want to enable backup, you have to add backup credentials first.
+In *Access Profile*, *Alerting Profile* and *Kubernetes Profile* you have by default option *default*. These profiles are created with every new organization. You can also create a new profile and then choose from drop-down selection. If you want to enable backup, you have to add backup credentials first, same with policy profile.  
 
-{% hint style="danger" %}
-**ACCESS PROFILE**
+Some of these features can be added/enabled after project is created: add/detach *alerting* or *policy profile*, enable *monitoring* or *backup*, add *expiration date*.
 
-**If you want to use your access profile in a project, you have to create it BEFORE and choose it from drop down selection DURING project creation.**
+???+ warning
+    **ACCESS PROFILE**
+    If you want to use your access profile in a project, you have to create it BEFORE and choose it from drop down selection DURING project creation.   
+    After the project is CREATED you CANNOT ADD ACCESS PROFILE**   
 
-**After the project is CREATED you CANNOT ADD ACCESS PROFILE.**
-{% endhint %}
+Project can be created only by manager or partner, who then has to assign the project to the user (if they want them to have access to the project).   
+More information about project creation for [Manager](../manager/projects/creating-a-new-project/) and [Partner](../manager/projects/creating-a-new-project/).
 
-Project can be created only by manager or partner, who then has to assign the project to the user (if they want them to have access to the project).
-
-More information about project creation for [**Manager**](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/creating-a-new-project) and [**Partner**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/creating-a-new-project).
-
-
-
-## Creating a Cluster
+## **Creating a Cluster**
+[:fontawesome-solid-user:](../user/projects/project-details/#add-server) **User**
+[:fontawesome-solid-user-tie:](../manager/projects/project-details/#add-server) **Manager**
+[:fontawesome-regular-handshake:](../partner/projects/project-details/#add-server) **Partner**
 
 For a functional cluster you need one bastion, at least one kubemaster and at least one kubeworker.
 
-{% hint style="info" %}
-Recommendation for sizing:
+???+ info 
+    Recommendation for sizing:
+    - *bastion* recommended 2 vCPU + 2GB of RAM
+    - *masters*  recommended 4 vCPU + 8GB of RAM
 
-* _bastion_ recommended 2 vCPU + 2GB of RAM
-* _masters_ recommended 4 vCPU + 8GB of RAM
-{% endhint %}
+<figure markdown>
+  ![Create Cluster](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/create-cluster.gif "Create a Cluster")
+  <figcaption>Fig .6: Create cluster</figcaption>
+</figure>
 
-![](<.gitbook/assets/create cluster.gif>)
+You can add and delete servers until you are satisfied with the cluster, then you can commit your changes.
 
-You can add and delete servers until you are satisfied with the cluster, then you can commit (under Actions drop-down).
+You can update some of the features either directly from **Project Details** (depend on role permissions - [User](../user/projects/project-details/), [Manager](../manager/projects/project-details/), [Partner](http://185.22.98.126/partner/projects/project-details/)) like enable backup, enable/disable monitoring, attach/detach alerting profile or under specific tabs like updating *Access Profile*, *Kubernetes Profile*.
 
-You can updated almost all the features either directly from **Project Details** ([User](https://itera.gitbook.io/taikun/user-guide-1/user/projects/project-details), [Manager](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/project-details), [Partner](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details)) like enable backup, enable/disable monitoring, attach/detach alerting profile or under specific tabs like updating _Access Profile_, _Kubernetes Profile_.
+Please keep in mind that some changes need *Repair*, which takes some time (e.g. updating *Access Profile*).
 
-Please keep in mind that some changes need Repair, which takes some time (e.g. updating _Access Profile_).
+See more information about [**cluster creation**](../guidelines/creating-a-cluster/).
 
-See more information about [**cluster creation**](https://itera.gitbook.io/taikun/guidelines/creating-a-cluster).
-
-
-
-## Kubeconfigs
+## **Kubeconfigs**
+[:fontawesome-solid-user:](http://185.22.98.126/user/projects/project-details/#kubeconfigs) **User**
+[:fontawesome-solid-user-tie:](http://185.22.98.126/manager/projects/project-details/#kubeconfigs) **Manager**
+[:fontawesome-regular-handshake:](http://185.22.98.126/partner/projects/project-details/#kubeconfigs) **Partner**
 
 Add kubeconfig to organize information about clusters, users, namespaces, and authentication mechanisms.
 
-![Add Kubeconfig](.gitbook/assets/kubeconfig.gif)
+<figure markdown>
+  ![Add Kubeconfig](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/kubeconfig.gif "Add Kubeconfigs")
+  <figcaption>Fig .7: Add kubeconfig</figcaption>
+</figure>
 
-More about kubeconfigs for [User](https://itera.gitbook.io/taikun/user-guide-1/user/projects/project-details#kubeconfigs), [Manager](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/project-details#kubeconfigs) and [Partner](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details#kubeconfigs).
-
-
-
+More about kubeconfigs for [User](../user/projects/project-details-k8s/#kubeconfigs), [Manager](../manager/projects/project-details-k8s/#kubeconfigs) and [Partner](../partner/projects/project-details-k8s/#kubeconfigs).

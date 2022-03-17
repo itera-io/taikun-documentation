@@ -1,10 +1,6 @@
----
-description: What all the graphs mean
----
+# **Charts**
 
-# Charts
-
-### Projects
+## **Projects**
 
 The graph shows number of **Projects** (right corner) for your organization and the pie chart shows their current status (pointing arrow at some part of the graph):
 
@@ -13,17 +9,16 @@ The graph shows number of **Projects** (right corner) for your organization and 
 * Pending
 * Updating
 
-![Fig. 1: Projects](<../../.gitbook/assets/projects (3).gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/charts/projects.gif "Projects")
+  <figcaption>Fig .1: Projects</figcaption>
+</figure>
 
 By clicking the specific part in graph, you see an overview of selected projects.
 
-####
+For more information visit [**Projects**](../../projects).
 
-For more information visit **** [**Projects**](https://itera.gitbook.io/taikun/user-guide-1/manager/projects).
-
-
-
-### Server Statuses
+## **Server Statuses**
 
 In the right corner is number of **Servers** and the pie chart shows their current status (pointing arrow at some part of the graph):
 
@@ -32,93 +27,98 @@ In the right corner is number of **Servers** and the pie chart shows their curre
 * Pending
 * Updating
 
-![Fig. 2: Server Statuses](<../../.gitbook/assets/serv stat.gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/charts/projects.gif "Projects")
+  <figcaption>Fig .2: Server statuses</figcaption>
+</figure>
 
 By clicking the specific part in graph you see an overview of selected servers.
 
-For more information visit [**Servers**](https://itera.gitbook.io/taikun/user-guide-1/manager/servers).
+For more information visit [**Servers**](../../servers).
 
+## **Servers**
 
+In the right corner is shown number of all **Servers** for your organization. The graph shows where the servers are hosted (*AWS*, *Azure*, *OpenStack*). When you point at a column, exact number of servers used is shown.
 
-### Servers
-
-In the right corner is shown number of all **Servers** for your organization. The graph shows where the servers are hosted (_AWS_, _Azure_, _OpenStack_). When you point at a column, exact number of servers used is shown.
-
-![Fig. 3: Servers](<../../.gitbook/assets/servers (7).gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/charts/servers.gif "Servers")
+  <figcaption>Fig .3: Servers</figcaption>
+</figure>
 
 By clicking the specific part in graph you see an overview of selected servers.
 
-For more information about servers visit [**Servers**](https://itera.gitbook.io/taikun/user-guide-1/manager/servers), for clouds visit [**Cloud Credentials**](https://itera.gitbook.io/taikun/user-guide-1/manager/cloud-credentials).
+For more information about servers visit [**Servers**](../../servers), for clouds visit [**Cloud Credentials**](../../cloud-credentials).
 
+## **Cloud Credentials**
 
+In the right corner is shown number of **Cloud Credentials**. The graph shows which cloud (*AWS*, *Azure*, *OpenStack*) and how many of each type are used. When you point to a column, the exact number of cloud credentials used is shown. In the right corner is number of all cloud credentials.
 
-### Cloud Credentials
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/charts/cloud-credentials.gif "Cloud Credentials")
+  <figcaption>Fig .4: Cloud credentials</figcaption>
+</figure>
 
-In the right corner is shown number of **Cloud Credentials**. The graph shows which cloud (_AWS_, _Azure_, _OpenStack_) and how many of each type are used. **** When you point to a column, the exact number of cloud credentials used is shown. In the right corner is number of all cloud credentials.
+For more information visit [**Cloud Credentials**](../../cloud-credentials).
 
-![Fig. 4: Cloud Credentials](<../../.gitbook/assets/cloud cred (6).gif>)
-
-For more information visit [**Cloud Credentials**](https://itera.gitbook.io/taikun/user-guide-1/manager/cloud-credentials).
-
-
-
-### Nodes overview
+## **Nodes overview**
 
 In the right corner is shown number of **Nodes** and the pie chart shows their current status (pointing arrow at some part of the graph):
 
 * Healthy
 * Unhealthy
 
-![Fig. 5: Nodes overview](<../../.gitbook/assets/nodes overview.gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/charts/nodes-overview.gif "Nodes Overview")
+  <figcaption>Fig .5: Nodes overview</figcaption>
+</figure>
 
-By clicking the graph you see [Kubernetes](https://itera.gitbook.io/taikun/manager/projects/kubernetes) overview, where you can find Projects with number of Healthy and Unhealthy Nodes.
+By clicking the graph you see [Kubernetes](../../projects/kubernetes) overview, where you can find Projects with number of Healthy and Unhealthy Nodes.
 
+## **Pods overview**
 
-
-### Pods overview
-
-In the right corner is shown number of [**Pods**](https://itera.gitbook.io/taikun/manager/projects/kubernetes#pods) **** and the pie chart shows their current status (pointing arrow at some part of the graph):
+In the right corner is shown number of [**Pods**](../../projects/kubernetes#pods) and the pie chart shows their current status (pointing arrow at some part of the graph):
 
 * Healthy
 * Unhealthy
 
-![Fig. 6: Pods overview](<../../.gitbook/assets/pods overview.gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/charts/pods-overview.gif "Pods Overview")
+  <figcaption>Fig .6: Pods overview</figcaption>
+</figure>
 
-By clicking the graph you see [Kubernetes](https://itera.gitbook.io/taikun/manager/projects/kubernetes) overview, where you can find Projects with number of Healthy and Unhealthy Pods.
+By clicking the graph you see [Kubernetes](../../projects/kubernetes) overview, where you can find Projects with number of Healthy and Unhealthy Pods.
 
-
-
-### Projects with Alerts
+## **Projects with Alerts**
 
 In the right corner is shown number of all **alerts** and the pie chart shows how many alerts has each project (pointing arrow at some part of the graph):
 
-![Fig. 7: Projects with Alerts](<../../.gitbook/assets/Projects with alerts (1).gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/charts/projects-with-alerts.gif "Projects with alerts")
+  <figcaption>Fig .7: Projects with alerts</figcaption>
+</figure>
 
 By clicking the graph you see Kubernetes overview, where you can find Projects with number of alerts.
 
-For more information see [Projects - **Alerts**](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/project-details#alerts).
+For more information see [**Projects - Alerts**](../../projects/project-details#alerts).
 
+## **Kubernetes Health**
 
-
-### Kubernetes Health
-
-In the right corner is shown number of **Non-Healthy** items **** and the pie chart shows status for all projects with active kubernetes (pointing arrow at some part of the graph):
+In the right corner is shown number of **Non-Healthy** items and the pie chart shows status for all projects with active kubernetes (pointing arrow at some part of the graph):
 
 * Healthy
 * Unhealthy
 * Warning
 * Unknown
 
-![Fig. 7: Kubernetes Health](<../../.gitbook/assets/kubernetes health.gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/charts/kubernetes-health.gif "Kubernetes Health")
+  <figcaption>Fig .8: Kubernetes health</figcaption>
+</figure>
 
 By clicking the graph you see Kubernetes overview, where you can find Projects (with kubernetes) with its kubernetes health status.
 
+For more information see [**Projects- Health**](../../projects/#health).
 
+## **Open Project**
 
-For more information see [**Projects**](https://itera.gitbook.io/taikun/user-guide-1/manager/projects) - Health paragraph.
-
-
-
-#### Open Project
-
-By clicking the specific part in graph, you see an overview of selected projects. Use![](<../../.gitbook/assets/open project.png>)to access the project. Works for every graph except _Servers_ and _Cloud Credentials_.
+By clicking the specific part in graph, you see an overview of selected projects. Use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/charts/open-project.png "Open Project")to access the project. Works for every graph except *Servers* and *Cloud Credentials*.

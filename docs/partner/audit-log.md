@@ -1,30 +1,28 @@
----
-description: Archive of Changes
----
+# **Audit Log**
 
-# Audit Log
+You get real-time notification via [**Bell**](../dashboard/tables#recent-events) :bell: but you can also preview all the changes made in **Audit Log**.
 
-You get real-time notification via [**Bell**](https://itera.gitbook.io/taikun/user-guide-1/partner/dashboard/tables#recent-events):bell:but you can also preview all the changes made in **Audit Log**.
+See who (*User Name*) made a change (*Category*, *Message*), where (*Project*) and what time (*When*). Choose *Start date* and *End date*, *Hours* and *Minutes* for filtering if needed.
 
-See who (_User Name_) made a change (_Category_, _Message_), where (_Project_) and what time (_When_). Choose _Start date_ and _End date_, _Hours_ and _Minutes_ for filtering if needed.
+<figure markdown>
+  ![Audit Log](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/audit-log/audit-log.png "Audit Log")
+  <figcaption>Fig. 1: Audit Log</figcaption>
+</figure>
 
-![Fig. 1: Audit Log](<../.gitbook/assets/audit log (1).png>)
-
-Clicking _Project Name_ you get redirected to the project, where the change was made.
-
-
+Clicking *Project Name* you get redirected to the project, where the change was made.
 
 **Filters**
 
-![Fig. 2: Filters](<../.gitbook/assets/sorting (1).gif>)
-
-
+<figure markdown>
+  ![Filters](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/audit-log/sorting.gif "Sorting")
+  <figcaption>Fig. 2: Filters</figcaption>
+</figure>
 
 Events also can be filtered by:
 
 * Organization
 * Project
-* User **** (with user role only)
+* User (with user role only)
 * Action
   * Added
   * Backup
@@ -39,8 +37,6 @@ Events also can be filtered by:
   * Available
   * Deleted
 
-
-
-### Download![](../.gitbook/assets/download1.png)&#x20;
+### Download![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/audit-log/download.png){: .middle}
 
 You can download the report from Audit log with filters applied.

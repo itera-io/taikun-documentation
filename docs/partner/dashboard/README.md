@@ -1,59 +1,61 @@
----
-description: Main Page
----
-
-# Dashboard
+# **Dashboard**
 
 You can access the Dashboard by clicking upper left Taikun logo or the **Dashboard** in the tabs (under User):
 
-![Fig. 1: Dashboard and other tabs](<../../.gitbook/assets/accessing dashboard (3).gif>)
-
-
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/accessing-dashboard.gif "Accessing Dashboard")
+  <figcaption>Fig.1: Dashboard and other tabs</figcaption>
+</figure>
 
 On Dashboard you can find summary of following:
 
-* ****[**Select Organization**](https://itera.gitbook.io/taikun/user-guide-1/partner/dashboard/select-organization)****
-* ****[**Users**](https://itera.gitbook.io/taikun/user-guide-1/partner/dashboard/users)****
-* ****[**Charts**](https://itera.gitbook.io/taikun/user-guide-1/partner/dashboard/charts) **** (Projects, Server Statuses, Servers, Cloud Credential, Nodes Overview, Pod overview, Project with Alerts and Kubernetes Health)
-* ****[**Tables**](https://itera.gitbook.io/taikun/user-guide-1/partner/dashboard/tables) **** (Kubernetes, Project Resource Allocation and Recent Events)
-
-****
+* [**Select Organization**](select-organization/)
+* [**Users**](users/)
+* [**Charts**](charts/) (Projects, Server Statuses, Servers, Cloud Credential, Nodes Overview, Pod overview, Project with Alerts and Kubernetes Health)
+* [**Tables**](tables/) (Kubernetes, Project Resource Allocation and Recent Events)
 
 ## **Header**
 
 On every page in the upper right corner you can see:
 
-![Fig. 2: Icons upper right](<../../.gitbook/assets/ikons upper right corenr.png>)
+<figure markdown>
+  ![Icons upper right](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/icons-upper-right.png "Icons upper right")
+  <figcaption>Fig.2: Header icons</figcaption>
+</figure>
 
-![](../../.gitbook/assets/logo.png)
+
+![Logo of Organization](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/logo.png "Logo if your Organization")
 
 * logo of your organization
 
-
-
-![](../../.gitbook/assets/docs.png)
+![Docs](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/docs.png "Docs")
 
 * link to this documentation, variable for every page
 
+![Search](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/global-search.png "Search")
 
-
-&#x20;![](<../../.gitbook/assets/global search.png>)
-
-* global search - search for projects or servers, case insensitive, can be open with _double shift_ at every page
+* global search - search for projects or servers, case insensitive, can be open with *double shift* at every page
   * Taikun search - search through projects, users, servers, credentials, profiles or organizations
   * Kubernetes Search - have to be checked (as searching kubernetes takes longer time) and search through all active kubernetes
 
+![Notifications](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/bell.png "Notifications")
 
+* Real-time notifications
+  * General - notifications about changes made in projects (e.g. created project, enable monitoring, change of status), for details see [**Dashboard - Recent Events**](tables#recent-events)
 
-![](../../.gitbook/assets/notifications.png)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/tables/notifications-general.png "General Notifications")
+  <figcaption>Fig.3: General events</figcaption>
+</figure>
 
-* real-time notifications
-  * general - notifications about changes made in projects (e.g. created project, enable monitoring, change of status), for details see [Dashboard **- Recent Events**](https://itera.gitbook.io/taikun/user-guide-1/partner/dashboard/tables#recent-events)****
-  * alerts - new/persisting (red) or resolved (green) alerts, see [Projects - **Alerts**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details#alerts)****
+  * Alerts - new/persisting (red) or resolved (green) alerts, see [**Projects - Alerts**](../projects/project-details#alerts)
 
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/tables/notifications-alerts.png "Alert notifications")
+  <figcaption>Fig.4: Alerts</figcaption>
+</figure>
 
+![My Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/my-profile.png "My Profile")
 
-![](<../../.gitbook/assets/my profile (2).png>)&#x20;
-
-* your information and setting, see [**My Profile**](https://itera.gitbook.io/taikun/user-guide-1/partner/my-profile)****
-* if your display name is changed, the name can be seen in the corner![](<../../.gitbook/assets/my profile-name (3).png>)&#x20;
+* your information and setting, see [**My Profile**](../my-profile)
+* if your display name is changed, the name can be seen in the corner![My Profile - manager](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/my-profile-partner.png "My Profile - partner"){: .middle}

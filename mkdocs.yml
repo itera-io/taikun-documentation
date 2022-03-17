@@ -1,6 +1,8 @@
 site_name: Taikun
-site_url: http://185.22.98.224
+site_url: http://185.22.98.126
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -14,6 +16,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - stylesheets/extra.css
+
 
 theme:
     name: material
@@ -31,8 +40,10 @@ theme:
       - navigation.top
       - navigation.tracking
       - navigation.indexes
+      - content.code.annotate
     palette:
       primary: pink
+
 repo_url: https://github.com/itera-io/taikun-documentation
 repo_name: Taikun Documentation
 
@@ -42,15 +53,15 @@ nav:
   - First Steps: first-steps.md
   - Guidelines:
     - Login: guidelines/login.md
-    - Change e-mail and password: guidelines/verify-the-e-mail-address-and-change-the-password.md
-    - Add cloud credentials: 
-      - guidelines/create-credentials/README.md
-    - Where to find credentials: guidelines/create-credentials/where-to-find-credentials.md
+    - Change e-mail and password: guidelines/change-mail-password.md
+    - Add cloud credentials: guidelines/add-cloud-credentials.md
     - Creating Profiles: guidelines/creating-profiles.md
     - Creating Cluster: guidelines/creating-a-cluster.md
     - Kubeconfigs, Backup, Monitoring, Lock, Reboot: guidelines/backup-monitoring-lock-reboot.md
+    - Terraform Provider: guidelines/terraform-provider.md
+    - Taikun-CLI: guidelines/taikun-cli.md
   - User: 
-    - user/README.md
+    - User: user/README.md
     - Login: user/login.md
     - Dashboard:
       - user/dashboard/README.md
@@ -59,11 +70,12 @@ nav:
       - Tables: user/dashboard/tables.md
     - Projects: 
       - user/projects/README.md
-      - Project Details: user/projects/project-details.md
+      - Project Details-K8s: user/projects/project-details-k8s.md
+      - Project Details-VMs: user/projects/project-details-vms.md  
       - Kubernetes: user/projects/kubernetes.md
     - My Profie: user/my-profile.md
   - Manager:
-    - manager/README.md
+    - Manager: manager/README.md
     - Login: manager/login.md
     - Dashboard:
       - manager/dashboard/README.md
@@ -72,10 +84,12 @@ nav:
       - Tables: manager/dashboard/tables.md
     - Projects:
       - manager/projects/README.md
-      - Project Details: manager/projects/project-details.md
+      - Project Details-K8s: manager/projects/project-details-k8s.md
+      - Project Details-VMs: manager/projects/project-details-vms.md
       - Kubernetes: manager/projects/kubernetes.md
       - Create a New Project: manager/projects/creating-a-new-project.md
     - Flavor Info: manager/flavor-info.md
+    - Images: manager/images.md
     - Audit Log: manager/audit-log.md
     - Users: manager/users.md
     - Project Quotas: manager/project-quotas.md
@@ -84,6 +98,7 @@ nav:
     - Showback Rules: manager/showback-rules.md
     - Showback Summary: manager/showback-summary.md
     - Ticketing: manager/ticketing.md
+    - Standalone VMs: manager/standalone-vms.md
     - Chargeback: manager/chargeback.md
     - Usage Reports: manager/usage-reports.md
     - Cloud Credentials: manager/cloud-credentials.md
@@ -93,10 +108,11 @@ nav:
     - Access Profiles: manager/access-profiles.md
     - Alerting Profiles: manager/alerting-profiles.md
     - Policy Profiles: manager/policy-profiles.md
+    - Standalone Profiles: manager/standalone-profiles.md
     - Slack Configuration: manager/slack-configuration.md
     - My Profile: manager/my-profile.md
   - Partner:
-    - partner/README.md
+    - Partner: partner/README.md
     - Login: partner/login.md
     - Dashboard:
        - partner/dashboard/README.md
@@ -104,11 +120,14 @@ nav:
        - Users: partner/dashboard/users.md
        - Charts: partner/dashboard/charts.md
        - Tables: partner/dashboard/tables.md
-       - Projects: partner/dashboard/projects/README.md
-       - Projects Details: partner/dashboard/projects/project-details.md
-       - Kubernetes: partner/dashboard/projects/kubernetes.md
-       - Create a New Project: partner/dashboard/projects/creating-a-new-project.md
+    - Projects:
+       - partner/projects/README.md
+       - Projects Details-K8s: partner/projects/project-details-k8s.md
+       - Projects Details-VMs: partner/projects/project-details-vms.md
+       - Kubernetes: partner/projects/kubernetes.md
+       - Create a New Project: partner/projects/creating-a-new-project.md
     - Flavor Info: partner/flavor-info.md
+    - Images: partner/images.md
     - Audit Log: partner/audit-log.md
     - Users: partner/users.md
     - Project Quotas: partner/project-quotas.md
@@ -117,20 +136,25 @@ nav:
     - Showback Rules: partner/showback-rules.md
     - Showback Summary: partner/showback-summary.md
     - Ticketing: partner/ticketing.md
+    - Standalone VMs: partner/standalone-vms.md
     - Chargeback: partner/chargeback.md
     - Usage Reports: partner/usage-reports.md
     - Cloud Credentials: partner/cloud-credentials.md
     - Backup Credentials: partner/backup-credentials.md
-    - Billing Credentials: partner/billing-rules.md
+    - Billing Credentials: partner/billing-credentials.md
     - Showback Credentials: partner/showback-credentials.md
     - Kubernetes Profiles: partner/kubernetes-profiles.md
     - Access Profiles: partner/access-profiles.md
     - Alerting Profiles: partner/alerting-profiles.md
     - Policy Profiles: partner/policy-profiles.md
+    - Standalone Profiles: partner/standalone-profiles.md
     - Organizations: partner/organizations.md
-    - Billing Rules: partner/billing-credentials.md
+    - Billing Rules: partner/billing-rules.md
     - Slack Configuration: partner/slack-configuration.md
+    - My Profile: partner/my-profile.md
   - Tech Book:
     - LoadBalancer: tech-book/loadbalancers.md
   - Dictionary:
-    - Froma A to Z: dictionary/from-a-to-z.md
+    - From A to Z: dictionary/from-a-to-z.md
+extra:
+  generator: false

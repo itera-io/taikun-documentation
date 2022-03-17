@@ -1,21 +1,22 @@
----
-description: Manage Quotas for Projects
----
+# **Project Quotas**
 
-# Project Quotas
+See *CPU*, *Disk* *Size* and *RAM* usage limits for every Project.
 
-See _CPU_, _Disk_ _Size_ and _RAM_ usage limits for every Project.
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/project-quotas/quotas.png "Project Quotas")
+  <figcaption>Fig .1: Project quotas</figcaption>
+</figure>
 
-![Fig. 1: Project Quotas ](../.gitbook/assets/quotas.png)
+## **Edit resources**
 
+Change the usage limits to your Projects. You can edit the limits for *CPU/Disk Size/RAM* for each project with pencil button :pencil2: .
 
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/project-quotas/quotas.gif "Edit Quotas")
+  <figcaption>Fig .2: Edit quotas</figcaption>
+</figure>
 
-Change the usage limits to your Projects. You can edit the limits for _CPU/Disk Size/RAM_ for each project with pencil button:pencil2:.
-
-![Fig. 2: Edit Quotas](<../.gitbook/assets/quotas (2).gif>)
-
-{% hint style="info" %}
-To enter values, _Unlimited_ has to be unchecked.
-{% endhint %}
+???+ info
+    To enter values, *Unlimited* has to be unchecked.
 
 Keep in mind that the quotas are for the whole project, not for server.

@@ -1,13 +1,8 @@
----
-description: See details about Users
----
+# **Users**
 
-# Users
+Shows how many **Users** are involved in your organization.
 
-Shows how many __ **Users** are involved in your organization.
-
-![Fig. 1: Users](<../../.gitbook/assets/users (5).png>)
-
+![Users](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/Dashboard/users/users.png "Users in your Organization")
 
 
 To find the information about your profile visit [**My Profile**](../my-profile.md).

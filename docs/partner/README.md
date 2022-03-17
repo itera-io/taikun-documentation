@@ -1,25 +1,22 @@
----
-description: Brief Introduction
----
+# **Brief Introduction**
 
-# Partner
+## :fontawesome-solid-user-tie: **Partner**
 
 Partner role has has the greatest privileges, options and access. Partner can have a several organizations under his control, which he has access to and takes care of - which is the main difference between partner and manager role. Partner can do everything as manager, also for different organizations and more - e.g. add organization or add billing rules to specific billing credentials.
 
 
-
 Use this guide chronologically or visit specific page clicking the links below.
 
-Below _User_ tab you switch between [**Dashboard**](https://itera.gitbook.io/taikun/user-guide-1/partner/dashboard) **** and [**Projects**](https://itera.gitbook.io/taikun/user-guide-1/partner/projects) by clicking each.
+Below *User* tab you switch between [**Dashboard**](dashboard/) and [**Projects**](projects/) by clicking each.
 
-Under _Manager_ you find [**Flavor Info**](https://itera.gitbook.io/taikun/user-guide-1/partner/flavor-info), [**Audit Log**](https://itera.gitbook.io/taikun/user-guide-1/partner/audit-log), [**Users**](https://itera.gitbook.io/taikun/user-guide-1/partner/users), [**Project Quotas**](https://itera.gitbook.io/taikun/user-guide-1/partner/project-quotas), [**Servers**](https://itera.gitbook.io/taikun/user-guide-1/partner/servers) and [**Taikun Requests**](https://itera.gitbook.io/taikun/user-guide-1/partner/taikun-requests).
+Under *Manager* you find [**Flavor Info**](flavor-info/), [**Images**](images/), [**Audit Log**](audit-log/), [**Users**](users/), [**Project Quotas**](project-quotas/), [**Servers**](servers/), [**Taikun Requests**](taikun-requests/), [**Showback rules**](showback-rules/), [**Showback summary**](showback-summary/), [**Ticketing**](ticketing/) and [**Standalone VMs**](standalone-vms/).
 
-Billing is consisted of [**Chargeback**](https://itera.gitbook.io/taikun/user-guide-1/partner/chargeback) and [**Usage Reports**](https://itera.gitbook.io/taikun/user-guide-1/partner/usage-reports).
+Billing is consisted of [**Chargeback**](chargeback/) and [**Usage Reports**](usage-reports/).
 
-The next section, _Credentials_, there are [**Cloud Credentials**](https://itera.gitbook.io/taikun/user-guide-1/partner/cloud-credentials), [**Backup Credentials**](https://itera.gitbook.io/taikun/user-guide-1/partner/backup-credentials) and [**Billing Credentials**](https://itera.gitbook.io/taikun/user-guide-1/partner/operation-credentials).
+The next section, *Credentials*, there are [**Cloud Credentials**](cloud-credentials/), [**Backup Credentials**](backup-credentials/), [**Billing Credentials**](billing-credentials/) and [**Showback Credentials**](showback-credentials/).
 
-_In Profiles_ you can visit [**Kubernetes Profiles**](https://itera.gitbook.io/taikun/user-guide-1/partner/kubernetes-profiles), [**Access Profile**](https://itera.gitbook.io/taikun/user-guide-1/partner/access-profiles) and [**Alerting Profiles**](https://itera.gitbook.io/taikun/user-guide-1/partner/alerting-profiles).&#x20;
+*In Profiles* you can visit [**Kubernetes Profiles**](kubernetes-profiles/), [**Access Profile**](access-profiles/), [**Alerting Profiles**](alerting-profiles/), [**Policy Profiles**](policy-profiles/) and [**Standalone Profiles**](standalone-profiles/).
 
-_Partner_ has two sections: [**Organizations**](https://itera.gitbook.io/taikun/user-guide-1/partner/organizations) and [**Billing Rules**](https://itera.gitbook.io/taikun/user-guide-1/partner/billing-rules).
+*Partner* has two sections: [**Organizations**](organizations/) and [**Billing Rules**](billing-rules/).
 
-In the last section _Configurations_, see [**Slack**](https://itera.gitbook.io/taikun/user-guide-1/partner/slack-configuration).
+In the last section *Configurations*, see [**Slack**](slack-configuration/).

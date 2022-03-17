@@ -1,40 +1,41 @@
----
-description: Create and Manage Rules
----
 
-# Billing Rules
+# **Billing Rules**
 
-Create a Rule, [assign](https://itera.gitbook.io/taikun/user-guide-1/partner/organizations#actions) it to the organization and see the result in [**Chargeback**](https://itera.gitbook.io/taikun/user-guide-1/partner/chargeback).
+Create a Rule, [assign](../organizations#actions) it to the organization and see the result in [**Chargeback**](../chargeback).
 
-![Fig. 1: Billing Rules](<../.gitbook/assets/billing rules (3).png>)
+<figure markdown>
+  ![Fig. 1: Billing Rules](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-rules/billing-rules.png "Billing Rules")
+  <figcaption> Fig. 1: Billing Rules </figcaption>
+</figure>
 
-**Rules** can be sorted by _Name_, _Metric Name_, _Created_ and _Type_.
+**Rules** can be sorted by *Name*, *Metric Name*, *Created* and *Type*.
 
-By clicking arrow > you can expand the table to see _Created By_, _Last Modified_ and _Last Modified By_.
-
-
+By clicking arrow > you can expand the table to see *Created By*, *Last Modified* and *Last Modified By*.
 
 ### New Rule
 
-To create Rule use ![](<../.gitbook/assets/add rule (1).png>) button.
+To create Rule use ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-rules/add-rule-btn.png){: .middle} button.
 
-![Fig. 1: Add Rule](<../.gitbook/assets/add rule (2).png>)
+<figure markdown>
+  ![Fig. 2: Add Rule](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-rules/add-rule.png)
+  <figcaption> Fig. 2: Add Rule </figcaption>
+</figure>
 
-_Name_ - Rule name
+*Name* - Rule name
 
-_Metric Name_ - exact metric name from Prometheus (e.g. volumes, flavor, networks) you want to bill, if you select _Billing credentials_ first, you can choose from drop-down selection (wit autocomplete)
+*Metric Name* - exact metric name from Prometheus (e.g. volumes, flavor, networks) you want to bill, if you select *Billing credentials* first, you can choose from drop-down selection (wit autocomplete)
 
-_Bind rule to organization_ - assign rule to selected organization or choose none and bind it later
+*Bind rule to organization* - assign rule to selected organization or choose none and bind it later
 
-_Billing Credentials_ - drop-down of operation credentials
+*Billing Credentials* - drop-down of operation credentials
 
-_Type_ - drop-down: Count (calculate package as unit - e.g. flavors) or Sum (calculate per quantity - e.g. GBs)
+*Type* - drop-down: Count (calculate package as unit - e.g. flavors) or Sum (calculate per quantity - e.g. GBs)
 
-_Price_ - billing in CZK per selected unit
+*Price* - billing in CZK per selected unit
 
-_Price Rate_ - in percents (0-1000 %), 100 equals one
+*Price Rate* - in percents (0-1000 %), 100 equals one
 
-_Add Label_ - The label indicates the variable name (_Label_) and value of the label (_Label Value_), see the **Table 1** below
+*Add Label* - The label indicates the variable name (*Label*) and value of the label (*Label Value*), see the **Table 1** below
 
 **Table 1: Labels in Billing Rules**
 
@@ -44,36 +45,29 @@ _Add Label_ - The label indicates the variable name (_Label_) and value of the l
 | taikun\_org\_name | itera       |
 | taikun\_org\_id   | 2           |
 
-{% hint style="warning" %}
-Once you bind the organization the cron job starts to calculate. The billing starts at the beginning of every hour and once it's bound to organization, it can't be paused.
-{% endhint %}
-
+???+ warning
+    Once you bind the organization the cron job starts to calculate. The billing starts at the beginning of every hour and once it's bound to organization, it can't be paused.
 
 
 ### Actions
 
 Change the properties of the rule.
 
-####
-
-#### ![](../.gitbook/assets/panelak.png)Bound Organizations
+#### ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-rules/panelak.png){: .middle} Bound Organizations
 
 Select the organization you want to assign the rule and then click the assign button. If you choose a new organization the billing starts from the beginning of next hour.
 
 
-
-#### :pencil2:Edit Prometheus Info
+#### :pencil2:  Edit Prometheus Info
 
 Update the rule and change the parameters.
 
 
-
-#### ![](../.gitbook/assets/copy.png)Copy Rule
+#### ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/copy.png){: .middle} Copy Rule
 
 When creating similar rule, when you want to change just one or few parameters, you can use copy button - window with copied parameters will pop-up.
 
 
-
-#### ![](../.gitbook/assets/delete.png)Delete
+#### ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/delete.png){: .middle} Delete
 
 Delete the rule if no longer needed.

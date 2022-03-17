@@ -1,64 +1,59 @@
----
-description: Create and Attach Profile to a Project
----
-
-# Alerting Profiles
+# **Alerting Profiles**
 
 If you want to receive notifications when there is some alert in you project, just set the alerting profile and attach it to the project.
 
 
+## **Add Alerting Profile**
 
-### Add Alerting Profile
+If you want a new alerting profile, use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/alerting-profiles/add-alerting-profile-btn.png)button.
 
-If you want a new alerting profile, use![](<../.gitbook/assets/add alerting profile.png>)button.
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/alerting-profiles/add-alerting-profile.png "Add Alerting Profile")
+  <figcaption>Fig .1: Add alerting profile</figcaption>
+</figure>
 
-![Fig. 1: Add Alerting Profile](<../.gitbook/assets/add al prof (2).png>)
+*Name* - choose name for your alerting profile
 
-_Name_ - choose name for your alerting profile
+*Slack Configuration* - if you have created a [slack configuration](../slack-configuration), you can use it in profile
 
-_Slack Configuration_ - if you have created a [slack configuration](https://itera.gitbook.io/taikun/user-guide-1/manager/slack-configuration), you can use it in profile
+*Reminder* - set the reminder for *None*, *HalfHour*, *Hourly*, *Daily*
 
-_Reminder_ - set the reminder for _None_, _HalfHour_, _Hourly_, _Daily_
+*E-mails* - receive notifications with e-mail
 
-_E-mails_ - receive notifications with e-mail
+*Webhooks* - use webhooks for application alert
 
-_Webhooks_ - use webhooks for application alert
+*Integrations* - set notifications for different apps (Opsgenie, Pagerduty, Splunk and MicrosoftTeams)
 
-_Integrations_ - set notifications for different apps (Opsgenie, Pagerduty, Splunk and MicrosoftTeams)
+## **Alerting Profile overview**
 
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/alerting-profiles/overview.png "Alerting Profiles Overview")
+  <figcaption>Fig .2: Alerting profiles</figcaption>
+</figure>
 
+Each Profile is described by *ID*, *Name*, *Organization* *Name*, *Slack* *Configuration* *Name*, *Associated* *Projects*, *E-mail*, *Webhooks*, *Created* *By* and *Actions*.
 
-### Alerting Profile overview
+You can change or add more *E-mails* and *Webhooks*. To each webhooks you can add multiple headers (*Key, Value*).
 
-![Fig. 2: Alerting Profiles](<../.gitbook/assets/overview (5).png>)
+You can extend the table to see the last modification (*Last Modified* and *Last Modified By*).
 
-Each Profile is described by _ID_, _Name_, _Organization_ _Name_, _Slack_ _Configuration_ _Name_, _Associated_ _Projects_, _E-mail_, _Webhooks_, _Created_ _By_ and _Actions_.
+**Actions**
 
-You can change or add more _E-mails_ and _Webhooks_. To each webhooks you can add multiple headers (_Key, Value_).
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/lock.png){: .middle}/![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/unlock.png){: .middle} Un/Lock the profile to dis-/enable it from drop-down selection in project, you cannot lock default profile
 
-You can extend the table to see the last modification (_Last Modified_ and _Last Modified By_).
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/edit.png){: .middle} Update *Name*, *Slack Configuration* or *Reminder*
 
-###
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/delete.png){: .middle} Delete the profile if it is no longer needed, only profiles with no associated projects can be deleted, you **cannot delete default profile**
 
-### Actions
-
-![](<../.gitbook/assets/lock (3).png>)/![](../.gitbook/assets/unlock.png)Un/Lock the profile to dis-/enable it from drop-down selection in project, you cannot lock default profile
-
-:pencil2: Update _Name_ or _Slack Configuration_
-
-![](<../.gitbook/assets/delete (2).png>)Delete the profile if it is no longer needed, only profiles with no associated projects can be deleted,  you cannot delete default profile
-
-
-
-### Attaching the Profile to the Project
+## **Attaching the Profile to the Project**
 
 There are 2 ways to attach your alerting profile to the project:
 
-* [when project is created](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/creating-a-new-project) - just check _Add Alerting Profile_ during project creation
-* [after ](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/project-details#attach-detach-alerting-profile)[project is created](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/project-details#attach-detach-alerting-profile) - use drop-down selection _Actions_ in project, click _Attach Alerting Profile_ and choose which profile you want to attach to the project
+* [when project is created](../projects/creating-a-new-project) - just check *Add Alerting Profile* during project creation
+* [after project is created](../projects/project-details-k8s/#attachdetach-alerting-profile) - use drop-down selection *Actions* in project, click *Attach Alerting Profile* and choose which profile you want to attach to the project
 
 
 
-### Detach Alerting Profile
+## **Detach Alerting Profile**
 
-Use drop-down selection _Actions_ in project, click _Detach Alerting Profile_ and choose which profile you want to detach to the project.
+Use drop-down selection *Actions* in project, click *Detach Alerting Profile* and choose which profile you want to detach to the project.

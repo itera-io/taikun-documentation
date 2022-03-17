@@ -1,15 +1,9 @@
----
-description: See Details about Users
----
+# **Users**
 
-# Users
+Shows how many **Users** are involved in selected organization. Number of users changes automatically with selecting different organizations.
 
-Shows how many __ **Users** are involved in selected organization. Number of users changes automatically with selecting different organizations.
+![Users](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/users/users.png "Users")
 
-![Fig.1: Users](<../../.gitbook/assets/users (6).png>)
+For more information, see [**Users**](../users).
 
-
-
-For more information, see [**Users**](https://itera.gitbook.io/taikun/user-guide-1/partner/users).
-
-To find the information about your profile visit [**My Profile**](https://itera.gitbook.io/taikun/user-guide-1/partner/my-profile).
+To find the information about your profile visit [**My Profile**](../../my-profile).

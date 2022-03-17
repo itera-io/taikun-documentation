@@ -1,107 +1,105 @@
----
-description: How to create and connect to the cluster
----
+# **Creating a Cluster**
 
-# Creating a Cluster
+[:fontawesome-solid-user-tie:](../../manager/projects/creating-a-new-project/) **Manager**
+[:fontawesome-regular-handshake:](../../partner/projects/creating-a-new-project/) **Partner**
 
 If you have connected your cloud, you can create a new project.
 
-1\) Manager/Partner has to create [a new project](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/creating-a-new-project) and [assign](https://itera.gitbook.io/taikun/user-guide-1/manager/projects#assigned-users) it to a user.
+1\) Manager/Partner has to create [a new project](../../manager/projects/creating-a-new-project) and [assign](../../manager/projects/#assigned-users) it to a user.
 
-![Add project and assign it to user](<../.gitbook/assets/add proj (2).gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/create-project-assign-user.gif "Add project and assign it to user")
+  <figcaption>Fig .1: Add project and assign it to user</figcaption>
+</figure>
 
-{% hint style="danger" %}
-Keep in mind you have to add profiles during project creation otherwise you cannot do it later.
-{% endhint %}
+???+ warning
+    Keep in mind you have to add profiles during project creation otherwise you cannot do it later.
 
 
-
-2\) Manager/Partner [binds flavors](https://itera.gitbook.io/taikun/user-guide-1/manager/flavor-info#bind-to-project) needed to the new project.
+2\) Manager/Partner [binds flavors](../../manager/flavor-info/#bind-to-project) needed to the new project.
 
 a) during project creation
 
-![Flavor - project creation](<../.gitbook/assets/add flavor proj creation.gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/add-flavor-during-creation.gif "Flavor - project creation")
+  <figcaption>Fig .2: Flavor - project creation</figcaption>
+</figure>
 
 b) in Flavor Info
 
-![Flavor - Flavor Info](<../.gitbook/assets/add flavor flavor info.gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/add-flavor-flavor-info.gif"Flavor - Flavor Info")
+  <figcaption>Fig .3: Flavor - Flavor info</figcaption>
+</figure>
 
-{% hint style="warning" %}
-For a well-functioning cluster you should **NOT** use small flavors.
-{% endhint %}
-
-
+???+ warning
+    For a well-functioning cluster you should **NOT** use small flavors.
 
 3\) Now User/Manager/Partner can create new servers in the project. Keep in mind, that a working cluster consists at least of 1 Bastion, 1 Kubemaster and 1 Kubeworker. However, you can also create a multimaster by creating more than 1 Kubemaster, the number of masters must be odd. If you want to create a multimaster, you have to do it before commit.
 
-{% hint style="info" %}
-Recommendation for sizing:
+???+ info
+    Recommendation for sizing:
 
-* _bastion_ recommended 2 vCPU + 2GB of RAM
-* _masters_ recommended 4 vCPU + 8GB of RAM
-{% endhint %}
+    * _bastion_ recommended 2 vCPU + 2GB of RAM
+    * _masters_ recommended 4 vCPU + 8GB of RAM
 
-* add servers (more info for [User](https://itera.gitbook.io/taikun/user-guide-1/user/projects/project-details), [Manager](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/project-details) and [Partner](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details))
+* add servers (more info for [User](../../user/projects/project-details-k8s/#add-server), [Manager](../../manager/projects/project-details-k8s/#add-server) and [Partner](../../partner/projects/project-details-k8s/#add-server)
 
-![Add servers](<../.gitbook/assets/add server (8).gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/add-workers.gif "Add servers")
+  <figcaption>Fig .4: Add servers</figcaption>
+</figure>
 
 * use shortcuts:
-  * b - bastion
-  * m - master
-  * w - worker
-  * numbers of master/worker for faster server addition&#x20;
+    * b - bastion
+    * m - master
+    * w - worker
+    * numbers of master/worker for faster server addition
 
-{% hint style="info" %}
-The bigger flavor you choose the longer it will take to create.
-{% endhint %}
-
-
+???+ info
+    The bigger flavor you choose the longer it will take to create.
 
 * commit
 
-{% hint style="danger" %}
-Control if you have all servers you need, the creation can take some time (approx. 7 min per server).
+???+ warning
+    Control if you have all servers you need, the creation can take some time (approx. 7 min per server).
 
-User: Also double check if you need all of them because later you won't be able to delete them.
-{% endhint %}
+    **User**: Also double check if you need all of them because later you won't be able to delete them.
 
-
-
-![Commit](<../.gitbook/assets/commit (1).gif>)
-
-
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/commit.gif "Commit")
+  <figcaption>Fig .5: Commit</figcaption>
+</figure>
 
 * creating the project, servers get through the stages:
-  * ![](../.gitbook/assets/pending.png)->![](../.gitbook/assets/updating.png)->![](../.gitbook/assets/Ready.png)
+    * ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/pending.png){: .middle}:arrow_right:![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/updating.png){: .middle}:arrow_right:![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/ready.png){: .middle}
 
-&#x20;
+* successful creation, the project is *Ready*
 
-* successful creation, the project is _Ready_
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/servers-ready.png)
+  <figcaption>Fig .6: Ready</figcaption>
+</figure>
 
-![Ready](../.gitbook/assets/ready.png)
-
-* failed creation, the project is _Failed_ or _Pending_ without any action
-  * if servers fail during creation, best way to restore them is with repair button (details: [User](https://itera.gitbook.io/taikun/user-guide-1/user/projects/project-details#repair), [Manager](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/project-details#repair), [Partner](https://itera.gitbook.io/taikun/user-guide-1/partner/projects/project-details#repair))
-
-
+* failed creation, the project is *Failed* or *Pending* without any action
+    * if servers fail during creation, best way to restore them is with **repair** button (details: [User](../../user/projects/project-details-k8s/#repair), [Manager](../../manager/projects/project-details-k8s/#repair), [Partner](../../partner/projects/project-details-k8s/#repair))
 
 * delete servers
-  * Manager/Partner can delete unnecessary servers
+    * Manager/Partner can delete unnecessary servers
 
-![Delete unnecessary servers](<../.gitbook/assets/delete unnecessary servers.gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/delete-server.gif)
+  <figcaption>Fig .7: Delete unnecessary servers</figcaption>
+</figure>
 
-{% hint style="info" %}
-You can delete servers to still have working cluster (1 bastion, 1 master and 1 worker) or delete the whole working cluster.
-{% endhint %}
-
+???+ info
+     You can delete servers to still have working cluster (1 bastion, 1 master and 1 worker) or delete the whole working cluster.
 
 
 4\) Control remotely.
 
-Use [kubeconfig](https://itera.gitbook.io/taikun/guidelines/backup-monitoring-lock-reboot#kube-configs) file to connect to your kubernetes.
+Use [kubeconfig](../backup-monitoring-lock-reboot/#kubeconfigs) file to connect to your kubernetes.
 
 
-
-{% hint style="danger" %}
-Please do NOT deploy any apps in monitoring **Service**, because Taikun uses the monitoring namespace heavily! And if you disable the monitoring, all pvc in monitoring will be deleted.
-{% endhint %}
+???+ warning
+    Please do NOT deploy any apps in monitoring **Service**, because Taikun uses the monitoring namespace heavily! And if you disable the monitoring, all pvc in monitoring will be deleted.

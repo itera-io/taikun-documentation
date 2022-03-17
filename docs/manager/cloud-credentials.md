@@ -1,8 +1,4 @@
----
-description: Add, Update, Lock/Unlock or Delete Clouds
----
-
-# Cloud Credentials
+# **Cloud Credentials**
 
 See all projects for each hosting provider:
 
@@ -10,50 +6,53 @@ See all projects for each hosting provider:
 * Azure
 * OpenStack
 
-![Fig. 1: Cloud Credentials](<../.gitbook/assets/cc (3).gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/cloud-credentials/cc.gif "Cloud Credentials")
+  <figcaption>Fig .1: Cloud credentials</figcaption>
+</figure>
 
 Cloud can be empty but also may include multiple projects. Each Cloud has different specifics, can be sorted differently and some columns can be expanded.
 
-You can expand all tables to see the last modification made (_Created By_, _Last Modified_, _Last Modified By_).
+You can expand all tables to see the last modification made (*Created By*, *Last Modified*, *Last Modified By*).
 
-![Fig. 2: Detailed CC for OpenStack](<../.gitbook/assets/cc (1).png>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/cloud-credentials/cc.png "Detailed CC for OpenStack")
+  <figcaption>Fig .2: Detailed CC for openstack</figcaption>
+</figure>
 
-### Actions
+## **Actions**
 
-![](<../.gitbook/assets/make default.png>)Make default - choose credentials which will be then filled during project creation, lighter color indicates selected credentials
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/make-default.png){: .middle} Make default - choose credentials which will be then filled during project creation, lighter color indicates selected credentials
 
-:pencil2: Update Cloud Credentials - change the credentials which are not locked
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/edit.png){: .middle} Update Cloud Credentials - change the credentials which are not locked
 
-&#x20;![](<../.gitbook/assets/pie chart.png>)Navigate to OpenStack/Azure Quota Charts - Preview the quotas from your cloud
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/pie-charts.png){: .middle} Navigate to OpenStack/Azure Quota Charts - Preview the quotas from your cloud
 
-* you can also filter Azure usage quotas by _cpu_, _storage_, _gallery_ or _general_
+* you can also filter Azure usage quotas by *cpu*, *storage*, *gallery* or *general*
 
-![Fig. 3: OpenStack Quotas](<../.gitbook/assets/pie charts (3).gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/cloud-credentials/pie-charts.gif "OpenStack/Azure Quotas")
+  <figcaption>Fig .3: OpenStack/Azure Quotas</figcaption>
+</figure>
 
-![](<../.gitbook/assets/lock (3).png>)/![](../.gitbook/assets/unlock.png) Un/lock credentials - if you lock the credentials, you can't use them for new Project, edit or delete them
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/lock.png){: .middle}/![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/unlock.png){: .middle} Un/lock credentials - if you lock the credentials, you can't use them for new Project, edit or delete them
 
-![](<../.gitbook/assets/delete (2).png>) Delete - delete empty and unlocked credentials
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/delete.png){: .middle} Delete - delete empty and unlocked credentials
 
+## **New Cloud Credentials**
 
+Use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/cloud-credentials/add-cc-btn.png){: .middle} button to add Cloud Credentials. Choose which Cloud you want to add and fill in the required data. After you add new Cloud Credentials, you can use the Cloud as storage for your new projects.
 
-### New Cloud Credentials
+### **Requirements for OpenStack**
 
-Use![](<../.gitbook/assets/add (3).png>)button to add Cloud Credentials. Choose which Cloud you want to add and fill in the required data. After you add new Cloud Credentials, you can use the Cloud as storage for your new projects.
+???+ warning
 
+    For a good working OpenStack in Taikun, you have to create image in OpenStack. Requirement is an Ubuntu 20 image and we recommend using a recent kernel, e.g. a base Ubuntu image with hwe kernel here: [https://repo.itera.io/repository/images/taikun-image.qcow2](https://repo.itera.io/repository/images/taikun-image.qcow2)
 
+    To use the image in Taikun you have to use two **tags** "taikun" and "ubuntu{number}”. By default Taikun will take image with the latest {number}.
 
-### Requirements for OpenStack
+    Command to add an image to openstack:
 
-{% hint style="danger" %}
-For a good working OpenStack in Taikun, you have to create image in OpenStack. Requirement is an Ubuntu 20 image and we recommend using a recent kernel, e.g. a base Ubuntu image with hwe kernel here: [https://repo.itera.io/repository/images/taikun-image.qcow2](https://repo.itera.io/repository/images/taikun-image.qcow2)
+    `openstack image create --disk-format qcow2 --container-format bare --public --tag taikun --tag ubuntu20.04 --property hw_disk_bus=scsi --property hw_scsi_model=virtio-scsi taikun-focal-image --file taikun-image.qcow2`
 
-To use the image in Taikun you have to use two **tags** "taikun" and "ubuntu{number}”. By default Taikun will take image with the latest {number}.
-
-Command to add an image to openstack:
-
-`openstack image create --disk-format qcow2 --container-format bare --public --tag taikun --tag ubuntu20.04 --property hw_disk_bus=scsi --property hw_scsi_model=virtio-scsi taikun-focal-image --file taikun-image.qcow2`
-{% endhint %}
-
-
-
-See [Projects - **Create A New Project**](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/creating-a-new-project) or [Guidelines - **Add Cloud Credentials**](https://itera.gitbook.io/taikun/guidelines/create-credentials).
+See [**Projects - Create A New Project**](../projects/creating-a-new-project) or [**Guidelines - Add Cloud Credentials**](../../guidelines/create-credentials).

@@ -1,23 +1,24 @@
----
-description: Manage Quotas for Projects
----
 
-# Project Quotas
+# **Project Quotas**
 
-To filter projects use _Select Organization_ **** drop-down field.
+To filter projects use *Select Organization* drop-down field.
 
-See _CPU_, _Disk_ _Size_ and _RAM_ usage limits for every Project.
+See *CPU*, *Disk Size* and *RAM* usage limits for every Project.
 
-![Fig. 1: Project Quotas](<../.gitbook/assets/project quotas.png>)
+<figure markdown>
+  ![Project Quotas](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/quotas/project-quotas.png "Project Quotas")
+  <figcaption>Fig. 1: Project Quotas</figcaption>
+</figure>
+
+Change the usage limits to your **Projects**. You can edit the limits for *CPU/Disk Size/RAM* for each project with pencil button :pencil2:.
+
+<figure markdown>
+  ![Edit Quotas](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/quotas/set-quotas.gif "Set Quotas")
+  <figcaption>Fig. 2: Edit Quotas</figcaption>
+</figure>
 
 
-
-Change the usage limits to your **Projects**. You can edit the limits for _CPU/Disk_ _Size/RAM_ for each project with pencil button:pencil2:.
-
-![Fig. 2: Edit Quotas](<../.gitbook/assets/set quotas.gif>)
-
-{% hint style="info" %}
-To enter values, _Unlimited_ has to be unchecked.
-{% endhint %}
+???+ info
+    To enter values, _Unlimited_ has to be unchecked.
 
 Keep in mind that the quotas are for the whole project, not for server.

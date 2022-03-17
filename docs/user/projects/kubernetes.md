@@ -1,76 +1,79 @@
-# Kubernetes
+# **Kubernetes**
 
-To access **Kubernetes** go to Projects - Servers - _Kube Info_ or use the K8's button![](../../.gitbook/assets/kubernetes-active.png)in _Projects_.
+To access **Kubernetes** go to Projects - Servers - *K8s Info* or use the K8s button![](ihttps://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/cons/kubernetes.png "K8s")in *Projects*.
 
-![Fig. 1: Access Kubernetes](<../../.gitbook/assets/access kubernetes (1).gif>)
-
-
+<figure markdown>
+  ![Access Kubernetes](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/kubernetes/access-kubernetes.gif "Access Kubernetes")
+  <figcaption>Fig .1: Access kubernetes</figcaption>
+</figure>
 
 In **Kubernetes** tab can be found:
 
 * **Nodes**
-  * _Message_, _Reason_, _Status_ and _Type_
-* **Deamon** **Set**
-  * _Namespace_, _Name_, _Status_ and _Age_
+    * *Message*, *Reason*, *Status* and *Type*
+* **Deamon Set**
+    * *Namespace*, *Name*, *Status* and *Age*
 * **Persistent Volume Claim**
-  * _Namespace_, _Name_, _Phase_, _Size_, _Storage_ _Class_ _Name_ and _Age_
+    * *Namespace*, *Name*, *Phase*, *Size*, *Storage* *Class* *Name* and *Age*
 * **Deployment**
-  * _Namespace_, _Name_, _Status_ and _Age_
+    * *Namespace*, *Name*, *Status* and *Age*
 * **Config Map**
-  * _Namespace_, _Name_ and _Age_
+    * *Namespace*, *Name* and *Age*
 * **Secret**
-  * _Namespace_, _Name_ and _Age_
+    * *Namespace*, *Name* and *Age*
 * **Sts**
-  * _Namespace_, _Name_, _Status_ and _Age_
-* **Service\***
-  * _Namespace_, _Name_, _Type, External IP_ and _Age_
+    * *Namespace*, *Name*, *Status* and *Age*
+* __Service *__
+    * *Namespace*, *Name*, *Type*, *External IP* and *Age*
 * **Pods**
-  * _Namespace_, _Name_, _Node_ _Name_, _Age_, _Status_, _Restart_ _Count_, _Kill_ _Pod_, _Terminal_ and _Logs_
+    * *Namespace*, *Name*, *Node* *Name*, *Age*, *Status*, *Restart* *Count*, *Kill* *Pod*, *Terminal* and *Logs*
 * **Ingress**
-  * _Namespace_, _Name_, _Hosts_ and _Age_
+    * *Namespace*, *Name*, *Hosts* and *Age*
 * **Ingress**
-  * _Namespace_, _Name_, _Hosts_ and _Age_
+    * *Namespace*, *Name*, *Hosts* and *Age*
 * **CRD** (Custom Resource Definition)
-  * _Name_, _Group, List Kind, Spec name kind, Labels_ and _Age_
+    * *Name*, *Group*, *List Kind*, *Spec name kind*, *Labels* and *Age*
 * **PDB** (Pod Disruption Budgets)
-  * _Namespace_, _Name_ and _Created At_
+    * *Namespace*, *Name* and *Created At*
 
-{% hint style="danger" %}
-\*Please do NOT deploy any apps in monitoring **Service**, because Taikun uses the monitoring namespace heavily! And if you disable the monitoring, all pvc in monitoring will be deleted.
-{% endhint %}
+???+ warning
+	\*Please do NOT deploy any apps in monitoring **Service**, because Taikun uses the monitoring namespace heavily! And if you disable the monitoring, all pvc in monitoring will be deleted.
 
-
-
-![Fig. 2: Kubernetes](<../../.gitbook/assets/kubernetes - overview.gif>)
+<figure markdown>
+  ![Kubernetes](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/kubernetes/k8s.gif "Kubernetes")
+  <figcaption>Fig .2: Kubernetes</figcaption>
+</figure>
 
 You can use sort buttons or search button in each section for easier searching.
 
-{% hint style="info" %}
-Except **Pods** tab are __ all tabs for preview only.
-{% endhint %}
+???+ info
+	Except **Pods** tab are all tabs for preview only.
 
 
+### **Actions**
 
-#### Actions
+![Show description](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show-description.png){: .middle} Show description - for all tabs except *Nodes*
 
-![](../../.gitbook/assets/detuails.png) Show description - for all tabs except _Nodes_
+## **Pods**
 
-__
+### **Kill Pod**
 
-### Pods
+**Pod** can be killed with Kill Pod![](https://cloud.tcpro.cz:30101/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/kill-pod.png)button.
 
-#### Kill Pod
-
-**Pod** can be killed with Kill Pod![](<../../.gitbook/assets/kill pod (1).png>)button.
-
-#### Terminal
+### **Terminal**
 
 Open **Terminal** to control your container/s.
 
-![Fig. 3: Terminal](<../../.gitbook/assets/kubernetes - terminal.gif>)
+<figure markdown>
+  ![Terminal](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/kubernetes/kubernetes-terminal.gif "Terminal")
+  <figcaption>Fig .3: Terminal</figcaption>
+</figure>
 
-#### Logs
+### **Logs**
 
-Logs record events happening in cluster. You can check the logs for more details. To search the logs visit [**Projects** - Project Details - Logs](https://itera.gitbook.io/taikun/user-guide-1/user/projects/project-details#logs).
+Logs record events happening in cluster. You can check the logs for more details. To search the logs visit [**Projects - Project Details - Logs**](../project-details-k8s/#logs).
 
-![Fig. 4: Logs](../../.gitbook/assets/kubernetes-logs.gif)
+<figure markdown>
+  ![Logs](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/kubernetes/kubernetes-logs.gif "Logs")
+  <figcaption>Fig .4: Logs</figcaption>
+</figure>

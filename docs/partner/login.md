@@ -1,47 +1,56 @@
----
-description: Login to Taikun
----
+# **Login to Taikun**
 
-# Login
+## **First-time login**
 
-#### First-time login
+After you receive the token in your mail, it will redirected you to the new page to create a new password.
 
-After you receive the token in your mail, it will redirected you to the new page to create a new password. The password should meets its conditions: 1 uppercase, 1 lowercase, 1 number, 1 non-alphanumeric and at least 6 signs long (e.g. _Test@123_).
+???+ warning
+	The password should meets its conditions: 1 uppercase, 1 lowercase, 1 number, 1 non-alphanumeric and at least 6 signs long (e.g. *Test@123*)!
 
-![Fig. 1: Reset/new password](<../.gitbook/assets/reset pass.gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/login/reset-password.gif "Reset new Password")
+  <figcaption>Fig .1: Reset/new password</figcaption>
+</figure>
 
+If you did not manage to use the token in time (3 hours), click *Resend Token* button and use the new token in your e-mail.
 
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/login/resend-token.png "Resend Token")
+  <figcaption>Fig .2: Reset token</figcaption>
+</figure>
 
-If you did not manage to use the token in time (3 hours), click _Resend Token_ button and use the new token in your e-mail.
+## **Login**
 
-![Fig. 2: Resend Token](<../.gitbook/assets/res pass - resend token (1).png>)
+Enter your *E-mail* and the created *Password* then click **LOGIN** button. The LOGIN button is disabled until you fill in both fields.
 
-
-
-#### Login
-
-Enter your _E-mail_ and the created _Password_ then click LOGIN button. The LOGIN button is disabled until you fill in both fields.
-
-![Fig. 3: Login](<../.gitbook/assets/login (4).gif>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/login/login.gif "Login process")
+  <figcaption>Fig .3: Login</figcaption>
+</figure>
 
 You are immediately redirected to the Dashboard.
 
+## **Wrong Credentials**
 
+If you enter the wrong password, you receive the error message *Bad credentials*.
 
-#### Wrong Credentials
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/login/bad-credentials.png "Bad Credentials")
+  <figcaption>Fig .4: Bad credentials</figcaption>
+</figure>
 
-If you enter the wrong password, you receive the error message _Bad credentials_.
-
-![Fig. 4: Bad credentials](<../.gitbook/assets/bad cred.png>)
-
-
-
-#### Forgotten password
+## **Forgotten password**
 
 If you don't remember your password, use _Forget your password?_  button.
 
-![Fig. 5: Forgotten password](../.gitbook/assets/forgotten.gif)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/login/forgotten-password.gif "Forgotten Password")
+  <figcaption>Fig .5: Forgotten password</figcaption>
+</figure>
 
 A token is sent to your e-mail, clicking the link you will be redirected to the page where you can reset your password.
 
-![Fig. 6: Reset password](<../.gitbook/assets/reset password (3).png>)
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/login/visit-reset-password-login.gif "Reset Password")
+  <figcaption>Fig .6: Reset password</figcaption>
+</figure>

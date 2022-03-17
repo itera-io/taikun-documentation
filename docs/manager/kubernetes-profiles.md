@@ -1,26 +1,26 @@
----
-description: Add New Profile with various features
----
+# **Kubernetes Profiles**
 
-# Kubernetes Profiles
+Each Profile is characterized by *ID*, *Name*, *Organization Name*, *CNI* (Container Network Interface), *Octavia*, *Proxy on Bastion*, *Projects* and *Actions*.
 
-Each Profile is characterized by _ID_, _Name_, _Organization_ _Name_, _CNI (Container Network Interface)_, _Octavia_, _Proxy on Bastion_, _Projects_ and _Actions_.
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/kubernetes-profiles/kubernetes-profiles.png "Kubernetes profiles")
+  <figcaption>Fig .1: Kubernetes profiles</figcaption>
+</figure>
 
-![Fig. 1: Kubernetes profiles](<../.gitbook/assets/kubernetes profile (4).png>)
+Expand the table to see the last modification (*Last Modified* and *Last Modified By*).
 
-Expand the table to see the last modification (_Last Modified_ and _Last Modified By_).
-
-
-
-### Add Kubernetes Profile
+## **Add Kubernetes Profile**
 
 You can create a new profile where you can enable a few features, which you can customize with CNI plugin.
 
-![Fig. 2: Add Kubernetes Profile](<../.gitbook/assets/add kubernetes profile (1).png>)
+<figure markdown>
+  ![Add Kubernetes Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/kubernetes-profiles/add-kubernetes-profile.png "Add Kubernetes Profile")
+  <figcaption>Fig .2: Add kubernetes profile</figcaption>
+</figure>
 
-_Profile Name_ - name for your kubernetes profile (3-30 characters)
+*Profile Name* - name for your kubernetes profile (3-30 characters)
 
-#### Enable Octavia
+**Enable Octavia**
 
 Exposes the Service externally using the load balancers from OpenStack.
 
@@ -28,20 +28,20 @@ Exposes the Service externally using the load balancers from OpenStack.
 
 Manage your traffic, only available for OpenStack and Octavia disabled.
 
-#### Enable proxy on bastion
+**Enable proxy on bastion**
 
-Exposes the Service on each Node's IP at a static port, the NodePort. You'll be able to contact the NodePort Service, from outside the cluster, by requesting \<NodeIP>:\<NodePort>.
+Exposes the Service on each Node's IP at a static port, the NodePort. You'll be able to contact the NodePort Service, from outside the cluster, by requesting <NodeIP\>:<NodePort\>.
 
+**Allow Scheduling on Master**
 
-
-{% hint style="info" %}
-Choose this profile with enabled features during [project creation](https://itera.gitbook.io/taikun/user-guide-1/manager/projects/creating-a-new-project).
-{% endhint %}
+Schedule Pods on control-plane node to maximize resource usage, but we do not recommend it.
 
 
+???+ info
+     Choose this profile with enabled features during [project creation](../projects/creating-a-new-project).
 
-### Actions
+**Actions**
 
-![](<../.gitbook/assets/lock (3).png>)/![](../.gitbook/assets/unlock.png)Un/Lock the profile to dis-/enable it from drop-down selection when a new project is created, you cannot lock default profile.
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/lock.png){: .middle}/![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/unlock.png){: .middle} Un/Lock the profile to dis-/enable it from drop-down selection when a new project is created, you cannot lock default profile.
 
-![](<../.gitbook/assets/delete (2).png>)Delete the profile if it is no longer needed. Only profiles with no associated projects can be deleted. You cannot delete default profile.
+![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/delete.png){: .middle} Delete the profile if it is no longer needed. Only profiles with no associated projects can be deleted. You cannot delete default profile.

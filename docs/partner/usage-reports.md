@@ -1,15 +1,11 @@
----
-description: TCU per project
----
 
-# Usage Reports
+# **Usage Reports**
 
-_Select organization_ for a better overview of Projects_._
+*Select organization* for a better overview of Projects.
 
-For every _Project_  you can see its _TCU_ for time period limited by _Start Date_ and _End Date_.
+For every *Project*  you can see its *TCU* for time period limited by *Start Date* and *End Date*.
 
-Sort data by _Project_ or _TCU_ and filter them by choosing available or deleted projects.
-
+Sort data by *Project* or *TCU* and filter them by choosing available or deleted projects.
 
 
 **TCU**
@@ -17,32 +13,38 @@ Sort data by _Project_ or _TCU_ and filter them by choosing available or deleted
 * Taikun Compute Unit
 * &#x20;total CPUs and GB of RAM used in Project (TCU = CPU + RAM (in GB))
 
-![Fig. 1: Usage Reports](<../.gitbook/assets/usage reports (1).gif>)
 
-As you can see, the _Total TCU_ changes immediately.
+<figure markdown>
+  ![Usage Reports](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/usage-reports/usage-reports.gif "Usage Reports")
+  <figcaption>Fig. 1: Usage Reports</figcaption>
+</figure>
+
+
+As you can see, the *Total TCU* changes immediately.
 
 Clicking the project will redirects you to project's info (naturally works only for available projects).
 
 
-
-#### Export Reports
+## **Export Reports**
 
 The data displayed on the page are exported to .csv file - with name of your organization and time period (if selected).
 
-####
 
-#### Send Reports to E-mail
+## **Send Reports to E-mail**
 
-Use the button to send selected data to your mail (provided in [**My Profile**](https://itera.gitbook.io/taikun/user-guide-1/partner/my-profile)).
-
+Use the button to send selected data to your mail (provided in [**My Profile**](../my-profile)).
 
 
-### Price Development
+## **Price Development**
 
-Graph for **Price Development** shows decrease and increase of prices for every project. You can change the timeline - _Daily_, _Monthly_ and _Yearly_.
+Graph for **Price Development** shows decrease and increase of prices for every project. You can change the timeline - *Daily*, *Monthly* and *Yearly*.
 
-![Fig. 2: Price Development](<../.gitbook/assets/price development (3).gif>)
 
-{% hint style="warning" %}
-_Monthly_ and _Yearly_ graphs are plotted if there is enough data.
-{% endhint %}
+<figure markdown>
+  ![Price Development](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/usage-reports/price-development.gif "Price Development")
+  <figcaption>Fig. 2: Price Development</figcaption>
+</figure>
+
+
+???+ warning
+    *Monthly* and *Yearly* graphs are plotted if there is enough data.

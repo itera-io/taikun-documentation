@@ -1,0 +1,3288 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="http://185.22.98.126/guidelines/terraform-provider/">
+      
+      <link rel="icon" href="https://media-exp1.licdn.com/dms/image/C4D0BAQFv4jXG3fcf4Q/company-logo_200_200/0/1629111293367?e=2159024400&v=beta&t=8CBazqxwtimxfOs48hTOyxSr0P2wrmx0JHnKVJLFWSs">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.1">
+    
+    
+      
+        <title>Terraform Provider - Taikun</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.23b6d78a.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#e92063">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="pink" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#terraform-provider-for-taikun-workshop" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Taikun" class="md-header__button md-logo" aria-label="Taikun" data-md-component="logo">
+      
+  <img src="https://cloud.tcpro.cz:30100/swift/v1/KEY_121daf025c5742a6844217e262243c65/doc/taikun_icon_white.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Taikun
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Terraform Provider
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/itera-io/taikun-documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Taikun Documentation
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../first-steps/" class="md-tabs__link">
+      First Steps
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../login/" class="md-tabs__link md-tabs__link--active">
+        Guidelines
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../user/" class="md-tabs__link">
+        User
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../manager/" class="md-tabs__link">
+        Manager
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../partner/" class="md-tabs__link">
+        Partner
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../tech-book/loadbalancers/" class="md-tabs__link">
+        Tech Book
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../dictionary/from-a-to-z/" class="md-tabs__link">
+        Dictionary
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Taikun" class="md-nav__button md-logo" aria-label="Taikun" data-md-component="logo">
+      
+  <img src="https://cloud.tcpro.cz:30100/swift/v1/KEY_121daf025c5742a6844217e262243c65/doc/taikun_icon_white.png" alt="logo">
+
+    </a>
+    Taikun
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/itera-io/taikun-documentation/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Taikun Documentation
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../first-steps/" class="md-nav__link">
+        First Steps
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Guidelines
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Guidelines" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Guidelines
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../login/" class="md-nav__link">
+        Login
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../change-mail-password/" class="md-nav__link">
+        Change e-mail and password
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../add-cloud-credentials/" class="md-nav__link">
+        Add cloud credentials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../creating-profiles/" class="md-nav__link">
+        Creating Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../creating-a-cluster/" class="md-nav__link">
+        Creating Cluster
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backup-monitoring-lock-reboot/" class="md-nav__link">
+        Kubeconfigs, Backup, Monitoring, Lock, Reboot
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Terraform Provider
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Terraform Provider
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#annotations" class="md-nav__link">
+    Annotations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    Setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#setup-using-docker" class="md-nav__link">
+    Setup using Docker.
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup using Docker.">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#local-setup" class="md-nav__link">
+    Local setup
+  </a>
+  
+    <nav class="md-nav" aria-label="Local setup">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#installing-terraform" class="md-nav__link">
+    Installing Terraform
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#downloading-the-workshop-files" class="md-nav__link">
+    Downloading the workshop files
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup-using-docker_1" class="md-nav__link">
+    Setup using Docker
+  </a>
+  
+    <nav class="md-nav" aria-label="Setup using Docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requirements_1" class="md-nav__link">
+    Requirements
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup_1" class="md-nav__link">
+    Setup
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker-image-creation" class="md-nav__link">
+    Docker image creation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#docker-container-creation" class="md-nav__link">
+    Docker container creation
+  </a>
+  
+    <nav class="md-nav" aria-label="Docker container creation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#restarting-the-docker-container" class="md-nav__link">
+    Restarting the Docker container
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-editing-within-the-container" class="md-nav__link">
+    Text editing within the container
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    Documentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tasks" class="md-nav__link">
+    Tasks
+  </a>
+  
+    <nav class="md-nav" aria-label="Tasks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    Authentication
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-0-organization" class="md-nav__link">
+    Task 0: Organization
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-1-kubernetes-profile" class="md-nav__link">
+    Task 1: Kubernetes Profile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-2-slack-configuration-alerting-profile" class="md-nav__link">
+    Task 2: Slack Configuration &amp; Alerting Profile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-3-cloud-credentials" class="md-nav__link">
+    Task 3: Cloud Credentials
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-4-users" class="md-nav__link">
+    Task 4: Users
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-5-access-profile" class="md-nav__link">
+    Task 5: Access Profile
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-6-project" class="md-nav__link">
+    Task 6: Project
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#task-7-project-user-attachments" class="md-nav__link">
+    Task 7: Project User Attachments
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../taikun-cli/" class="md-nav__link">
+        Taikun-CLI
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" data-md-state="indeterminate" type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../user/">User</a>
+          
+            <label for="__nav_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="User" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          User
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/login/" class="md-nav__link">
+        Login
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_3" data-md-state="indeterminate" type="checkbox" id="__nav_4_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../user/dashboard/">Dashboard</a>
+          
+            <label for="__nav_4_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_3">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/dashboard/users/" class="md-nav__link">
+        Users
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/dashboard/charts/" class="md-nav__link">
+        Charts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/dashboard/tables/" class="md-nav__link">
+        Tables
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" data-md-state="indeterminate" type="checkbox" id="__nav_4_4" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../user/projects/">Projects</a>
+          
+            <label for="__nav_4_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/projects/project-details-k8s/" class="md-nav__link">
+        Project Details-K8s
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/projects/project-details-vms/" class="md-nav__link">
+        Project Details-VMs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/projects/kubernetes/" class="md-nav__link">
+        Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/my-profile/" class="md-nav__link">
+        My Profie
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" data-md-state="indeterminate" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../manager/">Manager</a>
+          
+            <label for="__nav_5">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Manager" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Manager
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/login/" class="md-nav__link">
+        Login
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" data-md-state="indeterminate" type="checkbox" id="__nav_5_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../manager/dashboard/">Dashboard</a>
+          
+            <label for="__nav_5_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/dashboard/users/" class="md-nav__link">
+        Users
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/dashboard/charts/" class="md-nav__link">
+        Charts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/dashboard/tables/" class="md-nav__link">
+        Tables
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" data-md-state="indeterminate" type="checkbox" id="__nav_5_4" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../manager/projects/">Projects</a>
+          
+            <label for="__nav_5_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/projects/project-details-k8s/" class="md-nav__link">
+        Project Details-K8s
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/projects/project-details-vms/" class="md-nav__link">
+        Project Details-VMs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/projects/kubernetes/" class="md-nav__link">
+        Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/projects/creating-a-new-project/" class="md-nav__link">
+        Create a New Project
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/flavor-info/" class="md-nav__link">
+        Flavor Info
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/images/" class="md-nav__link">
+        Images
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/audit-log/" class="md-nav__link">
+        Audit Log
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/users/" class="md-nav__link">
+        Users
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/project-quotas/" class="md-nav__link">
+        Project Quotas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/servers/" class="md-nav__link">
+        Servers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/taikun-requests/" class="md-nav__link">
+        Taikun Requests
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/showback-rules/" class="md-nav__link">
+        Showback Rules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/showback-summary/" class="md-nav__link">
+        Showback Summary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/ticketing/" class="md-nav__link">
+        Ticketing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/standalone-vms/" class="md-nav__link">
+        Standalone VMs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/chargeback/" class="md-nav__link">
+        Chargeback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/usage-reports/" class="md-nav__link">
+        Usage Reports
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/cloud-credentials/" class="md-nav__link">
+        Cloud Credentials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/backup-credentials/" class="md-nav__link">
+        Backup Credentials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/showback-credentials/" class="md-nav__link">
+        Showback Credentials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/kubernetes-profiles/" class="md-nav__link">
+        Kubernetes Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/access-profiles/" class="md-nav__link">
+        Access Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/alerting-profiles/" class="md-nav__link">
+        Alerting Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/policy-profiles/" class="md-nav__link">
+        Policy Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/standalone-profiles/" class="md-nav__link">
+        Standalone Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/slack-configuration/" class="md-nav__link">
+        Slack Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manager/my-profile/" class="md-nav__link">
+        My Profile
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" data-md-state="indeterminate" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../partner/">Partner</a>
+          
+            <label for="__nav_6">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Partner" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Partner
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/login/" class="md-nav__link">
+        Login
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_3" data-md-state="indeterminate" type="checkbox" id="__nav_6_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../partner/dashboard/">Dashboard</a>
+          
+            <label for="__nav_6_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_3">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/dashboard/select-organization/" class="md-nav__link">
+        Select Organization
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/dashboard/users/" class="md-nav__link">
+        Users
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/dashboard/charts/" class="md-nav__link">
+        Charts
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/dashboard/tables/" class="md-nav__link">
+        Tables
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_4" data-md-state="indeterminate" type="checkbox" id="__nav_6_4" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../partner/projects/">Projects</a>
+          
+            <label for="__nav_6_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Projects" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_4">
+          <span class="md-nav__icon md-icon"></span>
+          Projects
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/projects/project-details-k8s/" class="md-nav__link">
+        Projects Details-K8s
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/projects/project-details-vms/" class="md-nav__link">
+        Projects Details-VMs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/projects/kubernetes/" class="md-nav__link">
+        Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/projects/creating-a-new-project/" class="md-nav__link">
+        Create a New Project
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/flavor-info/" class="md-nav__link">
+        Flavor Info
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/images/" class="md-nav__link">
+        Images
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/audit-log/" class="md-nav__link">
+        Audit Log
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/users/" class="md-nav__link">
+        Users
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/project-quotas/" class="md-nav__link">
+        Project Quotas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/servers/" class="md-nav__link">
+        Servers
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/taikun-requests/" class="md-nav__link">
+        Taikun Requests
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/showback-rules/" class="md-nav__link">
+        Showback Rules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/showback-summary/" class="md-nav__link">
+        Showback Summary
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/ticketing/" class="md-nav__link">
+        Ticketing
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/standalone-vms/" class="md-nav__link">
+        Standalone VMs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/chargeback/" class="md-nav__link">
+        Chargeback
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/usage-reports/" class="md-nav__link">
+        Usage Reports
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/cloud-credentials/" class="md-nav__link">
+        Cloud Credentials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/backup-credentials/" class="md-nav__link">
+        Backup Credentials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/billing-credentials/" class="md-nav__link">
+        Billing Credentials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/showback-credentials/" class="md-nav__link">
+        Showback Credentials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/kubernetes-profiles/" class="md-nav__link">
+        Kubernetes Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/access-profiles/" class="md-nav__link">
+        Access Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/alerting-profiles/" class="md-nav__link">
+        Alerting Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/policy-profiles/" class="md-nav__link">
+        Policy Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/standalone-profiles/" class="md-nav__link">
+        Standalone Profiles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/organizations/" class="md-nav__link">
+        Organizations
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/billing-rules/" class="md-nav__link">
+        Billing Rules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/slack-configuration/" class="md-nav__link">
+        Slack Configuration
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../partner/my-profile/" class="md-nav__link">
+        My Profile
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" data-md-state="indeterminate" type="checkbox" id="__nav_7" checked>
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          Tech Book
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Tech Book" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Tech Book
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tech-book/loadbalancers/" class="md-nav__link">
+        LoadBalancer
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" data-md-state="indeterminate" type="checkbox" id="__nav_8" checked>
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          Dictionary
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Dictionary" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Dictionary
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dictionary/from-a-to-z/" class="md-nav__link">
+        From A to Z
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/itera-io/taikun-documentation/edit/master/docs/guidelines/terraform-provider.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+<h1 id="terraform-provider-for-taikun-workshop"><strong>Terraform Provider for Taikun Workshop</strong><a class="headerlink" href="#terraform-provider-for-taikun-workshop" title="Permanent link">&para;</a></h1>
+<p><a href="../../user/projects/project-details-k8s/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"/></svg></span></a> <strong>User</strong>
+<a href="../../manager/projects/project-details-k8s/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm95.8 32.6L272 480l-32-136 32-56h-96l32 56-32 136-47.8-191.4C56.9 292 0 350.3 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-72.1-56.9-130.4-128.2-133.8z"/></svg></span></a> <strong>Manager</strong>
+<a href="../../partner/projects/project-details-k8s/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="m519.2 127.9-47.6-47.6A56.252 56.252 0 0 0 432 64H205.2c-14.8 0-29.1 5.9-39.6 16.3L118 127.9H0v255.7h64c17.6 0 31.8-14.2 31.9-31.7h9.1l84.6 76.4c30.9 25.1 73.8 25.7 105.6 3.8 12.5 10.8 26 15.9 41.1 15.9 18.2 0 35.3-7.4 48.8-24 22.1 8.7 48.2 2.6 64-16.8l26.2-32.3c5.6-6.9 9.1-14.8 10.9-23h57.9c.1 17.5 14.4 31.7 31.9 31.7h64V127.9H519.2zM48 351.6c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16c0 8.9-7.2 16-16 16zm390-6.9-26.1 32.2c-2.8 3.4-7.8 4-11.3 1.2l-23.9-19.4-30 36.5c-6 7.3-15 4.8-18 2.4l-36.8-31.5-15.6 19.2c-13.9 17.1-39.2 19.7-55.3 6.6l-97.3-88H96V175.8h41.9l61.7-61.6c2-.8 3.7-1.5 5.7-2.3H262l-38.7 35.5c-29.4 26.9-31.1 72.3-4.4 101.3 14.8 16.2 61.2 41.2 101.5 4.4l8.2-7.5 108.2 87.8c3.4 2.8 3.9 7.9 1.2 11.3zm106-40.8h-69.2c-2.3-2.8-4.9-5.4-7.7-7.7l-102.7-83.4 12.5-11.4c6.5-6 7-16.1 1-22.6L367 167.1c-6-6.5-16.1-6.9-22.6-1l-55.2 50.6c-9.5 8.7-25.7 9.4-34.6 0-9.3-9.9-8.5-25.1 1.2-33.9l65.6-60.1c7.4-6.8 17-10.5 27-10.5l83.7-.2c2.1 0 4.1.8 5.5 2.3l61.7 61.6H544v128zm48 47.7c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16c0 8.9-7.2 16-16 16z"/></svg></span></a> <strong>Partner</strong></p>
+<h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>The purpose of this workshop is to introduce you to Terraform and the Terraform Provider for Taikun. The latter
+will allow you to use Terraform to manage resources in Taikun.</p>
+<h2 id="annotations"><strong>Annotations</strong><a class="headerlink" href="#annotations" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Text in this form is to be typed, as is, on the command line.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="nb">cd</span> workshop/
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>ls
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="nb">echo</span> Hello!
+</code></pre></div>
+<ul>
+<li>This form of text shows screen output, usually the output of commands.</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a>task_00/
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a>task_01/
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a>...
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a>Hello!
+</code></pre></div>
+<ul>
+<li>This format is for code in Terraform’s configuration language, HashiCorp Configuration Language (HCL).</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>resource <span class="s2">&quot;aws_instance&quot;</span> <span class="s2">&quot;example&quot;</span> <span class="o">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a>  <span class="nv">ami</span> <span class="o">=</span> <span class="s2">&quot;abc123&quot;</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4"></a>  network_interface <span class="o">{</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5"></a>    ...
+<a id="__codelineno-2-6" name="__codelineno-2-6"></a>  <span class="o">}</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7"></a><span class="o">}</span>
+</code></pre></div>
+<ul>
+<li>You may wish to skip reading information blocks if you are already familiar with Terraform and its configu-
+ration syntax.</li>
+</ul>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>Some information about Terraform...</p>
+</details>
+<h2 id="setup"><strong>Setup</strong><a class="headerlink" href="#setup" title="Permanent link">&para;</a></h2>
+<p>To complete this workshop, you will need to install Terraform and the workshop files.
+There are two ways to do this.
+- If you wish to install Terraform and the workshop files locally, read Local setup.
+- To use the provided Docker image which already contains everything you need.</p>
+<h3 id="setup-using-docker"><strong>Setup using Docker.</strong><a class="headerlink" href="#setup-using-docker" title="Permanent link">&para;</a></h3>
+<h4 id="local-setup"><strong>Local setup</strong><a class="headerlink" href="#local-setup" title="Permanent link">&para;</a></h4>
+<h5 id="requirements"><strong>Requirements</strong><a class="headerlink" href="#requirements" title="Permanent link">&para;</a></h5>
+<ul>
+<li>You must have Terraform version 0.14 or newer installed.</li>
+<li>You will need Git to clone the provider’s repo.</li>
+</ul>
+<h5 id="installing-terraform"><strong>Installing Terraform</strong><a class="headerlink" href="#installing-terraform" title="Permanent link">&para;</a></h5>
+<p>This Hashicorp tutorial explains how to install Terraform on OS X, Windows and Linux.</p>
+<h5 id="downloading-the-workshop-files"><strong>Downloading the workshop files</strong><a class="headerlink" href="#downloading-the-workshop-files" title="Permanent link">&para;</a></h5>
+<p>Clone the workshop directory and switch into the workshop/ directory.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a>git clone https://github.com/itera-io/terraform-provider-taikun-workshop.git
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a><span class="nb">cd</span> terraform-provider-taikun-workshop/workshop/
+</code></pre></div>
+<h4 id="setup-using-docker_1"><strong>Setup using Docker</strong><a class="headerlink" href="#setup-using-docker_1" title="Permanent link">&para;</a></h4>
+<h5 id="requirements_1"><strong>Requirements</strong><a class="headerlink" href="#requirements_1" title="Permanent link">&para;</a></h5>
+<p>You must have Docker and Git installed.</p>
+<h5 id="setup_1"><strong>Setup</strong><a class="headerlink" href="#setup_1" title="Permanent link">&para;</a></h5>
+<p>Start by cloning the workshop repository.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a>git clone --recursive https://github.com/itera-io/terraform-provider-taikun-workshop.git
+</code></pre></div>
+<h3 id="docker-image-creation"><strong>Docker image creation</strong><a class="headerlink" href="#docker-image-creation" title="Permanent link">&para;</a></h3>
+<p>You’ll need to build the image, this operation can take several minutes.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1"></a><span class="nv">DOCKER_BUILDKIT</span><span class="o">=</span><span class="m">1</span> docker build --rm --target bin -t tf-workshop .
+</code></pre></div>
+<h3 id="docker-container-creation"><strong>Docker container creation</strong><a class="headerlink" href="#docker-container-creation" title="Permanent link">&para;</a></h3>
+<p>To create the Docker container, run one of the following commands from the root of
+<em>terrraform-provider-taikun-workshop</em>.</p>
+<ul>
+<li>On Windows, run the following command in the command prompt (not Powershell).</li>
+</ul>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1"></a>docker run -v %CD%/workshop:/root/workshop --name tf-workshop -it tf-workshop
+</code></pre></div>
+<p>• On Linux and MacOS:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1"></a>docker run -v <span class="k">$(</span><span class="nb">pwd</span><span class="k">)</span>/workshop:/root/workshop --name tf-workshop -it tf-workshop
+</code></pre></div>
+<p>This will mount the workshop/directory in the Docker container and log you in to the container as root. In other
+words, you will need to run terraform commands from within the container shell, however you can edit the files
+in workshop/directory with the editor of your choice on your machine.</p>
+<h4 id="restarting-the-docker-container"><strong>Restarting the Docker container</strong><a class="headerlink" href="#restarting-the-docker-container" title="Permanent link">&para;</a></h4>
+<p>You can exit the container at any time without losing your progress. If you have exited the Docker container, run
+the following command to restart it.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1"></a>docker start -i tf-workshop
+</code></pre></div>
+<h4 id="text-editing-within-the-container"><strong>Text editing within the container</strong><a class="headerlink" href="#text-editing-within-the-container" title="Permanent link">&para;</a></h4>
+<p>If you wish to edit the files in workshop/directory from within the container, the Docker image has the vim, micro and
+nano packages installed. If you are unfamiliar with Nano and Vim keybindings, the Micro editor has traditional
+Common User Access keybindings (Ctrl-C for copy, Ctrl-Z for undo, etc).</p>
+<h2 id="documentation"><strong>Documentation</strong><a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h2>
+<p>The provider documentation is available on the Terraform Registry.</p>
+<h2 id="tasks"><strong>Tasks</strong><a class="headerlink" href="#tasks" title="Permanent link">&para;</a></h2>
+<p>The end goal of this workshop is to have an operational Taikun project built solely with Terraform configuration
+files. By following a step by step process, you will discover how various Taikun resources are declared and
+managed using Terraform.</p>
+<p>All your work will be done in the workshop/directory. These are its initial contents.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1"></a>./workshop/
+<a id="__codelineno-9-2" name="__codelineno-9-2"></a><span class="p">|</span>-- main.tf
+<a id="__codelineno-9-3" name="__codelineno-9-3"></a><span class="p">|</span>-- taikun_auth.auto.tfvars
+<a id="__codelineno-9-4" name="__codelineno-9-4"></a><span class="p">|</span>-- variables.tf
+</code></pre></div>
+<p><em>main.tf</em> contains the Provider configuration, namely its source address and what credentials to use. You will
+not need to edit this file.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1"></a># main.tf
+<a id="__codelineno-10-2" name="__codelineno-10-2"></a>terraform {
+<a id="__codelineno-10-3" name="__codelineno-10-3"></a>  required_providers {
+<a id="__codelineno-10-4" name="__codelineno-10-4"></a>    taikun = {
+<a id="__codelineno-10-5" name="__codelineno-10-5"></a>      source = &quot;itera-io/taikun&quot;
+<a id="__codelineno-10-6" name="__codelineno-10-6"></a>      version = &quot;1.0.0&quot;
+<a id="__codelineno-10-7" name="__codelineno-10-7"></a>    }
+<a id="__codelineno-10-8" name="__codelineno-10-8"></a>  }
+<a id="__codelineno-10-9" name="__codelineno-10-9"></a>}
+<a id="__codelineno-10-10" name="__codelineno-10-10"></a>
+<a id="__codelineno-10-11" name="__codelineno-10-11"></a>provider &quot;taikun&quot; {
+<a id="__codelineno-10-12" name="__codelineno-10-12"></a>  email = var.taikun_email
+<a id="__codelineno-10-13" name="__codelineno-10-13"></a>  password = var.taikun_password
+<a id="__codelineno-10-14" name="__codelineno-10-14"></a>}
+</code></pre></div>
+<p>Terraform reads its configuration from all the files with the extension <em>.tf</em>, in the working directory. Having the
+provider configuration in <em>main.tf</em> is simply a convention.</p>
+<p>During this workshop, each task should be coded in a separate config file. At the end of the workshop, your
+directory will be organized as such</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1"></a>./workshop/
+<a id="__codelineno-11-2" name="__codelineno-11-2"></a>|-- main.tf
+<a id="__codelineno-11-3" name="__codelineno-11-3"></a>|-- taikun_auth.auto.tfvars
+<a id="__codelineno-11-4" name="__codelineno-11-4"></a>|-- task0.tf
+<a id="__codelineno-11-5" name="__codelineno-11-5"></a>|-- task1.tf
+<a id="__codelineno-11-6" name="__codelineno-11-6"></a>|-- task2.tf
+<a id="__codelineno-11-7" name="__codelineno-11-7"></a>|-- task3.auto.tfvars
+<a id="__codelineno-11-8" name="__codelineno-11-8"></a>|-- task3.tf
+<a id="__codelineno-11-9" name="__codelineno-11-9"></a>|-- task4.tf
+<a id="__codelineno-11-10" name="__codelineno-11-10"></a>|-- task5.tf
+<a id="__codelineno-11-11" name="__codelineno-11-11"></a>|-- task6.tf
+<a id="__codelineno-11-12" name="__codelineno-11-12"></a>|-- task7.tf
+<a id="__codelineno-11-13" name="__codelineno-11-13"></a>|-- variables.tf
+<a id="__codelineno-11-14" name="__codelineno-11-14"></a>|-- users.auto.tfvars
+<a id="__codelineno-11-15" name="__codelineno-11-15"></a>|-- users.tf
+</code></pre></div>
+<h3 id="authentication"><strong>Authentication</strong><a class="headerlink" href="#authentication" title="Permanent link">&para;</a></h3>
+<p>In order to complete the tasks that follow, you will need to provide Taikun credentials to Terraform. You will need
+a Partner account as some of the tasks, such as creating an organization, require Partner privileges.
+Input variables will be explained later in the workshop. For now, simply edit <em>taikun_auth.auto.tfvars</em> and
+replace the values of <em>taikun_email</em> and <em>taikun_password</em> with your credentials.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-12-1" name="__codelineno-12-1"></a><span class="c1"># taikun_auth.auto.tfvars</span>
+<a id="__codelineno-12-2" name="__codelineno-12-2"></a><span class="nv">taikun_email</span> <span class="o">=</span> <span class="s2">&quot;jane.doe@itera.io&quot;</span>
+<a id="__codelineno-12-3" name="__codelineno-12-3"></a><span class="nv">taikun_password</span> <span class="o">=</span> <span class="s2">&quot;PassWord123&quot;</span>
+</code></pre></div>
+<p>To find out more about providing sensitive data to Terraform, see this Hashicorp tutorial.</p>
+<h3 id="task-0-organization"><strong>Task 0: Organization</strong><a class="headerlink" href="#task-0-organization" title="Permanent link">&para;</a></h3>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>For this task, please write your code in the file 'task0.tf' at the root of the workshop/directory.</p>
+</details>
+<p>This objective of this first task is to create an organization. All resources created in the future will be part of this
+organization. As this is the first task, every step of the process is documented.</p>
+<p>Before you do anything, start by preparing your working directory for other commands.
+terraform init</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>terraform init only needs to be run once when starting a new project or after updating the list of
+providers to use.</p>
+</details>
+<p>If all went well, you should see the following message.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-13-1" name="__codelineno-13-1"></a>Initializing the backend...
+<a id="__codelineno-13-2" name="__codelineno-13-2"></a><span class="o">[</span>...<span class="o">]</span>
+<a id="__codelineno-13-3" name="__codelineno-13-3"></a>Terraform has been successfully initialized!
+</code></pre></div>
+<p>Once Terraform has been initialized correctly, you can declare your organization resource. Create 'task0.tf' and
+write the following configuration block to it.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-14-1" name="__codelineno-14-1"></a><span class="kr">resource</span> <span class="nc">&quot;taikun_organization&quot;</span> <span class="nv">&quot;myorg&quot;</span> <span class="p">{</span>
+<a id="__codelineno-14-2" name="__codelineno-14-2"></a>  <span class="na">name</span> <span class="o">=</span> <span class="s2">&quot;&lt;name&gt;&quot;</span>
+<a id="__codelineno-14-3" name="__codelineno-14-3"></a>  <span class="na">full_name</span> <span class="o">=</span> <span class="s2">&quot;&lt;full-name&gt;&quot;</span>
+<a id="__codelineno-14-4" name="__codelineno-14-4"></a>  <span class="na">discount_rate</span> <span class="o">=</span> <span class="m">120</span>
+<a id="__codelineno-14-5" name="__codelineno-14-5"></a><span class="p">}</span>
+</code></pre></div>
+<p>Be sure to replace <name> and <full-name> with names of your choosing. You can also choose another label
+instead of myorg.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>Notice the syntax of the configuration block, as you are creating a resource, it begins with the keyword
+resource, followed by its type between double quotes. </p>
+<p>The type of resource is always lowercase and prefixed by the name of the provider, thus "taikun_organization".</p>
+<p>Following the resource’s type is a label, it must be unique for this type of resource, and is used to refer to this specific resource, as you will
+find out later. </p>
+<p>Watch out, this label does not correspond to the name of the resource in Taikun</p>
+<p>Three arguments are then defined: name, full_name and discount_rate. On the left side of the equals
+sign is the argument’s identifier, on the right is its value. </p>
+<p>See the documentation of Taikun’s organization resource for a full list of arguments, i.e. the resource’s schema.</p>
+<p>Labels and argument names can contain letters, digits, underscores and hyphens and may not start with
+a digit.</p>
+</details>
+<p>Run the following command to reformat your configuration in the standard style.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-15-1" name="__codelineno-15-1"></a>terraform fmt
+</code></pre></div>
+<p>Now apply your changes.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>If you have already created resources, apply will refresh Terraform’s state by making request to Taikun’s
+API. If you wish to check the validity of your changes without refreshing the state, you can run terraform
+validate.</p>
+</details>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-16-1" name="__codelineno-16-1"></a>terraform apply
+</code></pre></div>
+<p>You should get a validation error.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-17-1" name="__codelineno-17-1"></a>Error: expected discount_rate to be in the range (0.000000 - 100.000000), got 120.000000
+<a id="__codelineno-17-2" name="__codelineno-17-2"></a>Now fix the discount rate so it is in the range 0-100 and run apply once more. Terraform will display a list of
+<a id="__codelineno-17-3" name="__codelineno-17-3"></a>resources to create. After checking the plan is correct, type yes to execute it.
+</code></pre></div>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>You should notice a file terraform.tfstate in your working directory, Terraform uses this file to keep
+track of the state, do not modify or delete it.
+You may now list the resources in Terraform’s state.</p>
+</details>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-18-1" name="__codelineno-18-1"></a>terraform state list
+</code></pre></div>
+<p>You can also display their content.</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-19-1" name="__codelineno-19-1"></a>terraform show
+</code></pre></div>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-20-1" name="__codelineno-20-1"></a>taikun_organization.myorg:
+<a id="__codelineno-20-2" name="__codelineno-20-2"></a>resource &quot;taikun_organization&quot; &quot;myorg&quot; {
+<a id="__codelineno-20-3" name="__codelineno-20-3"></a>    created_at = &quot;2021-11-05T14:00:50Z&quot;
+<a id="__codelineno-20-4" name="__codelineno-20-4"></a>    discount_rate = 42
+<a id="__codelineno-20-5" name="__codelineno-20-5"></a>    full_name = &quot;Jane Doe&#39;s organization&quot;
+<a id="__codelineno-20-6" name="__codelineno-20-6"></a>    id = &quot;6383&quot;
+<a id="__codelineno-20-7" name="__codelineno-20-7"></a>    is_read_only = false
+<a id="__codelineno-20-8" name="__codelineno-20-8"></a>    lock = false
+<a id="__codelineno-20-9" name="__codelineno-20-9"></a>    managers_can_change_subscription = true
+<a id="__codelineno-20-10" name="__codelineno-20-10"></a>    name = &quot;my-organization&quot;
+<a id="__codelineno-20-11" name="__codelineno-20-11"></a>    partner_id = &quot;119&quot;
+<a id="__codelineno-20-12" name="__codelineno-20-12"></a>    partner_name = &quot;TF-CI&quot;
+<a id="__codelineno-20-13" name="__codelineno-20-13"></a>    projects = 0
+<a id="__codelineno-20-14" name="__codelineno-20-14"></a>    servers = 0
+<a id="__codelineno-20-15" name="__codelineno-20-15"></a>}
+</code></pre></div>
+You may wish to check the organization was indeed created at app.taikun.cloud/organizations.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>Try running terraform apply again, Terraform will refresh its state, and, as long as nothing has
+changed, tell you that no changes are needed.</p>
+<p>You can also try deleting the organization through the web UI and running terraform apply. Terraform
+will tell you that changes have occured outside of Terraform and recreate the resource</p>
+</details>
+<h3 id="task-1-kubernetes-profile"><strong>Task 1: Kubernetes Profile</strong><a class="headerlink" href="#task-1-kubernetes-profile" title="Permanent link">&para;</a></h3>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>For this task, please write your code in the file task1.tf at the root of the workshop/directory.</p>
+</details>
+<p>Now that you have created an organization, you will create a Kubernetes profile belonging to it. Check the
+kubernetes_profile resource’s schema on the provider’s documentation and declare the resource in task1.tf.
+Set <em>organization_id</em> to the ID of the organization created in the previous task (see Task 0: Organization).</p>
+<p>Feel free to set some of <em>kubernetes_profile’s</em> other optional attributes, such as <em>schedule_on_master</em> and
+<em>load_balancing_solution</em>.
+Once you have declared your resource, apply your changes and move on to the next task.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>To refer to the ID of your organization, use the following syntax.
+resource.taikun_organization.myorg.id
+Make sure to replace myorg if you used another label for your organization.</p>
+</details>
+<h3 id="task-2-slack-configuration-alerting-profile"><strong>Task 2: Slack Configuration &amp; Alerting Profile</strong><a class="headerlink" href="#task-2-slack-configuration-alerting-profile" title="Permanent link">&para;</a></h3>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>For this task, please write your code in the file task2.tf at the root of the workshop/directory.</p>
+</details>
+<p>You will now create an alerting profile using a Slack configuration.</p>
+<ol>
+<li>
+<p>Start by declaring a Slack configuration. Here is its documentation.</p>
+<p>Its hook URL should be https://hooks.myapp.example/ci. It must send alert-type notifications only
+ to the channel ci.</p>
+</li>
+<li>
+<p>You can now declare the alerting profile. Here is its documentation.
+     The alerting profile should send notifications daily using the Slack configuration declared above.</p>
+</li>
+</ol>
+<details class="important" open="open">
+<summary>Important</summary>
+<p>As always, your resources should belong to the organization created in Task 0: Organization.</p>
+</details>
+<p>Once you have declared these two new resources, apply your changes and move on to the next task.</p>
+<h3 id="task-3-cloud-credentials"><strong>Task 3: Cloud Credentials</strong><a class="headerlink" href="#task-3-cloud-credentials" title="Permanent link">&para;</a></h3>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>For this task, please write your code in the file <em>task3.tf</em> at the root of the workshop/directory.
+You will also be editing <em>task3.auto.tfvars</em>.</p>
+</details>
+<details class="important" open="open">
+<summary>Important</summary>
+<p>You will need OpenStack credentials to complete this task.</p>
+</details>
+<p>Cloud credentials are needed to create a Taikun project. In a real work environment, cloud credentials should
+not be stored under version control Terraform’s input variables help solve this problem.</p>
+<p>Variables are declared in <em>variables.tf</em> by convention. This file declares the variables <em>taikun_email</em> and
+<em>taikun_password</em> used for authentication.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-21-1" name="__codelineno-21-1"></a># variables.tf
+<a id="__codelineno-21-2" name="__codelineno-21-2"></a>variable &quot;taikun_email&quot; {
+<a id="__codelineno-21-3" name="__codelineno-21-3"></a>  description = &quot;Taikun email&quot;
+<a id="__codelineno-21-4" name="__codelineno-21-4"></a>  type = string
+<a id="__codelineno-21-5" name="__codelineno-21-5"></a>  sensitive = true
+<a id="__codelineno-21-6" name="__codelineno-21-6"></a>}
+<a id="__codelineno-21-7" name="__codelineno-21-7"></a>
+<a id="__codelineno-21-8" name="__codelineno-21-8"></a>variable &quot;taikun_password&quot; {
+<a id="__codelineno-21-9" name="__codelineno-21-9"></a>  description = &quot;Taikun password&quot;
+<a id="__codelineno-21-10" name="__codelineno-21-10"></a>  type = string
+<a id="__codelineno-21-11" name="__codelineno-21-11"></a>  sensitive = true
+<a id="__codelineno-21-12" name="__codelineno-21-12"></a>}
+</code></pre></div>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>Input variables are declared with a variable block. The label that follows the variable keyword is the
+name of the variable.</p>
+<p>• The description argument is used to specifiy the variable’s documentation.
+• type is the type of this argument’s value.
+• If set to true, sensitive will hide this variable’s value in Terraform output. It defaults to false.</p>
+<p>To know more about input variables and a full list of arguments, see the Terraform documentation on
+variables.</p>
+<p>Variables are then defined in .tfvars files, as seen in subsection Authentication.</p>
+</details>
+<p>For the sake of simplicity, variables will be declared in the task/<em>.tf files. Thus, in </em>task3.tf*, insert the following
+variable declarations</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-22-1" name="__codelineno-22-1"></a>variable &quot;openstack_url&quot; {
+<a id="__codelineno-22-2" name="__codelineno-22-2"></a>  description = &quot;OpenStack url&quot;
+<a id="__codelineno-22-3" name="__codelineno-22-3"></a>  type = string
+<a id="__codelineno-22-4" name="__codelineno-22-4"></a>  sensitive = true
+<a id="__codelineno-22-5" name="__codelineno-22-5"></a>}
+<a id="__codelineno-22-6" name="__codelineno-22-6"></a>variable &quot;openstack_user&quot; {
+<a id="__codelineno-22-7" name="__codelineno-22-7"></a>  description = &quot;OpenStack user&quot;
+<a id="__codelineno-22-8" name="__codelineno-22-8"></a>  type = string
+<a id="__codelineno-22-9" name="__codelineno-22-9"></a>  sensitive = true
+<a id="__codelineno-22-10" name="__codelineno-22-10"></a>}
+<a id="__codelineno-22-11" name="__codelineno-22-11"></a>variable &quot;openstack_password&quot; {
+<a id="__codelineno-22-12" name="__codelineno-22-12"></a>  description = &quot;OpenStack password&quot;
+<a id="__codelineno-22-13" name="__codelineno-22-13"></a>  type = string
+<a id="__codelineno-22-14" name="__codelineno-22-14"></a>  sensitive = true
+<a id="__codelineno-22-15" name="__codelineno-22-15"></a>}
+<a id="__codelineno-22-16" name="__codelineno-22-16"></a>variable &quot;openstack_domain&quot; {
+<a id="__codelineno-22-17" name="__codelineno-22-17"></a>  description = &quot;OpenStack domain&quot;
+<a id="__codelineno-22-18" name="__codelineno-22-18"></a>  type = string
+<a id="__codelineno-22-19" name="__codelineno-22-19"></a>  sensitive = true
+<a id="__codelineno-22-20" name="__codelineno-22-20"></a>}
+<a id="__codelineno-22-21" name="__codelineno-22-21"></a>variable &quot;openstack_region&quot; {
+<a id="__codelineno-22-22" name="__codelineno-22-22"></a>  description = &quot;OpenStack region&quot;
+<a id="__codelineno-22-23" name="__codelineno-22-23"></a>  type = string
+<a id="__codelineno-22-24" name="__codelineno-22-24"></a>}
+<a id="__codelineno-22-25" name="__codelineno-22-25"></a>variable &quot;openstack_public_network&quot; {
+<a id="__codelineno-22-26" name="__codelineno-22-26"></a>  description = &quot;OpenStack public network&quot;
+<a id="__codelineno-22-27" name="__codelineno-22-27"></a>  type = string
+<a id="__codelineno-22-28" name="__codelineno-22-28"></a>}
+<a id="__codelineno-22-29" name="__codelineno-22-29"></a>variable &quot;openstack_project&quot; {
+<a id="__codelineno-22-30" name="__codelineno-22-30"></a>  description = &quot;OpenStack project name&quot;
+<a id="__codelineno-22-31" name="__codelineno-22-31"></a>  type = string
+<a id="__codelineno-22-32" name="__codelineno-22-32"></a>}
+</code></pre></div>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>If copy-pasting this code block into <em>task3.tf</em> does not indent the code properly, save <em>task3.tf</em> and run
+terraform fmt.</p>
+</details>
+<p>Now that the OpenStack variables have been declared, define the variables in <em>task3.auto.tfvars</em> using your
+credentials.</p>
+<p>Terraform must be told through command line arguments which .tfvars files to read. However, if variable
+definition files have the extension .auto.tfvars, as is the case with taikun_auth.auto.tfvars, Terraform
+will automatically fetch the variables’ values.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>As a reminder, here is the syntax used in taikun_auth.auto.tfvars to define the variables
+taikun_email and taikun_password.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-23-1" name="__codelineno-23-1"></a>taikun_email = &quot;jane.doe@itera.io&quot;
+<a id="__codelineno-23-2" name="__codelineno-23-2"></a>taikun_password = &quot;PassWord123&quot;
+</code></pre></div>
+</details>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>In order to get a variable’s value, use the syntax var.<variable_name>. For example, the following line
+sets the OpenStack domain in the <em>cloud_credential_openstack</em> resource.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-24-1" name="__codelineno-24-1"></a>domain = var.openstack_domain
+</code></pre></div>
+</details>
+<p>Once you have declared your new resource, apply your changes and move on to the next task.</p>
+<details class="important" open="open">
+<summary>Important</summary>
+<p>As always, your resources should belong to the organization created in Task 0: Organization</p>
+</details>
+<h3 id="task-4-users"><strong>Task 4: Users</strong><a class="headerlink" href="#task-4-users" title="Permanent link">&para;</a></h3>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>For this task, please write your code in the file <em>task4.tf</em> at the root of the workshop/directory.
+You will also be <em>editing users.tf</em> and <em>users.auto.tfvars</em>.</p>
+</details>
+<p>You will now add users to the Taikun organization. As the organization could have a large amount of users, you
+will use variables and the keyword <em>for_each</em> to avoid declaring multiple <em>taikun_user</em> blocks.</p>
+<p>Add the following variable declaration to <em>users.tf</em>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-25-1" name="__codelineno-25-1"></a>variable &quot;users&quot; {
+<a id="__codelineno-25-2" name="__codelineno-25-2"></a>  type = map(object({
+<a id="__codelineno-25-3" name="__codelineno-25-3"></a>    email = string
+<a id="__codelineno-25-4" name="__codelineno-25-4"></a>    role = string
+<a id="__codelineno-25-5" name="__codelineno-25-5"></a>   }))
+<a id="__codelineno-25-6" name="__codelineno-25-6"></a>   description = &quot;List of project users&quot;
+<a id="__codelineno-25-7" name="__codelineno-25-7"></a>   default = {}
+<a id="__codelineno-25-8" name="__codelineno-25-8"></a>}
+</code></pre></div>
+<p>The users variable is of a complex type: a map of objects with two arguments, email and role. The keys of the
+map are strings, they will be the usernames of the users. The default = {} argument definition tells Terraform
+that the default value of var.users is an empty map.</p>
+<p>Here is an example definition of the users variable.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-26-1" name="__codelineno-26-1"></a>users = {
+<a id="__codelineno-26-2" name="__codelineno-26-2"></a>  &quot;alice&quot; = {
+<a id="__codelineno-26-3" name="__codelineno-26-3"></a>    email = &quot;alice@gmail.com&quot;
+<a id="__codelineno-26-4" name="__codelineno-26-4"></a>    role = &quot;Manager&quot;
+<a id="__codelineno-26-5" name="__codelineno-26-5"></a>  },
+<a id="__codelineno-26-6" name="__codelineno-26-6"></a>  &quot;bob&quot; = {
+<a id="__codelineno-26-7" name="__codelineno-26-7"></a>    email = &quot;bob@gmail.com&quot;
+<a id="__codelineno-26-8" name="__codelineno-26-8"></a>    role = &quot;User&quot;
+<a id="__codelineno-26-9" name="__codelineno-26-9"></a>  },
+<a id="__codelineno-26-10" name="__codelineno-26-10"></a>}
+</code></pre></div>
+<p>In this example, user accounts are defined for Alice and Bob.
+  • Alice has a Manager account with the username alice and the email <em>alice@gmail.com</em>.
+  • Bob has a User account with the username bob and the email <em>bob@gmail.com</em>.</p>
+<p>Now edit users.auto.tfvars and define three users.
+  • <name>-manager with Manager role and the email <name>-manager@mail.example.
+  • <name>-user1 with User role and the email <name>-user1@mail.example.
+  • <name>-user2 with User role and the email <name>-user2@mail.example.</p>
+<p>Replace <name> with a name of your choosing.</p>
+<p>You can now declare the user resource in task4.tf, the users must belong to the organization created in
+Task 0: Organization. Here is its documentation. By using the <em>for_each</em> keyword, only one
+resource block is needed.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>Here is an example using the for_each keyword. Consider a Terraform provider to order pizzas. Sup-
+pose the variable pizza_orders has the following definition.</p>
+</details>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-27-1" name="__codelineno-27-1"></a>pizza_orders = {
+<a id="__codelineno-27-2" name="__codelineno-27-2"></a>  &quot;alice&quot; = {
+<a id="__codelineno-27-3" name="__codelineno-27-3"></a>    type = &quot;pepperoni&quot;
+<a id="__codelineno-27-4" name="__codelineno-27-4"></a>    size = &quot;large&quot;
+<a id="__codelineno-27-5" name="__codelineno-27-5"></a>   },
+<a id="__codelineno-27-6" name="__codelineno-27-6"></a>   &quot;bob&quot; = {
+<a id="__codelineno-27-7" name="__codelineno-27-7"></a>     type = &quot;amatriciana&quot;
+<a id="__codelineno-27-8" name="__codelineno-27-8"></a>     size = &quot;medium&quot;
+<a id="__codelineno-27-9" name="__codelineno-27-9"></a>   },
+<a id="__codelineno-27-10" name="__codelineno-27-10"></a>}
+</code></pre></div>
+<p>Here is how it would be used with the <em>for_each</em> keyword in a pizza_order resource.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-28-1" name="__codelineno-28-1"></a>resource &quot;pizza_order&quot; &quot;orders&quot; {
+<a id="__codelineno-28-2" name="__codelineno-28-2"></a>  for_each = var.pizza_orders
+<a id="__codelineno-28-3" name="__codelineno-28-3"></a>
+<a id="__codelineno-28-4" name="__codelineno-28-4"></a>  client = each.key
+<a id="__codelineno-28-5" name="__codelineno-28-5"></a>  type = each.value.type
+<a id="__codelineno-28-6" name="__codelineno-28-6"></a>  size = each.value.size
+<a id="__codelineno-28-7" name="__codelineno-28-7"></a>}
+</code></pre></div>
+<p>You can also have a look at Terraform’s for_each documentation.</p>
+<p>Once you have declared the user resource, apply your changes and move on to the next task.</p>
+<h3 id="task-5-access-profile"><strong>Task 5: Access Profile</strong><a class="headerlink" href="#task-5-access-profile" title="Permanent link">&para;</a></h3>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>For this task, please write your code in the file task5.tf at the root of the workshop/directory.
+You will also be editing users.tf and users.auto.tfvars.</p>
+</details>
+<p>Before creating your first project, you will need an access profile.</p>
+<p>The access profile must contain SSH keys for all the users created in the previous task, Task 4: Users. 
+Rather than declare the SSH keys in a separate variable, you will add them to the users variable to
+declare them on per user basis.</p>
+<p>Modify users’s declaration in users.tf to include a list of SSH users per user.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-29-1" name="__codelineno-29-1"></a>variable &quot;users&quot; {
+<a id="__codelineno-29-2" name="__codelineno-29-2"></a>  type = map(object({
+<a id="__codelineno-29-3" name="__codelineno-29-3"></a>    email = string
+<a id="__codelineno-29-4" name="__codelineno-29-4"></a>    role = string
+<a id="__codelineno-29-5" name="__codelineno-29-5"></a>    ssh_users = list(object({
+<a id="__codelineno-29-6" name="__codelineno-29-6"></a>      name = string
+<a id="__codelineno-29-7" name="__codelineno-29-7"></a>      public_key = string
+<a id="__codelineno-29-8" name="__codelineno-29-8"></a>    }))
+<a id="__codelineno-29-9" name="__codelineno-29-9"></a>   }))
+<a id="__codelineno-29-10" name="__codelineno-29-10"></a>   description = &quot;List of project users&quot;
+<a id="__codelineno-29-11" name="__codelineno-29-11"></a>   default = {}
+<a id="__codelineno-29-12" name="__codelineno-29-12"></a>}
+</code></pre></div>
+<p>You can now edit <em>users.auto.tfvars</em> and define a list of SSH users for each user. Considering the previous
+example of Alice and Bob, here is the same definition of users with added SSH users.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-30-1" name="__codelineno-30-1"></a>users = {
+<a id="__codelineno-30-2" name="__codelineno-30-2"></a>  &quot;alice&quot; = {
+<a id="__codelineno-30-3" name="__codelineno-30-3"></a>    email = &quot;alice@gmail.com&quot;
+<a id="__codelineno-30-4" name="__codelineno-30-4"></a>    role = &quot;Manager&quot;
+<a id="__codelineno-30-5" name="__codelineno-30-5"></a>    ssh_users = [
+<a id="__codelineno-30-6" name="__codelineno-30-6"></a>      {
+<a id="__codelineno-30-7" name="__codelineno-30-7"></a>        name = &quot;alice-work&quot;
+<a id="__codelineno-30-8" name="__codelineno-30-8"></a>        public_key = &quot;ssh-ed25519 AAAATHEQUICKBROWNFOXJUMPEDOVERTHELAZYDOG example&quot;
+<a id="__codelineno-30-9" name="__codelineno-30-9"></a>      },
+<a id="__codelineno-30-10" name="__codelineno-30-10"></a>      {
+<a id="__codelineno-30-11" name="__codelineno-30-11"></a>        name = &quot;alice-home&quot;
+<a id="__codelineno-30-12" name="__codelineno-30-12"></a>        public_key = &quot;ssh-ed25519 AAAATHEQUICKBROWNFOXJUMPEDOVERTHELAZYDOG example&quot;
+<a id="__codelineno-30-13" name="__codelineno-30-13"></a>      }
+<a id="__codelineno-30-14" name="__codelineno-30-14"></a>     ]
+<a id="__codelineno-30-15" name="__codelineno-30-15"></a>    },
+<a id="__codelineno-30-16" name="__codelineno-30-16"></a>    &quot;bob&quot; = {
+<a id="__codelineno-30-17" name="__codelineno-30-17"></a>      email = &quot;bob@gmail.com&quot;
+<a id="__codelineno-30-18" name="__codelineno-30-18"></a>      role = &quot;User&quot;
+<a id="__codelineno-30-19" name="__codelineno-30-19"></a>      ssh_users = [
+<a id="__codelineno-30-20" name="__codelineno-30-20"></a>        {
+<a id="__codelineno-30-21" name="__codelineno-30-21"></a>          name = &quot;bob-laptop&quot;
+<a id="__codelineno-30-22" name="__codelineno-30-22"></a>          public_key = &quot;ssh-ed25519 AAAATHEQUICKBROWNFOXJUMPEDOVERTHELAZYDOG example&quot;
+<a id="__codelineno-30-23" name="__codelineno-30-23"></a>        }
+<a id="__codelineno-30-24" name="__codelineno-30-24"></a>       ]
+<a id="__codelineno-30-25" name="__codelineno-30-25"></a>      },
+<a id="__codelineno-30-26" name="__codelineno-30-26"></a>     }
+</code></pre></div>
+<p>Add as many SSH users as you wish to the users defined in the previous task. Of course, you will need to use
+valid SSH keys. If you do not wish to create your own, here is a public key value you can use:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-31-1" name="__codelineno-31-1"></a>ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIB/8P0zXmI/Il81+/fnvGrf0X/VyNTrOJ9nQCxBxjc5m taikun
+</code></pre></div>
+<details class="important" open="open">
+<summary>Important</summary>
+<p>Within one access profile, the names of SSH users must be unique.</p>
+</details>
+<p>You can now declare the taikun_access_profile resource in <em>task5.tf</em>. You will use for_each in a slightly
+different manner as ssh_user is a nested resource within the access_profile resource. Here is the documen-
+tation of the access profile resource.</p>
+<p>The access profile’s requirements are:
+   • It should use the DNS servers 8.8.8.8 and 1.1.1.1.
+   • It should use the NTP server time.windows.com.
+   • It should include all the SSH users defined in users.auto.tfvars.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>While reading access profile’s schema, you may notice dns_server and ntp_server are of the type
+Block List.</p>
+<p>Going back to the pizza order example, here is how block lists are used. Suppose the pizza_order
+resource has an argument extra_topping defined as such:</p>
+<div class="highlight"><pre><span></span><code> - extra_topping (Block List, Max: 5) List of extra pizza toppings. (see below for nested
+ schema)
+
+ Nested Schema for extra_topping
+ Required:
+ - name (String) Name of the extra topping
+ - quantity (Number) Quantity
+</code></pre></div>
+<p>Here is how Alice could add mozzarella di bufala and basil to her amatriciana pizza order.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-32-1" name="__codelineno-32-1"></a>resource &quot;pizza_order&quot; &quot;orders&quot; {
+<a id="__codelineno-32-2" name="__codelineno-32-2"></a>  client = &quot;alice&quot;
+<a id="__codelineno-32-3" name="__codelineno-32-3"></a>  type = &quot;amatriciana&quot;
+<a id="__codelineno-32-4" name="__codelineno-32-4"></a>  size = &quot;large&quot;
+<a id="__codelineno-32-5" name="__codelineno-32-5"></a>
+<a id="__codelineno-32-6" name="__codelineno-32-6"></a>  extra_topping {
+<a id="__codelineno-32-7" name="__codelineno-32-7"></a>    name = &quot;basil leaves&quot;
+<a id="__codelineno-32-8" name="__codelineno-32-8"></a>    quantity = 8
+<a id="__codelineno-32-9" name="__codelineno-32-9"></a>  }
+<a id="__codelineno-32-10" name="__codelineno-32-10"></a>  extra_topping {
+<a id="__codelineno-32-11" name="__codelineno-32-11"></a>    name = &quot;bufala slices&quot;
+<a id="__codelineno-32-12" name="__codelineno-32-12"></a>    quantity = 4
+<a id="__codelineno-32-13" name="__codelineno-32-13"></a>  }
+<a id="__codelineno-32-14" name="__codelineno-32-14"></a>}
+</code></pre></div>
+</details>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>The code to define the SSH users of the access profile is provided below. However, if you wish to give it
+a go yourself first, here is how.</p>
+<p>To define the ssh_user argument, you will need to use a dynamic block with the for_each keyword. You
+will also need to extract the list of all SSH users from the users variable. for expressions and the flatten
+function will be of use.</p>
+</details>
+<p>Spoiler ahead!</p>
+<p>Solution:
+Add the following dynamic "ssh_user" block to your access profile’s configuration.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-33-1" name="__codelineno-33-1"></a>resource &quot;taikun_access_profile&quot; &quot;...&quot; {
+<a id="__codelineno-33-2" name="__codelineno-33-2"></a>
+<a id="__codelineno-33-3" name="__codelineno-33-3"></a>   # Rest of configuration: DNS servers, NTP servers, etc.
+<a id="__codelineno-33-4" name="__codelineno-33-4"></a>   # ...
+<a id="__codelineno-33-5" name="__codelineno-33-5"></a>
+<a id="__codelineno-33-6" name="__codelineno-33-6"></a>   dynamic &quot;ssh_user&quot; {
+<a id="__codelineno-33-7" name="__codelineno-33-7"></a>     for_each = flatten([for user in var.users : user.ssh_users])
+<a id="__codelineno-33-8" name="__codelineno-33-8"></a>     content {
+<a id="__codelineno-33-9" name="__codelineno-33-9"></a>       name = ssh_user.value.name
+<a id="__codelineno-33-10" name="__codelineno-33-10"></a>       public_key = ssh_user.value.public_key
+<a id="__codelineno-33-11" name="__codelineno-33-11"></a>     }
+<a id="__codelineno-33-12" name="__codelineno-33-12"></a>    }
+<a id="__codelineno-33-13" name="__codelineno-33-13"></a>}
+</code></pre></div>
+<p>Once you have fully declared the access profile resource, apply your changes and move on to the next task.</p>
+<h3 id="task-6-project"><strong>Task 6: Project</strong><a class="headerlink" href="#task-6-project" title="Permanent link">&para;</a></h3>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>For this task, please write all your code in the file task6.tf at the root of the workshop/directory.</p>
+</details>
+<p>Finally, you can declare a project resource. However, as flavors must be bound to the project, you must first fetch
+a list of suitable flavors.</p>
+<p>To do this, declare a flavors datasource. Datasources, as opposed to resources, only fetch information from
+providers and do not create any resources. Add the following block to <em>task6.tf</em>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-34-1" name="__codelineno-34-1"></a>data &quot;taikun_flavors&quot; &quot;small&quot; {
+<a id="__codelineno-34-2" name="__codelineno-34-2"></a># FIXME
+<a id="__codelineno-34-3" name="__codelineno-34-3"></a>}
+</code></pre></div>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>As you are declaring a datasource and not a resource, the block begins with the keyword data instead
+of resource. Once again, the type of datasource is in lowercase and must be prefixed by the name of
+the provider. Finally, the label "small" is used to designate this datasource.</p>
+</details>
+<p>Edit the datasource to search for flavors with 4 or fewer CPUs and no more than 8GB of RAM. Set its cloud
+credential ID to that of the cloud credential created in Task 3: Cloud Credentials.</p>
+<p>Then declare a local value flavors to be the list of names of the flavors read by the datasource. See the
+Terraform documentation to know more about local values.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-35-1" name="__codelineno-35-1"></a>locals {
+<a id="__codelineno-35-2" name="__codelineno-35-2"></a>  flavors = [for flavor in data.taikun_flavors.small.flavors : flavor.name]
+<a id="__codelineno-35-3" name="__codelineno-35-3"></a>}
+</code></pre></div>
+<p>This will allow you to refer to the list of flavor names with local.flavors, which will be useful when defining the
+project.</p>
+<p>You now have everything you need to create a project in Taikun. Here is its documentation.</p>
+<p>These are the requirements for the project resource:
+  • As all previous resources, it must belong to the organization created in Task 0: Organization.
+  • It must use the kubernetes profile defined in Task 1: Kubernetes Profile.
+  • Its alerting profile must be the one defined in Task 2: Slack Configuration &amp; Alerting Profile.
+  • It should use the cloud credentials defined in Task 3: Cloud Credentials.
+  • Monitoring must be enabled.
+  • It should have one bastion, one kubemaster and one kubeworker.</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>To access the first element of a list, use the syntax list[index]. For example, to get the first flavor read
+by the flavors datasource, use <em>local.flavors[0]</em>.</p>
+</details>
+<p>After creating a project with Terraform, one may want to know its access IP. Once you have declared the project
+resource, add the following output block to <em>task6.tf</em>.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-36-1" name="__codelineno-36-1"></a>output &quot;project_access_ip&quot; {
+<a id="__codelineno-36-2" name="__codelineno-36-2"></a>  value = resource.taikun_project.&lt;project-label&gt;.access_ip
+<a id="__codelineno-36-3" name="__codelineno-36-3"></a>}
+</code></pre></div>
+<p>Make sure to replace <project-label> with the label you gave your project. This will display the project’s
+access IP once it has been created.-</p>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<p>Output values are a way for the user to output a specific value from Terraform’s state.</p>
+<p>An output value block begins with the keyword output followed by a unique label. By setting the value
+argument, the user can decide which value to output.</p>
+<p>To know more about output values, see Terraform’s documentation.</p>
+</details>
+<p>You can now apply your changes; expect to wait about 30 minutes for your project to be in Ready state.</p>
+<h3 id="task-7-project-user-attachments"><strong>Task 7: Project User Attachments</strong><a class="headerlink" href="#task-7-project-user-attachments" title="Permanent link">&para;</a></h3>
+<details class="note" open="open">
+<summary>Note</summary>
+<p>For this task, please write all your code in the file task7.tf at the root of the workshop/directory.</p>
+</details>
+<p>Now that your project is in Ready state, you can attach some users to it.</p>
+<p>Declare a project user attachment resource with the following <em>for_each</em> argument, replacing <label> with the
+label you gave the taikun_user resource.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-37-1" name="__codelineno-37-1"></a>for_each = {
+<a id="__codelineno-37-2" name="__codelineno-37-2"></a>  for user in resource.taikun_user.&lt;label&gt; : user.id =&gt; user
+<a id="__codelineno-37-3" name="__codelineno-37-3"></a>  if user.role == &quot;User&quot;
+<a id="__codelineno-37-4" name="__codelineno-37-4"></a>}
+</code></pre></div>
+<p>With this block, you will be able to attach only users with the User role to the project. To know more about this
+syntax, see the documentation on for expressions.</p>
+<p>Finally, set the proper values for the <em>user_id</em> and **project_id arguments and apply your changes.</p>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../backup-monitoring-lock-reboot/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Kubeconfigs, Backup, Monitoring, Lock, Reboot" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Kubeconfigs, Backup, Monitoring, Lock, Reboot
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../taikun-cli/" class="md-footer__link md-footer__link--next" aria-label="Next: Taikun-CLI" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Taikun-CLI
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.instant", "navigation.tabs", "toc.integrate", "navigation.expand", "navigation.sections", "search.highlight", "search.share", "search.suggest", "navigation.top", "navigation.tracking", "navigation.indexes", "content.code.annotate"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.c7dec7e7.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.da79ceb7.min.js"></script>
+      
+    
+  </body>
+</html>

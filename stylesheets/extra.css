@@ -1,0 +1,33 @@
+img.a {
+  vertical-align: baseline;
+}
+
+img.b {
+  vertical-align: text-top;
+}
+
+img.c {
+  vertical-align: text-bottom;
+}
+
+img.d {
+  vertical-align: sub;
+}
+
+img.e {
+  vertical-align: super;
+}
+.center {
+    display: block;
+    margin: 0 auto;
+}
+.middle {
+    vertical-align: middle;
+    display: inline;
+    margin: 0 auto;
+}
+.center {  
+display: block;
+margin-left: auto;
+margin-right: auto;
+}  

@@ -36,9 +36,12 @@ Exposes the Service on each Node's IP at a static port, the NodePort. You'll be 
 
 Schedule Pods on control-plane node to maximize resource usage, but we do not recommend it.
 
-
 ???+ info
      Choose this profile with enabled features during [project creation](../projects/creating-a-new-project).
+
+**Enable Unique Cluster Name**
+
+If not enabled, the cluster name will be cluster.local
 
 **Actions**
 

@@ -22,7 +22,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.d47c313d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.8b1d949c.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.9647289d.min.css">
@@ -3088,19 +3088,27 @@
   </p>
 <figcaption>Fig. 1: Projects</figcaption>
 </figure>
-<p><em>Project Name</em> - fill in your project name (only alphanumeric lowercase characters and dash are allowed, 3-30 characters; <strong>not</strong> underscore; e.g. my-project1)</p>
-<p><em>Cloud</em> - choose where you want to store your Project, create a new Cloud in <a href="../../cloud-credentials"><strong>Cloud Credentials</strong></a></p>
-<p><em>Access Profile</em> - choose profile which can access the project, create a new profile in <a href="../../access-profiles"><strong>Access Profiles</strong></a></p>
-<p><em>Alerting Profile</em> - if you have created profile in <a href="../../alerting-profiles"><strong>Alerting Profiles</strong></a>, you can choose it from the drop-down selection</p>
-<p><em>Kubernetes Profile</em> - first create a new profile in <a href="../../kubernetes-profiles"><strong>Kubernetes Profiles</strong></a> and than choose from drop down selection</p>
+<p><strong>Project Name</strong> - fill in your project name (only alphanumeric lowercase characters and dash are allowed, 3-30 characters; <strong>not</strong> underscore; e.g. my-project1)</p>
+<p><strong>Cloud</strong> - choose where you want to store your Project, create a new Cloud in <a href="../../cloud-credentials"><strong>Cloud Credentials</strong></a></p>
+<p><strong>Access Profile</strong> - choose profile which can access the project, create a new profile in <a href="../../access-profiles"><strong>Access Profiles</strong></a></p>
+<p><strong>Alerting Profile</strong> - if you have created profile in <a href="../../alerting-profiles"><strong>Alerting Profiles</strong></a>, you can choose it from the drop-down selection</p>
+<p><strong>Kubernetes Profile</strong> - first create a new profile in <a href="../../kubernetes-profiles"><strong>Kubernetes Profiles</strong></a> and than choose from drop down selection</p>
 <ul>
 <li>for openstack: if you choose profile with enabled Taikun Load Balancer, you also have to fill in <em>Taikun Load Balancer Flavor</em>, <em>Router Id Start Range</em> and <em>Router Id End Range</em></li>
 </ul>
-<p><em>Enable Auto Upgrade</em> - Kubespray version will be automatically upgraded if new version is available</p>
-<p><em>Enable Monitoring</em> - monitoring a Kubernetes cluster allows easy management of containerized infrastructure by tracking utilization of cluster resources including memory, CPU, and storage</p>
-<p><em>Enable Backup</em> - choose credentials, you can create a new one in <a href="../../backup-credentials"><strong>Backup Credentials</strong></a><strong>.</strong> If you choose not to enable it, you can change it later, see <a href="../project-details-k8s##enabledisable-backup"><strong>Projects - Project details - Backup</strong></a></p>
-<p><em>Add Expiration Date</em> - set project durability, by default it is set to infinity. After the expiration date, your project is <strong>NOT</strong> affected, deleted or lock. It will stays the same.</p>
-<p><em>Add Flavor</em> - bind the flavor to the project, you can bind more than one flavor and un/bind them later in <a href="../../flavor-info"><strong>Flavor Info</strong></a></p>
+<p><strong>Enable Auto Upgrade</strong> - Kubespray version will be automatically upgraded if new version is available</p>
+<p><strong>Enable Monitoring</strong> - monitoring a Kubernetes cluster allows easy management of containerized infrastructure by tracking utilization of cluster resources including memory, CPU, and storage</p>
+<p><strong>Enable Backup</strong> - choose credentials, you can create a new one in <a href="../../backup-credentials"><strong>Backup Credentials</strong></a><strong>.</strong> If you choose not to enable it, you can change it later, see <a href="../project-details#enable-disable-backup"><strong>Projects - Project details - Backup</strong></a></p>
+<p><strong>Add Policy Profile</strong> - select a policy profile for the project</p>
+<p><strong>Add Expiration Date</strong> - set project durability, by default it is set to infinity. After the expiration date, your project is <strong>NOT</strong> affected, deleted or lock. It will stays the same.</p>
+<p><strong>Enable Spot</strong> - enable spots</p>
+<ul>
+<li><strong>Allow Spot VM’s</strong> - allow spots in standalone VMs</li>
+<li><strong>Allow Full Spot Kubernetes</strong> - allow full spot on kubernetes</li>
+<li><strong>Allow Spot Workers</strong> - allow spot on workers</li>
+</ul>
+<p><strong>Specify Kubernetes Version</strong> - select the kubernetes version for the project</p>
+<p><strong>Add Flavor</strong> - bind the flavor to the project, you can bind more than one flavor and un/bind them later in <a href="../../flavor-info"><strong>Flavor Info</strong></a></p>
 
 
 

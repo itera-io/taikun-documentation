@@ -1,4 +1,4 @@
-# **Projects**
+# Projects
 
 On the **Projects** tab, you can preview all existing projects to which you are assigned.
 

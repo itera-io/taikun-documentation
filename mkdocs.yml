@@ -26,7 +26,7 @@ extra_css:
 
 theme:
     name: material
-    favicon: https://media-exp1.licdn.com/dms/image/C4D0BAQFv4jXG3fcf4Q/company-logo_200_200/0/1629111293367?e=2159024400&v=beta&t=8CBazqxwtimxfOs48hTOyxSr0P2wrmx0JHnKVJLFWSs
+    favicon: https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/general/Itera_logo.png
     logo: https://cloud.tcpro.cz:30100/swift/v1/KEY_121daf025c5742a6844217e262243c65/doc/taikun_icon_white.png
     features:
       - navigation.instant
@@ -164,3 +164,12 @@ extra:
       as to measure the effectiveness of our documentation and whether users
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/iteraio
+      name: itera.io on Twitter
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/itera-io
+      name: itera.io on Linkedln
+  generator: false
+copyright: Copyright &copy; 2022 - Itera.io

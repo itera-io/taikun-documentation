@@ -57,7 +57,7 @@ Before connecting the cloud you have to [create application registration](../gui
   <figcaption>Fig .4: Azure cloud credentials</figcaption>
 </figure>
 
-If you have trouble adding Azure credentials, see [how fill the fields](../guidelines/add-cloud-credentials/#azure) (at the bottom of the page) and [where to find credentials](../guidelines/add-cloud-credentials/where-to-find-credentials/#azure_1).
+If you have trouble adding Azure credentials, see [how fill the fields](../guidelines/add-cloud-credentials/#azure) (at the bottom of the page) and [where to find credentials](../guidelines/add-cloud-credentials/#azure_1).
 
 ## **Project Creation**
 [:fontawesome-solid-user-tie:](../manager/projects/creating-a-new-project/) **Manager**

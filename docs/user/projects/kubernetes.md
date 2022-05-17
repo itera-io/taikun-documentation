@@ -23,7 +23,7 @@ In **Kubernetes** tab can be found:
     * *Namespace*, *Name* and *Age*
 * **Sts**
     * *Namespace*, *Name*, *Status* and *Age*
-* __Service *__
+* **Service**
     * *Namespace*, *Name*, *Type*, *External IP* and *Age*
 * **Pods**
     * *Namespace*, *Name*, *Node* *Name*, *Age*, *Status*, *Restart* *Count*, *Kill* *Pod*, *Terminal* and *Logs*
@@ -37,7 +37,7 @@ In **Kubernetes** tab can be found:
     * *Namespace*, *Name* and *Created At*
 
 ???+ warning
-	\*Please do NOT deploy any apps in monitoring **Service**, because Taikun uses the monitoring namespace heavily! And if you disable the monitoring, all pvc in monitoring will be deleted.
+	Please do NOT deploy any apps in monitoring **Service**, because Taikun uses the monitoring namespace heavily! And if you disable the monitoring, all pvc in monitoring will be deleted.
 
 <figure markdown>
   ![Kubernetes](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/kubernetes/k8s.gif "Kubernetes")

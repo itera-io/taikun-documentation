@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - New Project
+hide:
+  - tags
+---
+
 # Projects
 	
 On the **Projects** tab, you can preview all existing projects for your organization.

@@ -1,3 +1,12 @@
+---
+tags:
+  - Manager
+  - Project
+  - Kubernetes
+hide:
+  - tags
+---
+
 # **Project Details**
 
 By clicking the selected project you are redirected to the **Servers**. Here you can see all servers for the project with their description.

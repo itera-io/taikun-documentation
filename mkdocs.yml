@@ -19,10 +19,14 @@ markdown_extensions:
   - def_list
   - pymdownx.tasklist:
       custom_checkbox: true
+  - meta
 
 extra_css:
   - stylesheets/extra.css
 
+plugins:
+  - tags:
+      tags_file: tags.md
 
 theme:
     name: material
@@ -60,7 +64,8 @@ nav:
     - Kubeconfigs, Backup, Monitoring, Lock, Reboot: guidelines/backup-monitoring-lock-reboot.md
     - Terraform Provider: guidelines/terraform-provider.md
     - Taikun-CLI: guidelines/taikun-cli.md
-  - User: 
+    - Tags: tags.md
+  - User:
     - User: user/README.md
     - Login: user/login.md
     - Dashboard:
@@ -173,3 +178,4 @@ extra:
       name: itera.io on Linkedln
   generator: false
 copyright: Copyright &copy; 2022 - Itera.io
+

@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Project-Quotas
+hide:
+  - tags
+---
+
 # **Project Quotas**
 
 See *CPU*, *Disk* *Size* and *RAM* usage limits for every Project.

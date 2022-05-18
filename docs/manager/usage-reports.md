@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Usage-Reports
+hide:
+  - tags
+---
+
 # **Usage Reports**
 
 For every *Project*  you can see its *TCU* for time period limited by *Start Date* and *End Date*.

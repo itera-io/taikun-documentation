@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Audit Log
+hide:
+  - tags
+---
+
 # **Audit Log**
 
 You get real-time notification via [**Bell**](../dashboard/tables#recent-events) :bell: but you can also preview all the changes made in **Audit Log**.

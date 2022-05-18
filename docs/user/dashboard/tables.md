@@ -1,3 +1,11 @@
+---
+tags:
+  - User
+  - Tables
+hide:
+  - tags
+---
+
 # **Tables**
 
 ## **Kubernetes**

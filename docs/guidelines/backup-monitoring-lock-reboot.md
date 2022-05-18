@@ -1,3 +1,11 @@
+---
+tags:
+  - Guidlines
+  - Backup Monitoring
+hide:
+  - tags
+---
+
 # **Kubeconfigs, Backup, Monitoring, Lock, Reboot**
 
 [:fontawesome-solid-user:](../../user/projects/project-details-k8s/) **User**

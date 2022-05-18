@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Standalone-VMs
+hide:
+  - tags
+---
+
 # **Standalone VMs**
 
 **Sorting and Accessing Virtual Machine**

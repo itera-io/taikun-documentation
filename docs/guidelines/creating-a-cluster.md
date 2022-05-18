@@ -1,3 +1,11 @@
+---
+tags:
+  - Guidelines
+  - Cluster Creation
+hide:
+  - tags
+---
+
 # **Creating a Cluster**
 
 [:fontawesome-solid-user-tie:](../../manager/projects/creating-a-new-project/) **Manager**

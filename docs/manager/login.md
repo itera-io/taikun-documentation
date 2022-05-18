@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Login
+hide:
+  - tags
+---
+
 # **Login to Taikun**
 
 ## **First-time login**

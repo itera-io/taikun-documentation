@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Showback-Rules
+hide:
+  - tags
+---
+
 # **Showback Rules**
 
 When visiting the tab first you see overview of Showback Rules.

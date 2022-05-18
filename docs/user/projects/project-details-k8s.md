@@ -1,3 +1,12 @@
+---
+tags:
+  - User
+  - Project
+  - Kubernetes
+hide:
+  - tags
+---
+
 # **Project Details - K8s**
 
 By clicking the selected project or K8s View you are redirected to the **Kubernetes Servers**. Here you can see all K8s servers for the project with their description.

@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Showback Credentials
+hide:
+  - tags
+---
 
 # **Showback Credentials**
 

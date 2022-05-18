@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Users
+hide:
+  - tags
+---
+
 # **Users**
 
 In **Users** tab is list of users for each organization. If you want change your settings, visit [**My Profile**](../my-profile).

@@ -1,3 +1,10 @@
+---
+tags:
+  - Manager
+hide:
+  - tags
+---
+
 # **Charts**
 
 ## **Projects**

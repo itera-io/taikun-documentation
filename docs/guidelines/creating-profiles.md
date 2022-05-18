@@ -1,3 +1,11 @@
+---
+tags:
+  - Guidelines
+  - Profile Creation
+hide:
+  - tags
+---
+
 # **Creating Profiles**
 
 [:fontawesome-solid-user-tie:](../../manager/kubernetes-profiles/) **Manager**

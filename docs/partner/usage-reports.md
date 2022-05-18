@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Usage Reports
+hide:
+  - tags
+---
 
 # **Usage Reports**
 

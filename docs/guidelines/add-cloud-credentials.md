@@ -1,3 +1,11 @@
+---
+tags:
+  - Guidlines
+  - Add Cloud Credentials
+hide:
+  - tags
+---
+
 # **Add Cloud Credentials**
 
 [:fontawesome-solid-user-tie:](../../manager/cloud-credentials) **Manager**

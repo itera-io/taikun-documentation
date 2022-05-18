@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Alerting Profiles
+hide:
+  - tags
+---
 
 # **Alerting Profiles**
 

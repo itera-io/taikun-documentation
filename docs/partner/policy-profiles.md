@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Policy Profiles
+hide:
+  - tags
+---
+
 # **Policy Profiles**
 
 Profile uses [**OPA**](https://www.openpolicyagent.org) (Open Policy Agent) to centralize operational, security, and compliance.

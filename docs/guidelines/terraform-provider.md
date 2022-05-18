@@ -1,3 +1,12 @@
+---
+tags:
+  - Guidelines
+  - Terraform
+  - Provider
+hide:
+  - tags
+---
+
 # **Terraform Provider for Taikun Workshop**
 
 [:fontawesome-solid-user:](../../user/projects/project-details-k8s/) **User**

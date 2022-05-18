@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Showback-Credentials
+hide:
+  - tags
+---
+
 # **Showback Credentials**
 
 If you want to use external source for your [**Showback rules**](../showback-rules), add Showback Credentials you then will want to use.

@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Charts
+hide:
+  - tags
+---
+
 # **Charts**
 
 ## **Projects**

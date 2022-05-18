@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Billing Credentials
+hide:
+  - tags
+---
 
 # **Billing Credentials**
 

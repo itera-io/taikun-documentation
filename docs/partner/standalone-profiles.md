@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Standalone Profiles
+hide:
+  - tags
+---
+
 # **Standalone Profiles**
 
 Select organization for a better overview of Standalone Profiles.

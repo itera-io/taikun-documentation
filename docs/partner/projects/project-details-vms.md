@@ -1,3 +1,12 @@
+---
+tags:
+  - Partner
+  - Project
+  - VMs
+hide:
+  - tags
+---
+
 # **Project Details - VMs**
 
 By clicking *VMs* button in Servers page or VMs *View* in Project page you are redirected to the **VMs Servers**. Here you can see all virtual machines for the project with their description.

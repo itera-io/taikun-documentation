@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Slack Configuration
+hide:
+  - tags
+---
 
 # **Slack Configurations**
 

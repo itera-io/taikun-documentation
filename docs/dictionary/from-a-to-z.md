@@ -1,3 +1,13 @@
+---
+tags:
+  - Access Profile
+  - Alerting Profile
+  - Audit Log
+  - Backup Credentials
+hide:
+  - tags
+---
+
 
 # **From A to Z**
 

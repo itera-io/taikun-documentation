@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Cloud Credentials
+hide:
+  - tags
+---
+
 # **Cloud Credentials**
 
 See all projects for each hosting provider:

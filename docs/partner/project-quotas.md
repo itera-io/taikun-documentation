@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Project Quotas
+hide:
+  - tags
+---
 
 # **Project Quotas**
 

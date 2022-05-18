@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Chargeback
+hide:
+  - tags
+---
+
 # **Chargeback**
 
 The **Chargeback** tab is the overview of prices for every billing rule. Change *Start date* and *End date* to adjust the measured time period (for example from the beginning to the end of the month).

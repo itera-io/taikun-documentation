@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - New Project
+hide:
+  - tags
+---
+
 # **Create a New Project**
 
 If you want to add a new project, use the upper right button![]( https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/create-project/add-project-btn.png "add-project"){: .middle}in **Projects** tab.

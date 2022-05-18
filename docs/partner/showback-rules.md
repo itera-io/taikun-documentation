@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Showback Rules
+hide:
+  - tags
+---
+
 # **Showback Rules**
 
 *Select organization* for a better overview of Access Profiles.

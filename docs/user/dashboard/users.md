@@ -1,3 +1,11 @@
+---
+tags:
+  - User
+  - Users
+hide:
+  - tags
+---
+
 # **Users**
 
 Shows how many **Users** are involved in your organization.

@@ -1,3 +1,10 @@
+---
+tags:
+  - First Steps
+hide:
+  - tags
+---
+
 #  **From Login to production Cluster**
 >I am new in Taikun and I want to create Kubernetes cluster for my application.    
 >This is the way how to.
@@ -120,3 +127,4 @@ Add kubeconfig to organize information about clusters, users, namespaces, and au
 </figure>
 
 More about kubeconfigs for [User](../user/projects/project-details-k8s/#kubeconfigs), [Manager](../manager/projects/project-details-k8s/#kubeconfigs) and [Partner](../partner/projects/project-details-k8s/#kubeconfigs).
+

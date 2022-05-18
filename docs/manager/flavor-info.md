@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Flavor Info
+hide:
+  - tags
+---
+
 # **Flavor Info**
 
 Sort flavors by size of CPU and RAM or use search bar.

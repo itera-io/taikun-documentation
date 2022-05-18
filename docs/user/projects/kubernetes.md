@@ -1,3 +1,12 @@
+---
+tags:
+  - User
+  - Project
+  - Kubernetes
+hide:
+  - tags
+---
+
 # **Kubernetes**
 
 To access **Kubernetes** go to Projects - Servers - *K8s Info* or use the K8s button![](ihttps://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/cons/kubernetes.png "K8s")in *Projects*.

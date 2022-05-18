@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Showback-Summary
+hide:
+  - tags
+---
+
 # **Showback Summary**
 
 Showback Summary includes overview of [**Showback Rules**](../showback-rules) with price. Rules calculate the price from time the rule is added but the page is updated at the beginning of every hour. Is you want to stop the price, you have to delete the rule (cannot be paused).

@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Slack-Configuration
+hide:
+  - tags
+---
+
 # **Slack Configurations**
 
 You can receive all the changes made from your Taikun organization into Slack channel you choose.

@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Organizations
+hide:
+  - tags
+---
+
 # **Organizations**
 
 Organize your structure with organizations - which can be then connected with users, projects, etc. The organizations will also help you for a better overview at each site (by drop-down selector).

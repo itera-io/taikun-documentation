@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Backup Credentials
+hide:
+  - tags
+---
 
 # **Backup Credentials**
 

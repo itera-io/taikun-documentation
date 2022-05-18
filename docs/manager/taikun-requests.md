@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Taikun-Requests
+hide:
+  - tags
+---
+
 # **Taikun Requests**
 
 On this tab you can see all request made for Taikun. In the table you can see *Organization Name*, *User Name*, *User role*, *Request Type*, *End Point*, *Ip*, *Status*, *Created* *At* and *Message*.

@@ -1,3 +1,12 @@
+---
+tags:
+  - Guidelines
+  - Change email
+  - Change password
+hide:
+  - tags
+---
+
 # **Change e-mail address or password**
 [:fontawesome-solid-user:](../../user/login) **User**
 [:fontawesome-solid-user-tie:](../../manager/login/) **Manager**

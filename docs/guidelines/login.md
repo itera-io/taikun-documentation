@@ -1,3 +1,11 @@
+---
+tags:
+  - Guidelines
+  - Login
+hide:
+  - tags
+---
+
 # **Login**
 [:fontawesome-solid-user:](../../user/login) **User**
 [:fontawesome-solid-user-tie:](../../manager/login/) **Manager**

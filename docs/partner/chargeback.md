@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Chargeback
+hide:
+  - tags
+---
 
 # **Chargeback**
 

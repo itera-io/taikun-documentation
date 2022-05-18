@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Showback Summary
+hide:
+  - tags
+---
 
 # **Showback Summary**
 

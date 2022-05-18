@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Taikun Requests
+hide:
+  - tags
+---
 
 # **Taikun Requests**
 

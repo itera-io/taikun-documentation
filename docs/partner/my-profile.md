@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - My Profile
+hide:
+  - tags
+---
 
 # *My Profile*
 

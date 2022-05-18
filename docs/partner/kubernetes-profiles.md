@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Kubernetes Profiles
+hide:
+  - tags
+---
 
 # **Kubernetes Profiles**
 

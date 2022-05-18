@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Cloud Credentials
+hide:
+  - tags
+---
+
 # **Cloud Credentials**
 
 *Select organization* for a better overview of Cloud Credentials.

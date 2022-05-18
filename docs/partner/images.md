@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Images
+hide:
+  - tags
+---
+
 # **Images**
 
 ???+ warning

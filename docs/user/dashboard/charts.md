@@ -1,3 +1,11 @@
+---
+tags:
+  - User
+  - Charts
+hide:
+  - tags
+---
+
 # **Charts**
 
 ## **Projects**

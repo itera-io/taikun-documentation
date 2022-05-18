@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Servers
+hide:
+  - tags
+---
+
 # **Servers**
 
 ## **Sorting and Accessing Server**

@@ -1,3 +1,10 @@
+---
+tags:
+  - Taikun
+hide:
+  - tags
+---
+
 # **Welcome to Taikun**
 
 Whole documentation is divided into sections:

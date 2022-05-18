@@ -1,3 +1,12 @@
+---
+tags:
+  - Partner
+  - Project
+  - Kubernetes
+hide:
+  - tags
+---
+
 # **Project Details-K8s**
 
 By clicking the selected project you are redirected to the **Servers**. Here you can see all servers for the project with their description.

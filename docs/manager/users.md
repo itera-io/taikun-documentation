@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Users
+hide:
+  - tags
+---
+
 # **Users**
 
 In **Users** tab is list of users for your organization. If you want change your settings, visit [**My Profile**](../my-profile).

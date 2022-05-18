@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - My-Profile
+hide:
+  - tags
+---
+
 # **My Profile**
 
 You can access your profile and its settings by clicking![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/my-profile.png){: .middle} in the right upper corner of the page.

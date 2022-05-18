@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Standalone-Profiles
+hide:
+  - tags
+---
+
 # **Standalone Profiles**
 
 ???+ warning

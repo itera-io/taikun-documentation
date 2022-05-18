@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Kubernetes Profiles
+hide:
+  - tags
+---
+
 # **Kubernetes Profiles**
 
 Each Profile is characterized by *ID*, *Name*, *Organization Name*, *CNI* (Container Network Interface), *Octavia*, *Proxy on Bastion*, *Projects* and *Actions*.

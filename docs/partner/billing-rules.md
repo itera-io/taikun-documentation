@@ -1,3 +1,10 @@
+---
+tags:
+  - Partner
+  - Billing Rules
+hide:
+  - tags
+---
 
 # **Billing Rules**
 

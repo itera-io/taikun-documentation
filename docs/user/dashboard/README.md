@@ -1,3 +1,11 @@
+---
+tags:
+  - User
+  - Dashboard
+hide:
+  - tags
+---
+
 # Dashboard
 
 You can access the Dashboard by clicking upper left Taikun logo or the *Dashboard* in the tabs:

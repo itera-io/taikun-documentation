@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Access Profiles
+hide:
+  - tags
+---
+
 # **Access Profiles**
 
 ???+ warning

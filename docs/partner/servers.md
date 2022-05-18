@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Servers
+hide:
+  - tags
+---
+
 # **Servers**
 
 *Select organization* for a better overview of servers.

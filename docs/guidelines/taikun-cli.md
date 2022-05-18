@@ -1,3 +1,11 @@
+---
+tags:
+  - Guidelines
+  - Taikun-CLI
+hide:
+  - tags
+---
+
 ## **Taikun Cli Go**
 
 [:fontawesome-solid-user:](../../user/projects/project-details-k8s/) **User**

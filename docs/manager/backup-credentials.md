@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Backup Credentials
+hide:
+  - tags
+---
+
 # **Backup Credentials**
 
 ## **Create new credentials**

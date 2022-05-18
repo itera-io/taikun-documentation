@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Access Profiles
+hide:
+  - tags
+---
+
 # **Access Profiles**
 
 *Select organization* for a better overview of Access Profiles.

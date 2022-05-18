@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Tables
+hide:
+  - tags
+---
+
 # **Tables**
 
 ## **Kubernetes**

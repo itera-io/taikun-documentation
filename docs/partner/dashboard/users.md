@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Users
+hide:
+  - tags
+---
+
 # **Users**
 
 Shows how many **Users** are involved in selected organization. Number of users changes automatically with selecting different organizations.

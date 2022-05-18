@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Ticketing
+hide:
+  - tags
+---
+
 # **Ticketing**
 
 *Select organization* for a better overview of Ticketing.

@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Ticketing
+hide:
+  - tags
+---
+
 # **Ticketing**
 
 Ticketing is Taikun's supporting system for your issues, problems and questions. The page is divided into 4 section. In each you have different options.

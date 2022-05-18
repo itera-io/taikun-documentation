@@ -1,3 +1,10 @@
+---
+tags:
+  - Manager
+hide:
+  - tags
+---
+
 # **Brief Introduction**
 ## :fontawesome-solid-user-tie: **Manager**
 

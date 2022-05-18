@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Images
+hide:
+  - tags
+---
+
 # **Images**
 
 ???+ warning

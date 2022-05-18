@@ -1,3 +1,11 @@
+---
+tags:
+  - Manager
+  - Alerting Profile
+hide:
+  - tags
+---
+
 # **Alerting Profiles**
 
 If you want to receive notifications when there is some alert in you project, just set the alerting profile and attach it to the project.

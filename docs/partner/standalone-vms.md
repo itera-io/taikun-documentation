@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Standalone VMs
+hide:
+  - tags
+---
+
 # **Standalone VMs**
 
 Select organization for a better overview of servers.

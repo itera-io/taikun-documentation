@@ -1,3 +1,11 @@
+---
+tags:
+  - Partner
+  - Select Organization
+hide:
+  - tags
+---
+
 # **Select Organization**
 
 Choose Organization with drop-down button and the Dashboard will be updated (can take up to tens of seconds).

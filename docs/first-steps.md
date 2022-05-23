@@ -3,9 +3,9 @@
 >This is the way how to.
 
 ## **Invitation Mail from Taikun, Reset Password & Login**
-[:fontawesome-solid-user:](http://185.22.98.126/user/login) **User**
-[:fontawesome-solid-user-tie:](http://185.22.98.126/manager/login/) **Manager**
-[:fontawesome-regular-handshake:](http://185.22.98.126/partner/login/) **Partner**
+[:fontawesome-solid-user:](../user/login) **User**
+[:fontawesome-solid-user-tie:](../manager/login/) **Manager**
+[:fontawesome-regular-handshake:](../partner/login/) **Partner**
 
 
 If you are completely new to Taikun, you will receive an invitation to your organization. First you need to reset your password (through *Visit* button in received mail) and then you are redirected right to Taikun login page. By filling *E-mail* and newly created *Password*, you will login to Taikun. First page you see is the Dashboard of your organization.
@@ -101,16 +101,16 @@ For a functional cluster you need one bastion, at least one kubemaster and at le
 
 You can add and delete servers until you are satisfied with the cluster, then you can commit your changes.
 
-You can update some of the features either directly from **Project Details** (depend on role permissions - [User](../user/projects/project-details/), [Manager](../manager/projects/project-details/), [Partner](http://185.22.98.126/partner/projects/project-details/)) like enable backup, enable/disable monitoring, attach/detach alerting profile or under specific tabs like updating *Access Profile*, *Kubernetes Profile*.
+You can update some of the features either directly from **Project Details** (depend on role permissions - [User](../user/projects/project-details/), [Manager](../manager/projects/project-details/), [Partner](../partner/projects/project-details/)) like enable backup, enable/disable monitoring, attach/detach alerting profile or under specific tabs like updating *Access Profile*, *Kubernetes Profile*.
 
 Please keep in mind that some changes need *Repair*, which takes some time (e.g. updating *Access Profile*).
 
 See more information about [**cluster creation**](../guidelines/creating-a-cluster/).
 
 ## **Kubeconfigs**
-[:fontawesome-solid-user:](http://185.22.98.126/user/projects/project-details/#kubeconfigs) **User**
-[:fontawesome-solid-user-tie:](http://185.22.98.126/manager/projects/project-details/#kubeconfigs) **Manager**
-[:fontawesome-regular-handshake:](http://185.22.98.126/partner/projects/project-details/#kubeconfigs) **Partner**
+[:fontawesome-solid-user:](../user/projects/project-details/#kubeconfigs) **User**
+[:fontawesome-solid-user-tie:](../manager/projects/project-details/#kubeconfigs) **Manager**
+[:fontawesome-regular-handshake:](../partner/projects/project-details/#kubeconfigs) **Partner**
 
 Add kubeconfig to organize information about clusters, users, namespaces, and authentication mechanisms.
 

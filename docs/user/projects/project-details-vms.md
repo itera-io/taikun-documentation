@@ -4,7 +4,7 @@ By clicking *VMs* button in Servers page or VMs *View* in Project page you are r
 
 <figure markdown>
   ![Accessing Project's details - VMs](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details-vms/servers-vms.gif "Accessing Project's Details")
-  <figcaption>Fig .1: Accessing project's details</figcaption>
+  <figcaption>Figure.1: Accessing project's details</figcaption>
 </figure>
 
 ## **Project Info**
@@ -13,14 +13,14 @@ Under **Servers** title is a brief description of the project - such as *Project
 
 <figure markdown>
   ![Project Info](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details-vms/project-details-vms.png "Project Info")
-  <figcaption>Fig .2: Project info</figcaption>
+  <figcaption>Figure.2: Project info</figcaption>
 </figure>
 
 When there is some operation going on, you can also see here ETC=Estimated Time to Complete. It is approx time (in minutes) until the cluster will be completed.
 
 <figure markdown>
   ![ETC](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/etc.png "ETC")
-  <figcaption>Fig .3: ETC</figcaption>
+  <figcaption>Figure.3: ETC</figcaption>
 </figure>
 
 ## **Servers**
@@ -29,7 +29,7 @@ Every Server is described by *ID*, *Name*, *Flavor*, *IP Address*, *Public IP Ad
 
 <figure markdown>
   ![Servers for Project](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details-vms/servers-vms.png "Servers for Project")
-  <figcaption>Fig .4: Servers for project</figcaption>
+  <figcaption>Figure.4: Servers for project</figcaption>
 </figure>
 
 Server status can be:
@@ -57,7 +57,7 @@ When the server's are *Failed*, use repair button.
 
 <figure markdown>
   ![Repair](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details-vms/repair.gif "Repair")
-  <figcaption>Fig .5: Repair</figcaption>
+  <figcaption>Figure.5: Repair</figcaption>
 </figure>
 
 ### **Add VM**
@@ -69,7 +69,7 @@ To create a new server click![Add VM](https://cloud.tcpro.cz:30100/swift/v1/KEY_
 
 <figure markdown>
   ![Add VM](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details-vms/add-vm.gif "Add VM")
-  <figcaption>Fig .6: Add VM</figcaption>
+  <figcaption>Figure.6: Add VM</figcaption>
 </figure>
 
 *Server Name* - only alphanumeric characters and dash are allowed, 1-30 characters

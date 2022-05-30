@@ -10,21 +10,21 @@ Choose *Organization*, *Cloud Type* and *Credentials* from drop down selection. 
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/images/bind-image-to-project.gif "Bind to Project")
-  <figcaption>Fig .1: Bind to project</figcaption>
+  <figcaption>Figure.1: Bind to project</figcaption>
 </figure>
 
 A success message is displayed for the successful image bound
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/images/success-image-binding.png "Image bound successfully")
-  <figcaption>Fig .2: Successful image binding</figcaption>
+  <figcaption>Figure.2: Successful image binding</figcaption>
 </figure>
 
 An error message is displayed, if the image is already bound to the project.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/images/failure-image-binding.png "Image already bound")
-  <figcaption>Fig .3: Image already bound</figcaption>
+  <figcaption>Figure.3: Image already bound</figcaption>
 </figure>
 
 With the same way images can be bound from the tabs **My Images** and **Public Images**
@@ -33,14 +33,14 @@ With the same way images can be bound from the tabs **My Images** and **Public I
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/images/my-images.png "My Images")
-  <figcaption>Fig .4: My Images</figcaption>
+  <figcaption>Figure.4: My Images</figcaption>
 </figure>
 
 ## **Public Images - Bind to Project**
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/images/public-images.png "Public Images")
-  <figcaption>Fig .5: Public Images</figcaption>
+  <figcaption>Figure.5: Public Images</figcaption>
 </figure>
 
 ## **Image-Project Bounds | Unbind Image**
@@ -51,5 +51,5 @@ To unbind a flavor from a specific project, choose a Cloud, select the project-i
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/images/unbind-image.gif "Unbind Image")
-  <figcaption>Fig .6: Unbind image</figcaption>
+  <figcaption>Figure.6: Unbind image</figcaption>
 </figure>

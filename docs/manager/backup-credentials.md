@@ -4,7 +4,7 @@
 
 <figure markdown>
   ![Add Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/backup-credentials/add-backup-credentials.png "Add Backup Credentials")
-  <figcaption>Fig .1: Add credentials</figcaption>
+  <figcaption>Figure.1: Add credentials</figcaption>
 </figure>
 
 *S3 Name* - name for backup credentials (3-30 characters)
@@ -31,7 +31,7 @@ Every Credential has its:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/backup-credentials/backup-credentials.png "Backup Credentials")
-  <figcaption>Fig .2: Backup credentials</figcaption>
+  <figcaption>Figure.2: Backup credentials</figcaption>
 </figure>
 
 *ID* and *Organization* are immutable.

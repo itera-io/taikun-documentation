@@ -8,7 +8,7 @@ To access server details, click *Project Name.*
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/servers/servers.png "Servers")
-  <figcaption>Fig .1: Servers</figcaption>
+  <figcaption>Figure.1: Servers</figcaption>
 </figure>
 
 Clicking *Organization Name* you will be redirected to [**Dashboard**](../dashboard), clicking the *Project Name* you will be redirected to [**Project's details**](../projects/project-details-k8s/).
@@ -17,7 +17,7 @@ Clicking *Organization Name* you will be redirected to [**Dashboard**](../dashbo
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/servers/servers-show-hidden-columns.gif "Show hidden columns")
-  <figcaption>Fig .2: Show hidden columns</figcaption>
+  <figcaption>Figure.2: Show hidden columns</figcaption>
 </figure>
 
 Extend columns to see more:

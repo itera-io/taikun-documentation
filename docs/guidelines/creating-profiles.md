@@ -16,7 +16,7 @@ Set parameters for your kubernetes profile and choose it from drop-down selectio
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/creating-profiles/add-kubernetes-profile.gif "Kubernetes Profile")
-  <figcaption>Fig .1: Kubernetes profiles</figcaption>
+  <figcaption>Figure.1: Kubernetes profiles</figcaption>
 </figure>
 
 ## **Access Profiles**
@@ -25,7 +25,7 @@ Set parameters for your access profile and choose it from drop-down selection du
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/creating-profiles/add-access-profile.gif "Access Profile")
-  <figcaption>Fig .2: Access profiles</figcaption>
+  <figcaption>Figure.2: Access profiles</figcaption>
 </figure>
 
 ## **Alerting Profiles**
@@ -37,7 +37,7 @@ Set parameters for your alerting profile and choose it from drop-down selection 
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/creating-profiles/add-alerting-profile.gif "Alerting Profile")
-  <figcaption>Fig .3: Aletring profiles</figcaption>
+  <figcaption>Figure.3: Aletring profiles</figcaption>
 </figure>
 
 ## **Policy Profiles**
@@ -49,7 +49,7 @@ Set parameters for your policy profile and choose it from drop-down selection du
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/creating-profiles/add-policy-profile.gif "Policy Profiles")
-  <figcaption>Fig .4: Policy profiles</figcaption>
+  <figcaption>Figure.4: Policy profiles</figcaption>
 </figure>
 
 ## **Standalone Profiles**
@@ -58,5 +58,5 @@ Set parameters for your standalone profile and choose it from drop-down selectio
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/creating-profiles/add-standalone-profile.gif "Stanalone Profiles")
-  <figcaption>Fig .5: Standalone profiles</figcaption>
+  <figcaption>Figure.5: Standalone profiles</figcaption>
 </figure>

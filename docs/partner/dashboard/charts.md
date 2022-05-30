@@ -11,7 +11,7 @@ The graph shows number of **Projects** (right corner) for your organization and 
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/charts/projects.gif "Projects")
-  <figcaption>Fig. 1: Projects</figcaption>
+  <figcaption>Figure.1: Projects</figcaption>
 </figure>
 
 By clicking the specific part in graph, you see an overview of selected projects.
@@ -29,7 +29,7 @@ In the right corner is number of **Servers** and the pie chart shows their curre
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/charts/server-statuses.gif "Server Statuses")
-  <figcaption>Fig. 2: Server Statuses</figcaption>
+  <figcaption>Figure.2: Server Statuses</figcaption>
 </figure>
 
 By clicking the specific part in graph you see an overview of selected servers.
@@ -42,7 +42,7 @@ In the right corner is shown number of all **Servers** for your organization. Th
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/charts/servers.gif "Servers")
-  <figcaption>Fig. 3: Servers</figcaption>
+  <figcaption>Figure.3: Servers</figcaption>
 </figure>
 
 For more information about servers visit [**Servers**](../../servers), for clouds visit [**Cloud Credentials**](../../cloud-credentials).
@@ -53,7 +53,7 @@ In the right corner is shown number of **Cloud Credentials**. The graph shows wh
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/charts/cloud-credentials.gif "Cloud Credentials")
-  <figcaption>Fig. 4: Cloud Credentials</figcaption>
+  <figcaption>Figure.4: Cloud Credentials</figcaption>
 </figure>
 
 For more information visit [**Cloud Credentials**](../../cloud-credentials).
@@ -67,7 +67,7 @@ In the right corner is shown number of **Nodes** and the pie chart shows their c
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/charts/nodes-overview.gif "Nodes Overview")
-  <figcaption>Fig. 5: Nodes overview</figcaption>
+  <figcaption>Figure.5: Nodes overview</figcaption>
 </figure>
 
 By clicking the graph you see [Kubernetes](../../projects/kubernetes) overview, where you can find Projects with number of Healthy and Unhealthy Nodes.
@@ -82,7 +82,7 @@ In the right corner is shown number of [**Pods**](../../projects/kubernetes#pods
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/charts/pods-verview.gif "Pods Overview")
-  <figcaption>Fig. 6: Pods overview</figcaption>
+  <figcaption>Figure.6: Pods overview</figcaption>
 </figure>
 
 By clicking the graph you see [Kubernetes](./../projects/kubernetes) overview, where you can find Projects with number of Healthy and Unhealthy Pods.
@@ -93,7 +93,7 @@ In the right corner is shown number of all **alerts** and the pie chart shows ho
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/charts/projects-with-alerts.gif "Projects with alerts")
-  <figcaption>Fig. 7: Projects with Alerts</figcaption>
+  <figcaption>Figure.7: Projects with Alerts</figcaption>
 </figure>
 
 By clicking the graph you see Kubernetes overview, where you can find Projects with number of alerts.
@@ -111,7 +111,7 @@ In the right corner is shown number of **Non-Healthy** items  and the pie chart 
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/charts/kubernetes-health.gif "Kubernetes Health")
-  <figcaption>Fig. 8: Kubernetes Health</figcaption>
+  <figcaption>Figure.8: Kubernetes Health</figcaption>
 </figure>
 
 By clicking the graph you see Kubernetes overview, where you can find Projects (with kubernetes) with its kubernetes health status.

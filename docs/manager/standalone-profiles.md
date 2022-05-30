@@ -7,7 +7,7 @@ See all profiles created for your organization. Each profile is described by its
 
 <figure markdown>
   ![Standalone Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/standalone-profiles/overview.png "Standalone Profiles")
-  <figcaption> Fig. 1: Standalone Profiles </figcaption>
+  <figcaption> Figure.1: Standalone Profiles </figcaption>
 </figure>
 
 **Actions**
@@ -25,7 +25,7 @@ Create a new profile to access your virtual machine.
 
 <figure markdown>
   ![Add Standalone Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/standalone-profiles/add-profile.png "Add Standalone Profile")
-  <figcaption> Fig. 2: Add Standalone Profiles </figcaption>
+  <figcaption> Figure.2: Add Standalone Profiles </figcaption>
 </figure>
 
 

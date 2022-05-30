@@ -10,7 +10,7 @@ To access server details, click *Project Name*.
 
 <figure markdown>
   ![Servers](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/servers/servers.png "Servers")
-  <figcaption>Fig. 1: Servers</figcaption>
+  <figcaption>Figure.1: Servers</figcaption>
 </figure>
 
 Clicking *Organization Name* you will be redirected to **Dashboard**, clicking the *Project Name* you will be redirected to **Project's details**.
@@ -19,7 +19,7 @@ Clicking *Organization Name* you will be redirected to **Dashboard**, clicking t
 
 <figure markdown>
   ![Show hidden columns](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/servers/show-hidden-columns.gif "Show hidden columns")
-  <figcaption>Fig. 2: Show hidden columns</figcaption>
+  <figcaption>Figure.2: Show hidden columns</figcaption>
 </figure>
 
 Extend columns to see more:

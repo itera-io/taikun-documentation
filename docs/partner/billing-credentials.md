@@ -6,8 +6,8 @@
 In this tab you can find all sources from Prometheus for the Billing. Use *Select Organization* to sort the credentials.
 
 <figure markdown>
-  ![Fig. 1: Billing Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-credentials/billing-cred.png "Billing Credentials")
-  <figcaption>Fig. 1: Billing Credentials</figcaption>
+  ![Figure.1: Billing Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-credentials/billing-cred.png "Billing Credentials")
+  <figcaption>Figure.1: Billing Credentials</figcaption>
 </figure>
 
 

@@ -15,7 +15,7 @@ In the table there are presented:
 
 <figure markdown>
   ![Chargeback](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/chargeback/chargeback.png)
-  <figcaption>Fig. 1: Chargeback</figcaption>
+  <figcaption>Figure.1: Chargeback</figcaption>
 </figure>
 
 
@@ -35,7 +35,7 @@ Graph for **Price Development** shows decrease and increase of prices for every 
 
 <figure markdown>
   ![Price development](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/chargeback/price-development.gif "Price Development")
-  <figcaption>Fig. 2: Price development</figcaption>
+  <figcaption>Figure.2: Price development</figcaption>
 </figure>
 
 ???+ warning

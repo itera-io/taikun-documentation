@@ -6,7 +6,7 @@ Table contains *ID*, *Name* and *Price*. Bold *Name* is rule and its *Price* is 
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/showback-summary/showback-summary.png "Showback Summary")
-  <figcaption>Fig .1: Showback summary</figcaption>
+  <figcaption>Figure.1: Showback summary</figcaption>
 </figure>
 
 ## **Export**
@@ -25,7 +25,7 @@ Data is also plotted in doughnut and line charts. You can switch between them wi
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/showback-summary/showback-summary-charts.gif "Showback Charts")
-  <figcaption>Fig .2: Charts</figcaption>
+  <figcaption>Figure.2: Charts</figcaption>
 </figure>
 
 Line chart can be filtered by *Available* or *Deleted*, Monthly and Yearly graphs are plotted only if there is enough data.

@@ -4,7 +4,7 @@ By clicking the selected project you are redirected to the **Servers**. Here you
 
 <figure markdown>
   ![Accessing project's details](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/access-project-details.gif "Accessing Project's Details")
-  <figcaption>Fig. 1: Accessing project's details</figcaption>
+  <figcaption>Figure.1: Accessing project's details</figcaption>
 </figure>
 
 ## **Project Info**
@@ -14,7 +14,7 @@ Under **Servers** title is a brief description of a project - such as *Project N
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/project-info.png "Project Info")
-  <figcaption>Fig. 2: Brief Project Info</figcaption>
+  <figcaption>Figure.2: Brief Project Info</figcaption>
 </figure>
 
 You can also see here ETC=Estimated Time to Complete. It is approx time (in minutes) until the cluster will be completed.
@@ -30,7 +30,7 @@ Every server is described by *ID*, *Server Name*, *IP Address*, *Flavor*, *CPU/R
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/servers.png "Servers for K8s Project")
-  <figcaption>Fig. 3: Servers for Project</figcaption>
+  <figcaption>Figure.3: Servers for Project</figcaption>
 </figure>
 
 Server status can be:
@@ -72,7 +72,7 @@ After you enable the backup, you get notified through *Notification* and you can
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/velero.gif "Velero tool")
-  <figcaption>Fig. 4: Velero tool</figcaption>
+  <figcaption>Figure.4: Velero tool</figcaption>
 </figure>
 
 After enabling backup, you should add [**Backup Policies**](#backup-policy).
@@ -98,7 +98,7 @@ When the server's are *Failed* or there is some other problem in the cluster, it
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/repair.gif "Repair")
-  <figcaption>Fig. 5: Repair</figcaption>
+  <figcaption>Figure.5: Repair</figcaption>
 </figure>
 
 ### Attach/Detach Alerting Profile
@@ -130,7 +130,7 @@ Use the link to bind a flavor.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/add-workers.gif "Add servers")
-  <figcaption>Fig. 6: Add Server</figcaption>
+  <figcaption>Figure.6: Add Server</figcaption>
 </figure>
 
 *Server Name* - only alphanumeric characters and dash are allowed, 1-30 characters
@@ -181,7 +181,7 @@ This button will redirect you to Audit Log with pre-filled organization and proj
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/history.gif "History")
-  <figcaption>Fig. 7: History</figcaption>
+  <figcaption>Figure.7: History</figcaption>
 </figure>
 
 ### **Kubeconfigs**
@@ -190,7 +190,7 @@ Add a new kubernetes configuration for your profile and project.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/add-kubeconfig.png "Add kubeconfig")
-  <figcaption>Fig. 8: Add Kube Config</figcaption>
+  <figcaption>Figure.8: Add Kube Config</figcaption>
 </figure>
 
 *Kubeconfig Name* - choose a name for your kubeconfig
@@ -211,7 +211,7 @@ You can see all project's configurations in the table with its *ID*, *Name*, *Us
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/kubeconfig-overview.png "Kube Config")
-  <figcaption>Fig. 9: Kubeconfigs</figcaption>
+  <figcaption>Figure.9: Kubeconfigs</figcaption>
 </figure>
 
 **Actions**
@@ -238,7 +238,7 @@ You can sort Events by:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/events.png "Events")
-  <figcaption>Fig. 10: Events</figcaption>
+  <figcaption>Figure.10: Events</figcaption>
 </figure>
 
 ### **Logs**
@@ -249,14 +249,14 @@ Logs button is disabled if [**Monitoring is disabled**](#enabledisable-monitorin
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/logs.png "Logs")
-  <figcaption>Fig. 11: Logs</figcaption>
+  <figcaption>Figure.11: Logs</figcaption>
 </figure>
 
 Write your query and use *Start date* and *End Date* for sorting. You can also expand every message - red is an *added* action,  without color is other log.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/logs-details.png "Logs details")
-  <figcaption>Fig. 12: Logs details</figcaption>
+  <figcaption>Figure.12: Logs details</figcaption>
 </figure>
 
 ### **Alerts**
@@ -265,7 +265,7 @@ First thing when you access Alerts are *Firing Alerts*. This section is refreshe
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/firing-alerts.gif "Firing Alerts")
-  <figcaption>Fig. 13: Firing alerts</figcaption>
+  <figcaption>Figure.13: Firing alerts</figcaption>
 </figure>
 
 To see all alerts, use upper right *Show All Alerts* button. As seen above, firing alerts are marked with red color.
@@ -276,7 +276,7 @@ Alerts are accessible only if *Monitoring* is enabled and the project is not emp
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/firing-alerts-metrics.gif "Alerts to Metrics")
-  <figcaption>Fig. 1: Alerts</figcaption>
+  <figcaption>Figure.14: Alerts</figcaption>
 </figure>
 
 For each alert you can see details and use a link that will redirected you to [**Metrics**](#metrics) with the query already filled.
@@ -287,7 +287,7 @@ Firing alerts also work from the real-time notifications bell :bell: in header.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/firing-alerts-notification.gif "Alerts notifications"){: .middle}
-  <figcaption>Fig. 15: Alerts bell</figcaption>
+  <figcaption>Figure.15: Alerts bell</figcaption>
 </figure>
 
 The notification contains a brief message on a specific project and bellow the message is time of the change. After clicking *Show Project*, you can access the project in which the alert is.
@@ -304,7 +304,7 @@ Switch between *Console* and *Graph* for better results.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/metrics.gif "Metrics")
-  <figcaption>Fig. 16: Metrics</figcaption>
+  <figcaption>Figure.16: Metrics</figcaption>
 </figure>
 
 ### **Backup Policy**
@@ -313,7 +313,7 @@ After you [**Enable Backup**](../project-details#enable-disable-backup), you hav
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/backup-policy-restores.png "Add Policy")
-  <figcaption>Fig. 17: Add Policy</figcaption>
+  <figcaption>Figure.17: Add Policy</figcaption>
 </figure>
 
 *Name* - choose a name for your backup (3-30 characters)
@@ -341,7 +341,7 @@ In *Schedules* you can find overview of your backup policy.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/backup-policy-schedules.png "Schedules")
-  <figcaption>Fig. 18: Schedules</figcaption>
+  <figcaption>Figure.18: Schedules</figcaption>
 </figure>
 
 ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show-description.png "show description"){: .middle} *Show description* - see detailed e.g. specification, metadata etc.
@@ -355,7 +355,7 @@ In *Schedules* you can find overview of your backup policy.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/backup-policy-backups.png "Backups")
-  <figcaption>Fig. 19: Backups</figcaption>
+  <figcaption>Figure.19: Backups</figcaption>
 </figure>
 
 ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show-description.png "show description"){: .middle} *Show description* - see detailed e.g. specification, metadata etc.
@@ -371,7 +371,7 @@ Overview of restores from *Backups*.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/backup-policy-restores.png "Restores")
-  <figcaption>Fig. 20: Restores</figcaption>
+  <figcaption>Figure.20: Restores</figcaption>
 </figure>
 
 ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show-description.png "show description"){: .middle} *Show description* - see detailed e.g. metadata etc.
@@ -385,14 +385,14 @@ Dashboard is accessible only if cluster is created and [monitoring is enabled](#
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/dashboard.gif "Project Dashboard")
-  <figcaption>Fig. 21: Dashboard</figcaption>
+  <figcaption>Figure.21: Dashboard</figcaption>
 </figure>
 
 Here you can see graphs with *Memory* and *CPU* usage for the project. You can also add **Query** you want.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/dashboard-query.png "Add Query")
-  <figcaption>Fig. 22: Add Predefined Query</figcaption>
+  <figcaption>Figure.22: Add Predefined Query</figcaption>
 </figure>
 
 *Name* - choose name for your query (e.g. My Query)

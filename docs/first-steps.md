@@ -14,7 +14,7 @@ If [**Keycloak**](https://www.keycloak.org) is set for your organization, you ca
 
 <figure markdown>
   ![First Login](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/login.gif "First Login")   
-  <figcaption>Fig .1: First login</figcaption>
+  <figcaption>Figure.1: First login</figcaption>
 </figure>
 
 If you [**forget your password**](../guidelines/login/#forgotten-password), you can reset it.   
@@ -34,7 +34,7 @@ Before connecting the openstack cloud, you have to fulfill the [requirements](..
 
 <figure markdown>
   ![OpenStack Cloud Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/add-cc-openstack.gif "OpenStack Cloud Credentials")   
-  <figcaption>Fig .2: Openstack cloud credentials</figcaption>
+  <figcaption>Figure.2: Openstack cloud credentials</figcaption>
 </figure>
    
 If you have trouble adding openstack credentials, see [how fill the fields](../guidelines/add-cloud-credentials/#openstack) and [where to find credentials](../guidelines/add-cloud-credentials/#openstack_1).
@@ -43,7 +43,7 @@ If you have trouble adding openstack credentials, see [how fill the fields](../g
 
 <figure markdown>
   ![AWS Cloud Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/add-cc-aws.gif "AWS Cloud Credentials")
-  <figcaption>Fig .3: AWS cloud credentials</figcaption>
+  <figcaption>Figure.3: AWS cloud credentials</figcaption>
 </figure>
 
 If you have trouble adding AWS credentials, see [how fill the fields](../guidelines/add-cloud-credentials/#amazon-web-services) and [where to find credentials](../guidelines/add-cloud-credentials/#aws).
@@ -54,7 +54,7 @@ Before connecting the cloud you have to [create application registration](../gui
 
 <figure markdown>
   ![Azure Cloud credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/add-cc-azure.gif "Azure Cloud Credentials")
-  <figcaption>Fig .4: Azure cloud credentials</figcaption>
+  <figcaption>Figure.4: Azure cloud credentials</figcaption>
 </figure>
 
 If you have trouble adding Azure credentials, see [how fill the fields](../guidelines/add-cloud-credentials/#azure) (at the bottom of the page) and [where to find credentials](../guidelines/add-cloud-credentials/#azure_1).
@@ -67,7 +67,7 @@ After you have successfully added cloud credentials, you can add a project! Duri
 
 <figure markdown>
   ![Add Project](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/add-project.gif "Add Project")
-  <figcaption>Fig .5: Add project</figcaption>
+  <figcaption>Figure.5: Add project</figcaption>
 </figure>
 
 In *Access Profile*, *Alerting Profile* and *Kubernetes Profile* you have by default option *default*. These profiles are created with every new organization. You can also create a new profile and then choose from drop-down selection. If you want to enable backup, you have to add backup credentials first, same with policy profile.  
@@ -96,7 +96,7 @@ For a functional cluster you need one bastion, at least one kubemaster and at le
 
 <figure markdown>
   ![Create Cluster](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/create-cluster.gif "Create a Cluster")
-  <figcaption>Fig .6: Create cluster</figcaption>
+  <figcaption>Figure.6: Create cluster</figcaption>
 </figure>
 
 You can add and delete servers until you are satisfied with the cluster, then you can commit your changes.
@@ -116,7 +116,7 @@ Add kubeconfig to organize information about clusters, users, namespaces, and au
 
 <figure markdown>
   ![Add Kubeconfig](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/kubeconfig.gif "Add Kubeconfigs")
-  <figcaption>Fig .7: Add kubeconfig</figcaption>
+  <figcaption>Figure.7: Add kubeconfig</figcaption>
 </figure>
 
 More about kubeconfigs for [User](../user/projects/project-details-k8s/#kubeconfigs), [Manager](../manager/projects/project-details-k8s/#kubeconfigs) and [Partner](../partner/projects/project-details-k8s/#kubeconfigs).

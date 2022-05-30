@@ -10,7 +10,7 @@ The **Kubernetes** chart consists of 3 main sections:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/tables/kubernetes.gif "Kubernetes")
-  <figcaption>Fig .1: Kubernetes</figcaption>
+  <figcaption>Figure.1: Kubernetes</figcaption>
 </figure>
 
 **Projects**
@@ -33,7 +33,7 @@ If the status is failed, you can check the pod in Kubernetes section - use the l
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/tables/node-pod-failure.gif "Node/Pod failure")
-  <figcaption>Fig .2: Node/Pod failure</figcaption>
+  <figcaption>Figure.2: Node/Pod failure</figcaption>
 </figure>
 
 For more information see [**Projects - Kubernetes**](../../projects/kubernetes).
@@ -44,7 +44,7 @@ In this section you can see how the usage of *CPUs*, *RAM* and *Disk* *Size* are
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/tables/project-resource-allocation.gif "Project Resource Allocation")
-  <figcaption>Fig .3: Project resource allocation</figcaption>
+  <figcaption>Figure.3: Project resource allocation</figcaption>
 </figure>
 
 The pie charts shows percentage of usage of each project:
@@ -65,7 +65,7 @@ Lists 10 events from the latest. Green ones are successful events, red ones are 
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/tables/recent-events.gif "Recent Events")
-  <figcaption>Fig .4: Recent events</figcaption>
+  <figcaption>Figure.4: Recent events</figcaption>
 </figure>
 
 By clicking *Show all* you are redirected to [**Audit Log**](../../audit-log).

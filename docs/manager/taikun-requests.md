@@ -4,7 +4,7 @@ On this tab you can see all request made for Taikun. In the table you can see *O
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/taikun-requests/taikun-requests.png "Taikun Requests")
-  <figcaption>Fig .1: Taikun requests</figcaption>
+  <figcaption>Figure.1: Taikun requests</figcaption>
 </figure>
 
 Request Type:
@@ -29,7 +29,7 @@ Messages can be filtered by *Request Type* and/or by date.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/taikun-requests/taikun-requests-sorting.gif "Filtering")
-  <figcaption>Fig .2: Filtering</figcaption>
+  <figcaption>Figure.2: Filtering</figcaption>
 </figure>
 
 ## **Export requests**

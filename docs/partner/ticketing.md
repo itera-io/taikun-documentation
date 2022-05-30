@@ -33,7 +33,7 @@ Ticketing is Taikun's supporting system for your issues, problems and questions.
 
 <figure markdown>
   ![Create a ticket](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/ticketing/create-ticket.gif)
-  <figcaption>Fig. 1: Create a ticket</figcaption>
+  <figcaption>Figure.1: Create a ticket</figcaption>
 </figure>
 
 
@@ -46,7 +46,7 @@ Now you have 3 options:
 
 <figure markdown>
   ![Update the ticket](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/ticketing/update-ticket.gif "Update ticket")
-  <figcaption>Fig. 2: Update the ticket</figcaption>
+  <figcaption>Figure.2: Update the ticket</figcaption>
 </figure>
 
 
@@ -57,7 +57,7 @@ Just click on the ticket and update the fields you want to change.
 
 <figure markdown>
   ![Delete the ticket](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/ticketing/delete%20ticket.gif "Delete ticket")
-  <figcaption>Fig. 3: Delete the ticket</figcaption>
+  <figcaption>Figure.3: Delete the ticket</figcaption>
 </figure>
 
 
@@ -83,7 +83,7 @@ Once the problem is solved you can transfer it to *Closed*.
 
 <figure markdown>
   ![Add comment and close the ticket](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/ticketing/add-comment-close.gif "Add comment and close")
-  <figcaption>Fig. 4: Add comment and close the ticket</figcaption>
+  <figcaption>Figure.4: Add comment and close the ticket</figcaption>
 </figure>
 
 After the issue is solved CSM will transfer the ticket to *Archived*.

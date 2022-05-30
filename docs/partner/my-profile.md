@@ -8,15 +8,15 @@ You can access your profile and its settings by clicking![](https://cloud.tcpro.
 Here you can see your *User Name*, *Organization Name*, *E-mail* and *Role*.
 
 <figure markdown>
-  ![Fig. 1: My Information](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/my-information.png "My Information")
-  <figcaption> Fig. 1: My Information </figcaption>
+  ![Figure.1: My Information](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/my-information.png "My Information")
+  <figcaption> Figure.1: My Information </figcaption>
 </figure>
 
 ### Settings
 
 <figure markdown>
-  ![Fig. 2: Settings](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/settings.png "Settings")
-  <figcaption> Fig. 2: Settings </figcaption>
+  ![Figure.2: Settings](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/settings.png "Settings")
+  <figcaption> Figure.2: Settings </figcaption>
 </figure>
 
 In **Settings** section you can:
@@ -33,15 +33,15 @@ In **Settings** section you can:
 You just need to type your new e-mail, which you want to use in the future.
 
 <figure markdown>
-  ![Fig. 3: Change e-mail](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/change-mail.png "Change Email")
-  <figcaption> Fig. 3: Change e-mail </figcaption>
+  ![Figure.3: Change e-mail](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/change-mail.png "Change Email")
+  <figcaption> Figure.3: Change e-mail </figcaption>
 </figure>
 
 Your e-mail address is changed but not confirmed, which is indicated with red cross :heavy_multiplication_x: next to your e-mail in *My Information*.
 
 <figure markdown>
-  ![Fig. 4: Not confirmed email](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/my-profile/not-confirmed-mail.png)
-  <figcaption> Fig. 4: Not confirmed email </figcaption>
+  ![Figure.4: Not confirmed email](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/my-profile/not-confirmed-mail.png)
+  <figcaption> Figure.4: Not confirmed email </figcaption>
 </figure>
 
 Clicking the *Confirm E-Mail* button will send the confirmation token to the e-mail address provided by you. Use the link in the mail to confirm your mail. If the link redirects you to homepage of Taikun, please login first and click the link in the e-mail again.
@@ -49,8 +49,8 @@ Clicking the *Confirm E-Mail* button will send the confirmation token to the e-m
 Token expires after 1 hour and then you need to send it with *Confirm E-mail* button again.
 
 <figure markdown>
-  ![Fig. 5: Confirmed e-mail](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/e-mail-verified.png "Confirmaed email")
-  <figcaption> Fig. 5: Confirmed e-mail </figcaption>
+  ![Figure.5: Confirmed e-mail](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/e-mail-verified.png "Confirmaed email")
+  <figcaption> Figure.5: Confirmed e-mail </figcaption>
 </figure>
 
 ???+ info
@@ -66,8 +66,8 @@ Password should contain at least 1 uppercase, 1 lowercase, 1 number, 1 non alpha
     If you receive an error during changing the password, please check it meets the conditions.
 
 <figure markdown>
-  ![Fig. 4: Change Password](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/change-mail-password/change-password.gif)
-  <figcaption> Fig. 6: Change Password  </figcaption>
+  ![Figure.4: Change Password](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/change-mail-password/change-password.gif)
+  <figcaption> Figure.6: Change Password  </figcaption>
 </figure>
 
 ???+ danger
@@ -82,8 +82,8 @@ If you no longer wish to use Taikun, permanently delete your account. You will l
 See information about your organization, you can also update them here.
 
 <figure markdown>
-  ![Fig. 5: Partner section](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/partner.png)
-  <figcaption> Fig. 7: Partner section </figcaption>
+  ![Figure.5: Partner section](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/my-profile/partner.png)
+  <figcaption> Figure.7: Partner section </figcaption>
 </figure>
 
 #### Choose logo

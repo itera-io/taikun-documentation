@@ -24,7 +24,7 @@ Here are examples for each cloud:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/add-cc-openstack.gif "Add Openstack Credentials")
-  <figcaption>Fig .1: Openstack</figcaption>
+  <figcaption>Figure.1: Openstack</figcaption>
 </figure>
 
 *Cloud Name* - choose name for your Cloud Credentials (3-30 characters, e.g. cloud-test)
@@ -63,7 +63,7 @@ Optional:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/add-cc-aws.gif "Add AWS")
-  <figcaption>Fig .2: AWS - Amazon web service</figcaption>
+  <figcaption>Figure.2: AWS - Amazon web service</figcaption>
 </figure>
 
 *Cloud Name* - choose name for your Cloud Credentials (3-30 characters, e.g. cloud-test)
@@ -228,7 +228,7 @@ Please be careful when inserting the credentials. If you add incorrect credentia
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/add-cc-azure.gif "Add Azure Credentials")
-  <figcaption>Fig .3: Azure</figcaption>
+  <figcaption>Figure.3: Azure</figcaption>
 </figure>
 
 *Cloud Name* - choose name for your Cloud Credentials (3-30 characters, e.g. cloud-test)
@@ -251,7 +251,7 @@ Url
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/openstack-url.png "Openstac-Url")
-  <figcaption>Fig .4: Openstack-URL</figcaption>
+  <figcaption>Figure.4: Openstack-URL</figcaption>
 </figure>
 
 ### **AWS**
@@ -264,12 +264,12 @@ Access Key Id, Secret Access Key
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/aws-1.png "AWS 1: User-My Security Credentials")
-  <figcaption>Fig .5: AWS 1: User-My Security Credentials</figcaption>
+  <figcaption>Figure.5: AWS 1: User-My Security Credentials</figcaption>
 </figure>
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/aws-2.png "AWS 2: Access keys for CLI, SDK, & API access")
-  <figcaption>Fig .6: AWS 2: Access keys for CLI, SDK & API</figcaption>
+  <figcaption>Figure.6: AWS 2: Access keys for CLI, SDK & API</figcaption>
 </figure>
 
 [AWS documentation](https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/)
@@ -289,22 +289,22 @@ Please be careful when inserting the credentials. If you add incorrect credentia
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-client-tenant-id-1.png "Azure 1: Azure Active Directory")
-  <figcaption>Fig .7: Azure 1: Azure Active Directory</figcaption>
+  <figcaption>Figure.7: Azure 1: Azure Active Directory</figcaption>
 </figure>
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-client-tenant-id-2.png "Azure 2: App registration")
-  <figcaption>Fig .8: Azure 2: App registration</figcaption>
+  <figcaption>Figure.8: Azure 2: App registration</figcaption>
 </figure>
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/aws-2.png "AWS 2: Access keys for CLI, SDK, & API access")
-  <figcaption>Fig .9: Azure 3: All registration: application name</figcaption>
+  <figcaption>Figure.9: Azure 3: All registration: application name</figcaption>
 </figure>
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/aws-2.png "AWS 2: Access keys for CLI, SDK, & API access")
-  <figcaption>Fig .10: Azure 4: Client and Tenant ID</figcaption>
+  <figcaption>Figure.10: Azure 4: Client and Tenant ID</figcaption>
 </figure>
 
 
@@ -314,22 +314,22 @@ Please be careful when inserting the credentials. If you add incorrect credentia
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-client-secret-1.png "Azure 1: Azure Active Directory")
-    <figcaption>Fig .11: Azure 1: Azure Active Directory</figcaption>
+    <figcaption>Figure.11: Azure 1: Azure Active Directory</figcaption>
 </figure>
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-client-secret-2.png "Azure 2: App registration")
-      <figcaption>Fig .12: Azure 2: App registration</figcaption>
+      <figcaption>Figure.12: Azure 2: App registration</figcaption>
 </figure>
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-client-secret-3.png "Azure 3: Certificates & secrets")
-      <figcaption>Fig .13: Azure 3: Certificates & secrets</figcaption>
+      <figcaption>Figure.13: Azure 3: Certificates & secrets</figcaption>
 </figure>
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-client-secret-4.png "Azure 4: Client secrets Value")
-      <figcaption>Fig .14: Azure 4: Client secrets Value</figcaption>
+      <figcaption>Figure.14: Azure 4: Client secrets Value</figcaption>
 </figure>
 
 ???+ warning
@@ -344,12 +344,12 @@ Please be careful when inserting the credentials. If you add incorrect credentia
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-subscription-1.png "Azure 1: Subscription")
-      <figcaption>Fig .15: Azure 1: Subscriptions</figcaption>
+      <figcaption>Figure.15: Azure 1: Subscriptions</figcaption>
 </figure>
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-subscription-2.png "Azure 2: Subscription ID")
-      <figcaption>Fig .16: Azure 2: Subscription ID</figcaption>
+      <figcaption>Figure.16: Azure 2: Subscription ID</figcaption>
 </figure>
 
 [Azure guideline](https://www.inkoop.io/blog/how-to-get-azure-api-credentials/)

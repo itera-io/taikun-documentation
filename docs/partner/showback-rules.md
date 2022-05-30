@@ -6,7 +6,7 @@ When visiting the tab first you see overview of Showback Rules.
 
 <figure markdown>
   ![Showback Rules overviews](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-rules/showback-rules.png "Showback Rules")
-  <figcaption>Fig. 1: Showback Rules overviews</figcaption>
+  <figcaption>Figure.1: Showback Rules overviews</figcaption>
 </figure>
 
 Every showback rule is described by *ID*, *Name*, *Metric Name*, *Organization*, *Labels* (if there is any), *Kind*, *Type*, *Global alert limit*, *Project alert limit*, *Price*, *Showback credentials* (if there is any), date and time *Created* and *Actions*.
@@ -27,7 +27,7 @@ Create a new showback rule for your organization.
 
 <figure markdown>
   ![Add Showback Rule](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-credentials/add-showback-credentials.png "Add Showback Rule")
-  <figcaption>Fig. 2: Add Showback Rule</figcaption>
+  <figcaption>Figure.2: Add Showback Rule</figcaption>
 </figure>
 
 *Organization* - choose organization

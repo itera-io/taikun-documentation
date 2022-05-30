@@ -8,14 +8,14 @@ Here you can see your *User Name*, *Organization Name*, *Subscription End Date*,
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/my-profile/my-information.png "My Informaion")
-  <figcaption>Fig .1: My information</figcaption>
+  <figcaption>Figure.1: My information</figcaption>
 </figure>
 
 ## **Settings**
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/my-profile/settings.png "Settings")
-  <figcaption>Fig .2: Settings</figcaption>
+  <figcaption>Figure.2: Settings</figcaption>
 </figure>
 
 In **Settings** section you can:
@@ -31,14 +31,14 @@ You just need to type your new e-mail, which you want to use in the future.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/my-profile/change-mail.png "Change e-mail")
-  <figcaption>Fig .3: Change e-mail</figcaption>
+  <figcaption>Figure.3: Change e-mail</figcaption>
 </figure>
 
 Your e-mail address is changed but not confirmed, which is indicated with red cross :heavy_multiplication_x: next to your e-mail in *My Information*.
 
 <figure markdown>
   ![Not confirmed e-mail](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/my-profile/not-confirmed-mail.png "Not confirmed e-mail")
-  <figcaption>Fig .4: Not confirmed e-mail</figcaption>
+  <figcaption>Figure.4: Not confirmed e-mail</figcaption>
 </figure>
 
 Clicking the *Confirm E-Mail* button will send the confirmation token to the e-mail address provided by you. Use the link in the mail to confirm your mail. If the link redirects you to homepage of Taikun, please login first and click the link in the e-mail again.
@@ -47,7 +47,7 @@ Token expires after 1 hour and then you need to send it with *Confirm E-mail* bu
 
 <figure markdown>
   ![Confirmed e-mail](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/my-profile/mail-verified.png "Verified e-mail")
-  <figcaption>Fig .5: Confirmed e-mail</figcaption>
+  <figcaption>Figure.5: Confirmed e-mail</figcaption>
 </figure>
 
 ???+ info
@@ -64,7 +64,7 @@ Password should contain at least 1 uppercase, 1 lowercase, 1 number, 1 non alpha
 
 <figure markdown>
   ![Change Password](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/my-profile/change-password.gif "Change Password")
-  <figcaption>Fig .6: Change password</figcaption>
+  <figcaption>Figure.6: Change password</figcaption>
 </figure>
 
 ???+ warning
@@ -85,7 +85,7 @@ Use [**Keycloak**](https://www.keycloak.org) login to enhance security.
 
 <figure markdown>
   ![Keycloak](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/my-profile/owner-keycloak.png "Keycloak")
-  <figcaption>Fig .7: Keycloak</figcaption>
+  <figcaption>Figure.7: Keycloak</figcaption>
 </figure>
 
 Fill in *Name*, *Link*, *Realms* *Name*, *Client* *Id* and *Client* *Secret*. If all fields are filled in correctly, you can **Save** the configuration.

@@ -4,7 +4,7 @@ On the **Projects** tab, you can preview all existing projects to which you are 
 
 <figure markdown>
   ![Projects](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-overview.png "Projects Overview")
-  <figcaption>Fig .1: Projects</figcaption>
+  <figcaption>Figure.1: Projects</figcaption>
 </figure>
 
 Each project is described by following information:
@@ -83,7 +83,7 @@ Click small arrow on the right side of the table to see more details.
 
 <figure markdown>
   ![Expanded table](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/projects-expanded.png "Expanded table")
-  <figcaption>Fig .2: Expanded table</figcaption>
+  <figcaption>Figure.2: Expanded table</figcaption>
 </figure>
 
 Expand the table to see:

@@ -7,7 +7,7 @@ Accessing the page you can see the overview of all created profiles with selecte
 
 <figure markdown>
   ![Policy Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/policy-profiles/policy-profiles.png "Policy Profiles")
-  <figcaption>Fig. 1: Policy Profiles</figcaption>
+  <figcaption>Figure.1: Policy Profiles</figcaption>
 </figure>
 
 
@@ -26,7 +26,7 @@ Each profile can be:
 
 <figure markdown>
   ![Add Policy Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/policy-profiles/add-policy-profile.png "Add Policy Profile")
-  <figcaption>Fig. 2: Add Policy Profile</figcaption>
+  <figcaption>Figure.2: Add Policy Profile</figcaption>
 </figure>
 
 
@@ -55,14 +55,14 @@ You can add the profile during project creation - choosing from drop down select
 
 <figure markdown>
   ![Add Policy during Project creation](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/policy-profiles/add-project-policy.png "Add Policy during Project creation")
-  <figcaption>Fig. 3: Add Policy during Project creation</figcaption>
+  <figcaption>Figure.3: Add Policy during Project creation</figcaption>
 </figure>
 
 Enforce Policies after the project is created. You can disable it the same way.
 
 <figure markdown>
   ![Add Policy after Project is created](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/policy-profiles/enforce-policy.gif "Add Policy after Project is created")
-  <figcaption>Fig. 4: Add Policy after Project is created</figcaption>
+  <figcaption>Figure.4: Add Policy after Project is created</figcaption>
 </figure>
 
 

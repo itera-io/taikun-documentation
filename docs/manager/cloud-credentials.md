@@ -8,7 +8,7 @@ See all projects for each hosting provider:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/cloud-credentials/cc.gif "Cloud Credentials")
-  <figcaption>Fig .1: Cloud credentials</figcaption>
+  <figcaption>Figure.1: Cloud credentials</figcaption>
 </figure>
 
 Cloud can be empty but also may include multiple projects. Each Cloud has different specifics, can be sorted differently and some columns can be expanded.
@@ -17,7 +17,7 @@ You can expand all tables to see the last modification made (*Created By*, *Last
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/cloud-credentials/cc.png "Detailed CC for OpenStack")
-  <figcaption>Fig .2: Detailed CC for openstack</figcaption>
+  <figcaption>Figure.2: Detailed CC for openstack</figcaption>
 </figure>
 
 ## **Actions**
@@ -32,7 +32,7 @@ You can expand all tables to see the last modification made (*Created By*, *Last
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/cloud-credentials/pie-charts.gif "OpenStack/Azure Quotas")
-  <figcaption>Fig .3: OpenStack/Azure Quotas</figcaption>
+  <figcaption>Figure.3: OpenStack/Azure Quotas</figcaption>
 </figure>
 
 ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/lock.png){: .middle}/![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/unlock.png){: .middle} Un/lock credentials - if you lock the credentials, you can't use them for new Project, edit or delete them

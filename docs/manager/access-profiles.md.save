@@ -7,7 +7,7 @@ Without internet access and to keep your security, you can download the packages
 
 <figure markdown>
   ![Access Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/access-profiles/access-profile.png "Access Prodiles")
-  <figcaption>Fig .1: Access profiles</figcaption>
+  <figcaption>Figure.1: Access profiles</figcaption>
 </figure>
 
 You can extend the table to see the last modification (*Last Modified* and *Last Modified By*).
@@ -25,7 +25,7 @@ Create a new profile to access a specific project.
 
 <figure markdown>
  ![Add Access Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/access-profiles/add-access-profile.png "Add Access Profile")
-  <figcaption>Fig .2: Add Access profile</figcaption>
+  <figcaption>Figure.2: Add Access profile</figcaption>
 </figure>
 
 *Name* - choose name for a new profile, 3-30 characters

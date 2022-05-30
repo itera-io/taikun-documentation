@@ -9,7 +9,7 @@ If you have connected your cloud, you can create a new project.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/create-project-assign-user.gif "Add project and assign it to user")
-  <figcaption>Fig .1: Add project and assign it to user</figcaption>
+  <figcaption>Figure.1: Add project and assign it to user</figcaption>
 </figure>
 
 ???+ warning
@@ -22,14 +22,14 @@ a) during project creation
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/add-flavor-during-creation.gif "Flavor - project creation")
-  <figcaption>Fig .2: Flavor - project creation</figcaption>
+  <figcaption>Figure.2: Flavor - project creation</figcaption>
 </figure>
 
 b) in Flavor Info
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/add-flavor-flavor-info.gif"Flavor - Flavor Info")
-  <figcaption>Fig .3: Flavor - Flavor info</figcaption>
+  <figcaption>Figure.3: Flavor - Flavor info</figcaption>
 </figure>
 
 ???+ warning
@@ -47,7 +47,7 @@ b) in Flavor Info
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/add-workers.gif "Add servers")
-  <figcaption>Fig .4: Add servers</figcaption>
+  <figcaption>Figure.4: Add servers</figcaption>
 </figure>
 
 * use shortcuts:
@@ -68,7 +68,7 @@ b) in Flavor Info
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/commit.gif "Commit")
-  <figcaption>Fig .5: Commit</figcaption>
+  <figcaption>Figure.5: Commit</figcaption>
 </figure>
 
 * creating the project, servers get through the stages:
@@ -78,7 +78,7 @@ b) in Flavor Info
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/servers-ready.png)
-  <figcaption>Fig .6: Ready</figcaption>
+  <figcaption>Figure.6: Ready</figcaption>
 </figure>
 
 * failed creation, the project is *Failed* or *Pending* without any action
@@ -89,7 +89,7 @@ b) in Flavor Info
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/create-cluster/delete-server.gif)
-  <figcaption>Fig .7: Delete unnecessary servers</figcaption>
+  <figcaption>Figure.7: Delete unnecessary servers</figcaption>
 </figure>
 
 ???+ info

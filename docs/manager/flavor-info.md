@@ -11,7 +11,7 @@ Choose the *Cloud Type* and *Credentials* where your project is stored. After se
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/flavor-info/bind-flavor.gif "Bind to Project")
-  <figcaption>Fig .1: Bind to project</figcaption>
+  <figcaption>Figure.1: Bind to project</figcaption>
 </figure>
 
 An error message is displayed, if the flavor is already bound to the project.
@@ -26,6 +26,6 @@ To unbind a flavor from a specific project, choose a Cloud, select the project-f
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/flavor-info/unbind.gif "Unbind Flavor")
-  <figcaption>Fig .2: Unbind flavor</figcaption>
+  <figcaption>Figure.2: Unbind flavor</figcaption>
 </figure>
 

@@ -4,7 +4,7 @@ You can access the Dashboard by clicking upper left Taikun logo or the *Dashboar
 
 <figure markdown>
   ![Dashboard and Project tabs](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/Dashboard/access-dashboard.gif "Access Dashboard")
-  <figcaption>Fig .1: Dashboard and project tabs</figcaption>
+  <figcaption>Figure.1: Dashboard and project tabs</figcaption>
 </figure>
 
 On Dashboard you can find:
@@ -19,7 +19,7 @@ On every page in the upper right corner you can see:
 
 <figure markdown>
   ![Icons upper right](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/Dashboard/icons-upper-right.png "Icons upper right")
-  <figcaption>Fig .2: Header icons</figcaption>
+  <figcaption>Figure.2: Header icons</figcaption>
 </figure>
 
 ![Logo of your organization](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/Dashboard/logo.png "Logo of your Organization")

@@ -12,7 +12,7 @@ If you want to change your mail for login or e-mail notifications, use *Change E
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/change-mail-password/change-mail.gif "Change E-mail")
-  <figcaption>Fig .1: Change e-mail</figcaption>
+  <figcaption>Figure.1: Change e-mail</figcaption>
 </figure>
 
 ## **Change password**
@@ -24,7 +24,7 @@ Use *Change Password* button and create new password.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/change-mail-password/change-password.gif "Change Password")
-  <figcaption>Fig .2: Change password</figcaption>
+  <figcaption>Figure.2: Change password</figcaption>
 </figure>
 
 For more info, see:

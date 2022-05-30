@@ -16,7 +16,7 @@ Sort data by *Project* or *TCU* and filter them by choosing available or deleted
 
 <figure markdown>
   ![Usage Reports](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/usage-reports/usage-reports.gif "Usage Reports")
-  <figcaption>Fig. 1: Usage Reports</figcaption>
+  <figcaption>Figure.1: Usage Reports</figcaption>
 </figure>
 
 
@@ -42,7 +42,7 @@ Graph for **Price Development** shows decrease and increase of prices for every 
 
 <figure markdown>
   ![Price Development](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/usage-reports/price-development.gif "Price Development")
-  <figcaption>Fig. 2: Price Development</figcaption>
+  <figcaption>Figure.2: Price Development</figcaption>
 </figure>
 
 

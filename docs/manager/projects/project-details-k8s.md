@@ -4,7 +4,7 @@ By clicking the selected project you are redirected to the **Servers**. Here you
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/access-project-details.gif "Accessing Project's Details")
-  <figcaption>Fig .1: Accessing project's details</figcaption>
+  <figcaption>Figure.1: Accessing project's details</figcaption>
 </figure>
 
 ## **Project Info**
@@ -13,7 +13,7 @@ Under **Servers** title is a brief description of the project - such as *Project
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/project-info.png "Project Info")
-  <figcaption>Fig .2: Brief project info</figcaption>
+  <figcaption>Figure.2: Brief project info</figcaption>
 </figure>
 
 You can also see here ETC=Estimated Time to Complete. It is approx time (in minutes) until the cluster will be completed.
@@ -26,7 +26,7 @@ Every server is described by *ID*, *Server Name*, *IP Address*, *Flavor*, *CPU/R
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/servers.png "Servers for K8s Project")
-  <figcaption>Fig .3: Servers for project</figcaption>
+  <figcaption>Figure.3: Servers for project</figcaption>
 </figure>
 
 Server status can be:
@@ -68,7 +68,7 @@ After you enable the backup, you get notified through Notification and you can c
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/velero.gif "Velero tool")
-  <figcaption>Fig .4: Velero tool</figcaption>
+  <figcaption>Figure.4: Velero tool</figcaption>
 </figure>
 
 After enabling backup, you need to add [**Backup Policies**](#backup-policy).
@@ -81,7 +81,7 @@ First create a new profile in [**Policy Profiles**](../../policy-profiles) and t
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/policy-profiles/enforce-policy.gif "Enforce policy")
-  <figcaption>Fig .5: Enforce policy</figcaption>
+  <figcaption>Figure.5: Enforce policy</figcaption>
 </figure>
 
 Disable the policy the same way.
@@ -106,7 +106,7 @@ When the server/s are *Failed* or there is some other problem in the cluster, us
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/projects/project-details/repair.gif "Repair")
-  <figcaption>Fig .6: Repair</figcaption>
+  <figcaption>Figure.6: Repair</figcaption>
 </figure>
 
 ### **Attach/Detach Alerting Profile**
@@ -137,7 +137,7 @@ Use the link to bind a flavor.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/add-workers.gif "Add servers")
-  <figcaption>Fig .7: Add server</figcaption>
+  <figcaption>Figure.7: Add server</figcaption>
 </figure>
 
 *Server Name* - only alphanumeric characters and dash are allowed, 1-30 characters
@@ -185,7 +185,7 @@ This button will redirect you to Audit Log with project, so you can preview the 
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/history.gif "History")
-  <figcaption>Fig .8: History</figcaption>
+  <figcaption>Figure.8: History</figcaption>
 </figure>
 
 ### **Kubeconfigs**
@@ -194,7 +194,7 @@ Add a new kubernetes configuration for your profile and project.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/add-kubeconfig.png "Add kubeconfig")
-  <figcaption>Fig .9: Add kube config</figcaption>
+  <figcaption>Figure.9: Add kube config</figcaption>
 </figure>
 
 *Name* - choose a name for your kubeconfig (2-230 characters)
@@ -215,7 +215,7 @@ You can see all project's configurations in the table with its *ID*, *Name*, *Us
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/kubeconfig-overview.png "Kube Config")
-  <figcaption>Fig .10: Kube configs</figcaption>
+  <figcaption>Figure.10: Kube configs</figcaption>
 </figure>
 
 **Actions**
@@ -240,7 +240,7 @@ You can sort Events by:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/events.png "Events")
-  <figcaption>Fig .11: Events</figcaption>
+  <figcaption>Figure.11: Events</figcaption>
 </figure>
 
 ### **Logs**
@@ -251,14 +251,14 @@ Logs button is disabled if [**Monitoring is disabled**](#enable-disable-monitori
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/logs.png "Logs")
-  <figcaption>Fig .12: Logs</figcaption>
+  <figcaption>Figure.12: Logs</figcaption>
 </figure>
 
 Write your query and use *Start date* and *End Date* for sorting. You can also expand every message - red is an *added* action,  without color is other log.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/logs-details.png "Logs details")
-  <figcaption>Fig .13: Logs details</figcaption>
+  <figcaption>Figure.13: Logs details</figcaption>
 </figure>
 
 ### **Alerts**
@@ -267,7 +267,7 @@ First thing when you access Alerts are *Firing Alerts*. This section is refreshe
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/firing-alerts.gif "Firing Alerts")
-  <figcaption>Fig .14: Firing alerts</figcaption>
+  <figcaption>Figure.14: Firing alerts</figcaption>
 </figure>
 
 To see all alerts, use upper right *Show All Alerts* button. As seen above, firing alerts are marked with red color.
@@ -278,7 +278,7 @@ Alerts are accessible only if *Monitoring* is enabled and the project is not emp
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/firing-alerts-metrics.gif "Alerts to Metrics")
-  <figcaption>Fig .15: Alerts</figcaption>
+  <figcaption>Figure.15: Alerts</figcaption>
 </figure>
 
 For each alert you can see details and use a link that will redirected you to [**Metrics**](#metrics) with the query already filled.
@@ -289,7 +289,7 @@ Firing alerts also work from the real-time notifications bell :bell: in header.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/firing-alerts-notification.gif "Alerts notifications")
-  <figcaption>Fig .16: Alerts bell</figcaption>
+  <figcaption>Figure.16: Alerts bell</figcaption>
 </figure>
 
 The notification contains a brief message on a specific project and bellow the message is time of the change. After clicking *Show Project*, you can access the project in which the alert is.
@@ -306,7 +306,7 @@ Switch between *Console* and *Graph* for better results.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/metrics.gif "Metrics")
-  <figcaption>Fig .17: Metrics</figcaption>
+  <figcaption>Figure.17: Metrics</figcaption>
 </figure>
 
 ### **Backup Policy**
@@ -315,7 +315,7 @@ After you [**Enable Backup**](#enable-disable-backup), you have to create a *Bac
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/add-backup-policy.png "Add Backup Policy")
-  <figcaption>Fig .18: Add policy</figcaption>
+  <figcaption>Figure.18: Add policy</figcaption>
 </figure>
 
 *Name* - choose a name for your backup (3-30 characters)
@@ -341,7 +341,7 @@ In *Schedules* you can find overview of your backup policy.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/backup-policy-schedules.png "Schedules")
-  <figcaption>Fig .19: Schedules</figcaption>
+  <figcaption>Figure.19: Schedules</figcaption>
 </figure>
 
 ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show-description.png "show description"){: .middle} *Show description* - see detailed e.g. specification, metadata etc.
@@ -354,7 +354,7 @@ In *Schedules* you can find overview of your backup policy.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/backup-policy-backups.png "Backups")
-  <figcaption>Fig .20: Backups</figcaption>
+  <figcaption>Figure.20: Backups</figcaption>
 </figure>
 
 ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show-description.png "show description"){: .middle} *Show description* - see detailed e.g. specification, metadata etc.
@@ -369,7 +369,7 @@ Overview of restores from *Backups*.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/backup-policy-restores.png "Restores")
-  <figcaption>Fig .21: Restores</figcaption>
+  <figcaption>Figure.21: Restores</figcaption>
 </figure>
 
 ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show-description.png "show description"){: .middle} *Show description* - see detailed e.g. metadata etc.
@@ -382,14 +382,14 @@ Dashboard is accessible only if cluster is created and [monitoring is enabled](#
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/dashboard.gif "Project Dashboard")
-  <figcaption>Fig .22: Dashboard</figcaption>
+  <figcaption>Figure.22: Dashboard</figcaption>
 </figure>
 
 Here you can see graphs with *Memory* and *CPU* usage for the project. You can also add **Query** you want.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/project-details/dashboard-query.png "Add Query")
-  <figcaption>Fig .23: Add predefined query</figcaption>
+  <figcaption>Figure.23: Add predefined query</figcaption>
 </figure>
 
 *Name* - choose name for your query (e.g. My Query)

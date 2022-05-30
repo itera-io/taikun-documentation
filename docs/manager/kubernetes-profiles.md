@@ -4,7 +4,7 @@ Each Profile is characterized by *ID*, *Name*, *Organization Name*, *CNI* (Conta
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/kubernetes-profiles/kubernetes-profiles.png "Kubernetes profiles")
-  <figcaption>Fig .1: Kubernetes profiles</figcaption>
+  <figcaption>Figure.1: Kubernetes profiles</figcaption>
 </figure>
 
 Expand the table to see the last modification (*Last Modified* and *Last Modified By*).
@@ -15,7 +15,7 @@ You can create a new profile where you can enable a few features, which you can 
 
 <figure markdown>
   ![Add Kubernetes Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/kubernetes-profiles/add-kubernetes-profile.png "Add Kubernetes Profile")
-  <figcaption>Fig .2: Add kubernetes profile</figcaption>
+  <figcaption>Figure.2: Add kubernetes profile</figcaption>
 </figure>
 
 *Profile Name* - name for your kubernetes profile (3-30 characters)

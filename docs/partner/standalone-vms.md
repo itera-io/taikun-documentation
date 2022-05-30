@@ -10,7 +10,7 @@ To access server details, click Name or Project Name.
 
 <figure markdown>
   ![VM Servers](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/standalone-vms/overview.png "Servers")
-  <figcaption>Fig. 1: Servers</figcaption>
+  <figcaption>Figure.1: Servers</figcaption>
 </figure>
 
 
@@ -18,7 +18,7 @@ To access server details, click Name or Project Name.
 
 <figure markdown>
   ![Show hidden columns](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/standalone-vms/extended-table.png "Standalone VMS")
-  <figcaption>Fig. 2: Show hidden columns</figcaption>
+  <figcaption>Figure.2: Show hidden columns</figcaption>
 </figure>
 
 

@@ -8,8 +8,8 @@ Select organization for a better overview of Standalone Profiles.
 See all profiles created for your organization. Each profile is described by its ID, Name, Public Key, Security Group (redirects to another page) and to which VM the profile is associated.
 
 <figure markdown>
-  ![Fig. 1: Standalone Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/standalone-profiles/overview.png)
-  <figcaption> Fig. 1: Standalone Profiles </figcaption>
+  ![Figure.1: Standalone Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/standalone-profiles/overview.png)
+  <figcaption> Figure.1: Standalone Profiles </figcaption>
 </figure>
 
 
@@ -28,8 +28,8 @@ See all profiles created for your organization. Each profile is described by its
 Create a new profile to access your virtual machine.
 
 <figure markdown>
-  ![Fig. 2: Add Standalone Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/standalone-profiles/add-standalone-profile.png)
-  <figcaption> Fig. 2: Add Standalone Profiles </figcaption>
+  ![Figure.2: Add Standalone Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/standalone-profiles/add-standalone-profile.png)
+  <figcaption> Figure.2: Add Standalone Profiles </figcaption>
 </figure>
 
 *Name* - choose name for your profile

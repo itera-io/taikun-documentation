@@ -3,8 +3,8 @@
 Organize your structure with organizations - which can be then connected with users, projects, etc. The organizations will also help you for a better overview at each site (by drop-down selector).
 
 <figure markdown>
-  ![Fig. 1: Organizations](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/organizations/organizations.png "Organizations")
-  <figcaption> Fig. 1: Organizations </figcaption>
+  ![Figure.1: Organizations](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/organizations/organizations.png "Organizations")
+  <figcaption> Figure.1: Organizations </figcaption>
 </figure>
 
 Show hidden columns will expose *Billing E-mail*, *Phone*, *VAT Number*, *Country*, *City*, *Address*, *Read Only* and *Discount Rate*.
@@ -28,8 +28,8 @@ You can delete only unlocked empty organization (no Users, Projects, Servers or 
 Fill in *Name* and *Full Name* for your new organization and add it.
 
 <figure markdown>
-  ![Fig. 2: Add Organization](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/organizations/add-organization.png "Add Organization")
-  <figcaption> Fig. 2: Add Organization </figcaption>
+  ![Figure.2: Add Organization](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/organizations/add-organization.png "Add Organization")
+  <figcaption> Figure.2: Add Organization </figcaption>
 </figure>
 
 Compulsory fields:

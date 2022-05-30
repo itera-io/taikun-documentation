@@ -152,7 +152,7 @@ If Kubernetes is active, Kube Info button will take you to the Kubernetes config
 
 ### **Events**
 
-You are redirected to Events, where you can see all Kubernetes changes made in the project. To preview details for more information to each action use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show.png)button. A green strip indicates a successful action, a red strip indicates a failed action. Use *Clear events* for deleting all the events.
+You are redirected to Events, where you can see all Kubernetes changes made in the project. To preview details for more information to each action use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show.png){: .middle}button. A green strip indicates a successful action, a red strip indicates a failed action. Use *Clear events* for deleting all the events.
 
 You can sort Events by:
 

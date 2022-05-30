@@ -1,5 +1,5 @@
 site_name: Taikun
-site_url: http://185.22.98.126
+site_url: http://185.22.98.224
 markdown_extensions:
   - attr_list
   - md_in_html

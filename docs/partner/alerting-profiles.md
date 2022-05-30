@@ -11,8 +11,8 @@ If you want to receive notifications when there is some alert in you project, ju
 If you want a new alerting profile, use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/alerting-profiles/add-alerting-profile-btn.png){: .middle} button.
 
 <figure markdown>
-  ![Fig. 1: Add Alerting Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/alerting-profiles/add-alerting-profile.png)
-  <figcaption>Fig. 1: Add Alerting Profile</figcaption>
+  ![Figure.1: Add Alerting Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/alerting-profiles/add-alerting-profile.png)
+  <figcaption>Figure.1: Add Alerting Profile</figcaption>
 </figure>
 
 *Organization* - choose from drop-down selection of organizations
@@ -32,8 +32,8 @@ If you want a new alerting profile, use![](https://cloud.tcpro.cz:30100/swift/v1
 ## **Alerting Profile overview**
 
 <figure markdown>
-  ![Fig. 2: Alerting Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/alerting-profiles/alerting%20profiles.png "Alerting Profiles")
-  <figcaption>Fig. 2: Alerting Profiles</figcaption>
+  ![Figure.2: Alerting Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/alerting-profiles/alerting%20profiles.png "Alerting Profiles")
+  <figcaption>Figure.2: Alerting Profiles</figcaption>
 </figure>
 
 

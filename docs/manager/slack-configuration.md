@@ -4,7 +4,7 @@ You can receive all the changes made from your Taikun organization into Slack ch
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/slack/slack.png "Slack configurations")
-  <figcaption>Fig .1: Slack configuration</figcaption>
+  <figcaption>Figure.1: Slack configuration</figcaption>
 </figure>
 
 ## **Add Slack Config**
@@ -13,7 +13,7 @@ First you need to set your [**webhooks**](https://slack.com/intl/en-cz/help/arti
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/slack/add-slack.png "Add Slack")
-  <figcaption>Fig .2: Add slack config</figcaption>
+  <figcaption>Figure.2: Add slack config</figcaption>
 </figure>
 
 *Name* - choose name for your config
@@ -31,7 +31,7 @@ Now you will receive notifications in Slack channel for the projects.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/slack/slack-app.png "Slack")
-  <figcaption>Fig .3: Slack</figcaption>
+  <figcaption>Figure.3: Slack</figcaption>
 </figure>
 
 ???+ info

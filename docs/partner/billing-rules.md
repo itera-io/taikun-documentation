@@ -4,8 +4,8 @@
 Create a Rule, [assign](../organizations#actions) it to the organization and see the result in [**Chargeback**](../chargeback).
 
 <figure markdown>
-  ![Fig. 1: Billing Rules](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-rules/billing-rules.png "Billing Rules")
-  <figcaption> Fig. 1: Billing Rules </figcaption>
+  ![Figure.1: Billing Rules](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-rules/billing-rules.png "Billing Rules")
+  <figcaption> Figure.1: Billing Rules </figcaption>
 </figure>
 
 **Rules** can be sorted by *Name*, *Metric Name*, *Created* and *Type*.
@@ -17,8 +17,8 @@ By clicking arrow > you can expand the table to see *Created By*, *Last Modified
 To create Rule use ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-rules/add-rule-btn.png){: .middle} button.
 
 <figure markdown>
-  ![Fig. 2: Add Rule](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-rules/add-rule.png)
-  <figcaption> Fig. 2: Add Rule </figcaption>
+  ![Figure.2: Add Rule](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/billing-rules/add-rule.png)
+  <figcaption> Figure.2: Add Rule </figcaption>
 </figure>
 
 *Name* - Rule name

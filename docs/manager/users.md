@@ -17,7 +17,7 @@ For each user you can preview following:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/users/users.png "Users")
-  <figcaption>Fig .1: Users</figcaption>
+  <figcaption>Figure.1: Users</figcaption>
 </figure>
 
 **Find User**
@@ -33,7 +33,7 @@ If you want to add a new user use![](https://cloud.tcpro.cz:30100/swift/v1/KEY*c
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/users/add-user.png "Add New User")
-  <figcaption>Fig .2: Add User</figcaption>
+  <figcaption>Figure.2: Add User</figcaption>
 </figure>
 
 *User Name* - only alphanumeric characters and dash allowed

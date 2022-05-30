@@ -10,7 +10,7 @@ See all projects for each hosting provider:
 
 <figure markdown>
   ![Cloud Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/cloud-credentials/cc.gif "Cloud Credentials")
-  <figcaption>Fig. 1: Cloud Credentials</figcaption>
+  <figcaption>Figure.1: Cloud Credentials</figcaption>
 </figure>
 
 Cloud can be empty but also may include multiple projects. Each Cloud has different specifics, can be sorted differently and some columns can be expanded.
@@ -19,7 +19,7 @@ You can expand all tables to see the last modification made (*Created By*, *Last
 
 <figure markdown>
   ![Detailed CC for OpenStack](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/cloud-credentials/cc-detailed-openstack.png "Detailed CC")
-  <figcaption>Fig. 2: Detailed CC for OpenStack</figcaption>
+  <figcaption>Figure.2: Detailed CC for OpenStack</figcaption>
 </figure>
 
 **Actions**
@@ -35,7 +35,7 @@ You can expand all tables to see the last modification made (*Created By*, *Last
 
 <figure markdown>
   ![OpenStack Quotas](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/cloud-credentials/pie-charts.gif "Pie Charts")
-  <figcaption>Fig. 3: OpenStack Quotas</figcaption>
+  <figcaption>Figure.3: OpenStack Quotas</figcaption>
 </figure>
 
 

@@ -8,8 +8,8 @@ If you want to use external source for your [**Showback rules**](../showback-rul
 See table of added Showback credentials.
 
 <figure markdown>
-  ![Fig. 1: Overview of Showback Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-credentials/showback-credentials.png)
-  <figcaption>Fig. 1: Kubernetes profiles</figcaption>
+  ![Figure.1: Overview of Showback Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-credentials/showback-credentials.png)
+  <figcaption>Figure.1: Kubernetes profiles</figcaption>
 </figure>
 
 Table consist of *ID*, *Name*, *Organization*, *URL*, bound *Rules*, date and time *Created* and *Actions*.
@@ -29,8 +29,8 @@ Table consist of *ID*, *Name*, *Organization*, *URL*, bound *Rules*, date and ti
 With *Add Credential* you can create a new showback credentials.
 
 <figure markdown>
-  ![Fig. 2: Add Showback Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-credentials/add-showback-credentials.png)
-  <figcaption>Fig. 2: Add Kubernetes Profile</figcaption>
+  ![Figure.2: Add Showback Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-credentials/add-showback-credentials.png)
+  <figcaption>Figure.2: Add Kubernetes Profile</figcaption>
 </figure>
 
 

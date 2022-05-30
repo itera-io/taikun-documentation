@@ -4,7 +4,7 @@ On the **Projects** tab, you can preview all existing projects for your organiza
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/projects.png "Projects")
-  <figcaption>Fig .1: Projects</figcaption>
+  <figcaption>Figure.1: Projects</figcaption>
 </figure>
 
 Each project is described by following information:
@@ -96,7 +96,7 @@ Click small arrow on the right side of the table to see more details.
 
 <figure markdown>
   ![Expanded table]( https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/projects-expand.png "Expanded table")
-  <figcaption>Fig .2: Show hidden columns</figcaption>
+  <figcaption>Figure.2: Show hidden columns</figcaption>
 </figure>
 
 Expand the table to see:

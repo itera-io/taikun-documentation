@@ -11,7 +11,7 @@ In the table there are presented:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/chargeback/chargeback.gif "Chargeback")
-  <figcaption>Fig .1: Chargeback</figcaption>
+  <figcaption>Figure.1: Chargeback</figcaption>
 </figure>
 
 For a better overview the table can be sorted by *Rule Name* or *Price*.
@@ -30,7 +30,7 @@ Graph for **Price Development** shows decrease and increase of prices for every 
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/chargeback/chargeback-price-development.gif "Price Development for Chargeback")
-  <figcaption>Fig .2: Price development</figcaption>
+  <figcaption>Figure.2: Price development</figcaption>
 </figure>
 
 ???+ warning

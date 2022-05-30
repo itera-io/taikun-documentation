@@ -4,7 +4,7 @@ If you want to add a new project, use the upper right button![]( https://cloud.t
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/create-project/add-project.gif "Add Project")
-  <figcaption>Fig .1: Add project</figcaption>
+  <figcaption>Figure.1: Add project</figcaption>
 </figure>
 
 **Project Name** - fill in your project name (only alphanumeric lowercase characters and dash are allowed, 3-30 characters; **not** underscore; e.g. my-project1)

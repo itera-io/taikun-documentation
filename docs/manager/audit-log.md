@@ -6,7 +6,7 @@ See who (*User Name*) made a change (*Category*, *Message*), where (*Project*) a
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/audit-log/audit-log.png "Audit Log")
-  <figcaption>Fig .1: Audit log</figcaption>
+  <figcaption>Figure.1: Audit log</figcaption>
 </figure>
 
 Clicking *Project Name* you get redirected to the project, where the change was made (if not deleted).
@@ -15,7 +15,7 @@ Clicking *Project Name* you get redirected to the project, where the change was 
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/audit-log/audit-log-sorting.gif "Filtering")
-  <figcaption>Fig .2: Filters</figcaption>
+  <figcaption>Figure.2: Filters</figcaption>
 </figure>
 
 Events also can be filtered by:

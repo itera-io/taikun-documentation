@@ -4,7 +4,7 @@ By clicking the selected project or K8s View you are redirected to the **Kuberne
 
 <figure markdown>
   ![Accessing Project's details]( https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/access-k8s-servers.gif "Accessing Project's details - K8s")
-  <figcaption>Fig .1: Accessing project's details</figcaption>
+  <figcaption>Figure.1: Accessing project's details</figcaption>
 </figure>
 
 ## **Project Info**
@@ -13,14 +13,14 @@ Under **Server**s title is a brief description of the project - such as *Project
 
 <figure markdown>
   ![Project Info](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/project-info.png "Project Info")
-  <figcaption>Fig .2: Project info</figcaption>
+  <figcaption>Figure.2: Project info</figcaption>
 </figure>
 
 You can also see here ETC=Estimated Time to Complete. It is approx time (in minutes) until the cluster will be completed.
 
 <figure markdown>
   ![ETC](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/etc.png "ETC")
-  <figcaption>Fig .3: ETC</figcaption>
+  <figcaption>Figure.3: ETC</figcaption>
 </figure>
 
 ## **Servers**
@@ -29,7 +29,7 @@ Every Server is described by *ID*, *Server Name*, *IP Address*, *Flavor*, *CPU/R
 
 <figure markdown>
   ![Servers for Project](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/servers.png "Servers for Project")
-  <figcaption>Fig .4: Servers for project</figcaption>
+  <figcaption>Figure.4: Servers for project</figcaption>
 </figure>
 
 Server status can be:
@@ -61,7 +61,7 @@ When the server/s are Failed or there is some other problem in the cluster, use 
 
 <figure markdown>
   ![Repair](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/repair.gif "Repair")
-  <figcaption>Fig .5: Repair</figcaption>
+  <figcaption>Figure.5: Repair</figcaption>
 </figure>
 
 ???+ warning
@@ -73,7 +73,7 @@ To create a new server click![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050
 
 <figure markdown>
   ![Add Server](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/add-servers.gif "Add Server")
-  <figcaption>Fig .6: Add server</figcaption>
+  <figcaption>Figure.6: Add server</figcaption>
 </figure>
 
 *Server Name* - only alphanumeric characters and dash are allowed, 1-30 characters
@@ -107,7 +107,7 @@ Under *Add Server* are buttons with specific features or more detailed informati
 
 <figure markdown>
   ![Function Buttons](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/function-buttons.png "Function buttons")
-  <figcaption>Fig .7: Function buttons</figcaption>
+  <figcaption>Figure.7: Function buttons</figcaption>
 </figure>
 
 ### **Kubeconfigs**
@@ -116,7 +116,7 @@ Add a new kubernetes configuration for your profile and project.
 
 <figure markdown>
   ![Add Kubeconfig](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/add-kube-config.png "Add Kubeconfig")
-  <figcaption>Fig .8: Add kubeconfig</figcaption>
+  <figcaption>Figure.8: Add kubeconfig</figcaption>
 </figure>
 
 *Kubeconfig Name* - choose a name for your kubeconfig (3-230 characters)
@@ -137,7 +137,7 @@ You can see all project's configurations in the table with its *ID*, *Name*, *Us
 
 <figure markdown>
   ![Kube Configs](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/kubeconfig.png "Kubeconfigs")
-  <figcaption>Fig .9: Kube configs</figcaption>
+  <figcaption>Figure.9: Kube configs</figcaption>
 </figure>
 
 **Actions**
@@ -162,7 +162,7 @@ You can sort Events by:
 
 <figure markdown>
   ![Events for Monitoring](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/events.png "Events for monitoring")
-  <figcaption>Fig .10: Events for monitoring</figcaption>
+  <figcaption>Figure.10: Events for monitoring</figcaption>
 </figure>
 
 ### **Logs**
@@ -172,14 +172,14 @@ Logs button is disabled if *Monitoring* is disabled.
 
 <figure markdown>
   ![Logs](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/logs.png "Logs")
-  <figcaption>Fig .11: Logs</figcaption>
+  <figcaption>Figure.11: Logs</figcaption>
 </figure>
 
 Write your query and use *Start date* and *End Date* for sorting. You can also expand every message - red is added action, no color is other.
 
 <figure markdown>
   ![Logs details](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/logs-details.png "Logs details")
-  <figcaption>Fig .12: Logs details</figcaption>
+  <figcaption>Figure.12: Logs details</figcaption>
 </figure>
 
 ### **Alerts**
@@ -188,7 +188,7 @@ First thing when you access Alerts are *Firing Alerts*. This section is refreshe
 
 <figure markdown>
   ![Firing Alerts](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/firing-alerts.gif "Firing alerts")
-  <figcaption>Fig .13: Firing alerts</figcaption>
+  <figcaption>Figure.13: Firing alerts</figcaption>
 </figure>
 
 To see all alerts, use upper right *Show All Alerts* button. As seen above, firing alerts are marked with red color. For each alert you can see details and use a link that will redirected you to [**Metrics**](#metrics) with the query already written.
@@ -197,7 +197,7 @@ Alerts are accessible only if *Monitoring* is enabled and the project is not emp
 
 <figure markdown>
   ![Alerts](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/firing-alert-metrics.gif "Alerts to Metrics")
-  <figcaption>Fig .14: Alerts</figcaption>
+  <figcaption>Figure.14: Alerts</figcaption>
 </figure>
 
 The index number at *Alerts* shows the number of firing alerts. ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/alerts-index-number.png){: .middle} When the firing alerts are resolved, the number disappears.
@@ -206,7 +206,7 @@ Firing alerts also work from the real-time notifications bell in the header. Red
 
 <figure markdown>
   ![Alerts bell](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/firing-alerts-bell.gif "Alerts Bells")
-  <figcaption>Fig .15: Alerts bell</figcaption>
+  <figcaption>Figure.15: Alerts bell</figcaption>
 </figure>
 
 The notification contains a brief message on a specific project and bellow the message is time of the change. After clicking *Show Project*, you can access the project in which the alert is.
@@ -222,7 +222,7 @@ Switch between *Console* and *Graph* for better results.
 
 <figure markdown>
   ![Metrics](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/metrics.gif "Metrics")
-  <figcaption>Fig .16: Metrics</figcaption>
+  <figcaption>Figure.16: Metrics</figcaption>
 </figure>
 
 ### **Project Dashboard**
@@ -231,7 +231,7 @@ Dashboard is accessible only if cluster is created and *monitoring* is enabled.
 
 <figure markdown>
   ![Project Dashboard](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/user/projects/project-details/dashboard.gif "Project Dashboard")
-  <figcaption>Fig .17: Metrics</figcaption>
+  <figcaption>Figure.17: Metrics</figcaption>
 </figure>
 
 Here you can see graphs with *Memory* and *CPU* usage for the project. You can also see added Query from [Manager](../../../manager/projects/project-details-k8s#dashboard) or [Partner](../../../partner/projects/project-details-k8s#dashboard).

@@ -6,8 +6,8 @@
 ## **Create new credentials**
 
 <figure markdown>
-  ![Fig. 1: Add Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/backup-credentials/add-backup-cred.png "Add Backup Credentials")
-  <figcaption>Fig. 1: Add Credentials</figcaption>
+  ![Figure.1: Add Credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/backup-credentials/add-backup-cred.png "Add Backup Credentials")
+  <figcaption>Figure.1: Add Credentials</figcaption>
 </figure>
 
 
@@ -36,8 +36,8 @@ Every Credential has its:
 * Actions
 
 <figure markdown>
-  ![Fig. 2: Backup credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/backup-credentials/backup-credentials.png)
-  <figcaption>Fig. 2: Backup credentials</figcaption>
+  ![Figure.2: Backup credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/backup-credentials/backup-credentials.png)
+  <figcaption>Figure.2: Backup credentials</figcaption>
 </figure>
 
 

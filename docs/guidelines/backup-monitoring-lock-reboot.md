@@ -10,7 +10,7 @@ Create and download kuberenetes configuration to organize information about clus
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/kubeconfig.gif)
-  <figcaption>Fig. 1: Kubeconfig</figcaption>
+  <figcaption>Figure.1: Kubeconfig</figcaption>
 </figure>
 
 ???+ info
@@ -28,14 +28,14 @@ See info for [User](../../user/projects/project-details-k8s/#kubeconfigs), [Mana
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/backup-credentials/add-backup-credentials.png)
-  <figcaption>Fig. 2: Add backup credentials</figcaption>
+  <figcaption>Figure.2: Add backup credentials</figcaption>
 </figure>
 
 Fill all fields for S3 credentials and add connect them with add button.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/backup-credentials/backup-credentials.png)
-  <figcaption>Fig. 3: Backup credentials overview</figcaption>
+  <figcaption>Figure.3: Backup credentials overview</figcaption>
 </figure>
 
 2\) Enable backup.
@@ -44,7 +44,7 @@ a) You can enable backup during creation.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/enable-backup-project-creation.gif)
-  <figcaption>Fig. 4: Enable backup</figcaption>
+  <figcaption>Figure.4: Enable backup</figcaption>
 </figure>
 
 b) Backup can be enabled also after the project is created.
@@ -53,14 +53,14 @@ First you have to enable back and then choose credentials.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/enable-backup-after-project-creation.gif)
-  <figcaption>Fig. 5: Backup after project creation</figcaption>
+  <figcaption>Figure.5: Backup after project creation</figcaption>
 </figure>
 
 4\) After you enabled backup, you must set up backup policy
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/add-backup-policy.gif)
-  <figcaption>Fig. 6: Backup policy</figcaption>
+  <figcaption>Figure.6: Backup policy</figcaption>
 </figure>
 
 ???+ warning
@@ -78,14 +78,14 @@ More info for [Manager](../../manager/projects/project-details-k8s/#backup-polic
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/enable-monitoring-project-creation.gif)
-  <figcaption>Fig .7: Enable monitoring during project creation</figcaption>
+  <figcaption>Figure.7: Enable monitoring during project creation</figcaption>
 </figure>
 
 2\) Or you can enable monitoring after you create the project.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/enable-monitoring-after-project-creation.gif)
-  <figcaption>Fig .8: Enable monitoring after project creation</figcaption>
+  <figcaption>Figure.8: Enable monitoring after project creation</figcaption>
 </figure>
 
 The process takes up to 2 minutes and if successful, *Logs, Alerts* and *Metrics* are enabled.
@@ -98,21 +98,21 @@ If Manager/Partner lock the project, you can only preview some pages but you can
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/lock-project.gif)
-  <figcaption>Fig .9: Locked project</figcaption>
+  <figcaption>Figure.9: Locked project</figcaption>
 </figure>
 
 You can see if the project is![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/lock.png){: .middle} unlock or![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/unlock.png){: .middle} locked in project info:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/lock-project-info.png)
-  <figcaption>Fig .10: Lock - project info</figcaption>
+  <figcaption>Figure.10: Lock - project info</figcaption>
 </figure>
 
 or in Project overview - *Actions* section:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/lock-actions.png)
-  <figcaption>Fig .11: Lock - project overview</figcaption>
+  <figcaption>Figure.11: Lock - project overview</figcaption>
 </figure>
 
 ## **Reboot**
@@ -125,7 +125,7 @@ For AWS and Azure there is only simple reboot available.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/kubeconfigs-backup-monitoring-lock-reboot/reboot.gif)
-  <figcaption>Fig .12: Reboot</figcaption>
+  <figcaption>Figure.12: Reboot</figcaption>
 </figure>
 
 For more info see:

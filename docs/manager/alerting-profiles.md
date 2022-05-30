@@ -9,7 +9,7 @@ If you want a new alerting profile, use![](https://cloud.tcpro.cz:30100/swift/v1
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/alerting-profiles/add-alerting-profile.png "Add Alerting Profile")
-  <figcaption>Fig .1: Add alerting profile</figcaption>
+  <figcaption>Figure.1: Add alerting profile</figcaption>
 </figure>
 
 *Name* - choose name for your alerting profile
@@ -28,7 +28,7 @@ If you want a new alerting profile, use![](https://cloud.tcpro.cz:30100/swift/v1
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/alerting-profiles/overview.png "Alerting Profiles Overview")
-  <figcaption>Fig .2: Alerting profiles</figcaption>
+  <figcaption>Figure.2: Alerting profiles</figcaption>
 </figure>
 
 Each Profile is described by *ID*, *Name*, *Organization* *Name*, *Slack* *Configuration* *Name*, *Associated* *Projects*, *E-mail*, *Webhooks*, *Created* *By* and *Actions*.

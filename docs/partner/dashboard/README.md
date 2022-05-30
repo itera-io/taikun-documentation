@@ -4,7 +4,7 @@ You can access the Dashboard by clicking upper left Taikun logo or the **Dashboa
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/accessing-dashboard.gif "Accessing Dashboard")
-  <figcaption>Fig.1: Dashboard and other tabs</figcaption>
+  <figcaption>Figure.1: Dashboard and other tabs</figcaption>
 </figure>
 
 On Dashboard you can find summary of following:
@@ -20,7 +20,7 @@ On every page in the upper right corner you can see:
 
 <figure markdown>
   ![Icons upper right](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/icons-upper-right.png "Icons upper right")
-  <figcaption>Fig.2: Header icons</figcaption>
+  <figcaption>Figure.2: Header icons</figcaption>
 </figure>
 
 
@@ -45,14 +45,14 @@ On every page in the upper right corner you can see:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/tables/notifications-general.png "General Notifications")
-  <figcaption>Fig.3: General events</figcaption>
+  <figcaption>Figure.3: General events</figcaption>
 </figure>
 
   * Alerts - new/persisting (red) or resolved (green) alerts, see [**Projects - Alerts**](../projects/project-details#alerts)
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/dashboard/tables/notifications-alerts.png "Alert notifications")
-  <figcaption>Fig.4: Alerts</figcaption>
+  <figcaption>Figure.4: Alerts</figcaption>
 </figure>
 
 ![My Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/dashboard/my-profile.png "My Profile")

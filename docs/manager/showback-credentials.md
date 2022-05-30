@@ -6,7 +6,7 @@ See table of added Showback credentials.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/showback-credentials/showback-credentials.png "Showback Credentials")
-  <figcaption>Fig .1: Overview of showback credentials</figcaption>
+  <figcaption>Figure.1: Overview of showback credentials</figcaption>
 </figure>
 
 Table consist of *ID*, *Name*, *Organization*, *URL*, bound *Rules*, date and time *Created* and *Actions*.
@@ -23,7 +23,7 @@ With *Add Credentials* you can create a new showback credentials.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/showback-credentials/add-showback-credentials.png "Add Showback Credentials")
-  <figcaption>Fig .2: Add showback credentials</figcaption>
+  <figcaption>Figure.2: Add showback credentials</figcaption>
 </figure>
 
 *Name* - choose name for your Showback Credentials (3-30 characters)

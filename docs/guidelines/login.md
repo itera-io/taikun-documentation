@@ -14,7 +14,7 @@ After you fill in your mail and new password, you will see login page to Taikun.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/login/visit-reset-password-login.gif "Reset Password")
-  <figcaption>Fig .1: Reset password</figcaption>
+  <figcaption>Figure.1: Reset password</figcaption>
 </figure>
 
 ## **Login**
@@ -23,7 +23,7 @@ When you visit Taikun page you are redirected to *login_ page*. When you fill in
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/login/log-in.gif "Login")
-  <figcaption>Fig .2: Login</figcaption>
+  <figcaption>Figure.2: Login</figcaption>
 </figure>
 
 ## **Forgotten Password**
@@ -32,12 +32,12 @@ If you insert wrong password, you are alerted with *Bad credentials* error messa
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/login/forgotten-password.gif "Forgotten Password")
-  <figcaption>Fig .3: Forgotten password</figcaption>
+  <figcaption>Figure.3: Forgotten password</figcaption>
 </figure>
 
 You will receive Token to your mail, which will redirect you to new page, where you can reset your password.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/login/mail-forgotten-password.png "Forgotten Password e-mail invite")
-  <figcaption>Fig .4: Forgotten password token</figcaption>
+  <figcaption>Figure.4: Forgotten password token</figcaption>
 </figure>

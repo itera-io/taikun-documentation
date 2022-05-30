@@ -4,7 +4,7 @@ To access **Kubernetes** go to Projects - Servers - *K8s Info* or use the K8s bu
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/kubernetes/access-kuberentes.gif "Access Kubernetes")
-  <figcaption>Fig .1: Access Kubernetes</figcaption>
+  <figcaption>Figure.1: Access Kubernetes</figcaption>
 </figure>
 
 In **Kubernetes** tab can be found:
@@ -41,7 +41,7 @@ In **Kubernetes** tab can be found:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/kubernetes/k8s.gif "Kubernetes")
-  <figcaption>Fig .2: Kubernetes</figcaption>
+  <figcaption>Figure.2: Kubernetes</figcaption>
 </figure>
 
 You can use sort buttons or search button in each section for easier searching.
@@ -65,7 +65,7 @@ Open **Terminal** to control your container's.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/kubernetes/kubernetes-terminal.gif "Terminal")
-  <figcaption>Fig .3: Terminal</figcaption>
+  <figcaption>Figure.3: Terminal</figcaption>
 </figure>
 
 ### **Logs**
@@ -74,5 +74,5 @@ Logs record events happening in cluster. You can check the logs for more details
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/projects/kubernetes/kubernetes-logs.gif "Logs")
-  <figcaption>Fig .4: Logs</figcaption>
+  <figcaption>Figure.4: Logs</figcaption>
 </figure>

@@ -9,7 +9,7 @@ Table contains *ID*, *Name* and *Price*.Bold *Name* is rule and its *Price* is s
 
 <figure markdown>
   ![Showback Summary](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-summary/showback%20summary.png "Showback summary")
-  <figcaption>Fig. 1: Showback Summary</figcaption>
+  <figcaption>Figure.1: Showback Summary</figcaption>
 </figure>
 
 ## **Export**
@@ -27,7 +27,7 @@ Data is also plotted in doughnut and line charts. You can switch between them wi
 
 <figure markdown>
   ![Charts](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/showback-summary/showback%20summary.png "Showback summary")
-  <figcaption>Fig. 2: Charts</figcaption>
+  <figcaption>Figure.2: Charts</figcaption>
 </figure>
 
 

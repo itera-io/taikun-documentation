@@ -17,7 +17,7 @@ For each user you can preview following:
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/users/users.png "Users")
-  <figcaption>Fig. 1: Users</figcaption>
+  <figcaption>Figure.1: Users</figcaption>
 </figure>
 
 #### **Find User**
@@ -34,7 +34,7 @@ If you want to add a new user use the![](https://cloud.tcpro.cz:30100/swift/v1/K
 
 <figure markdown>
   ![Add User](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/users/add-user.png "Add User")
-  <figcaption>Fig. 2: Add User</figcaption>
+  <figcaption>Figure.2: Add User</figcaption>
 </figure>
 
 *User Name* - only alphanumeric characters and dash allowed
@@ -60,7 +60,7 @@ Use pencil :pencil2: in *Projects* column to assign user a project and update yo
 
 <figure markdown>
   ![Assign](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/users/assign.png "Assign")
-  <figcaption>Fig. 3: Assign</figcaption>
+  <figcaption>Figure.3: Assign</figcaption>
 </figure>
 
 ???+ warning

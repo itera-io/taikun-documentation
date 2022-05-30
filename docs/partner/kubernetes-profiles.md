@@ -6,8 +6,8 @@
 Each Profile is characterized by *ID*, *Name*, *Organization Name*, *CNI (Container Network Interface)*, *Octavia*, *Proxy on Bastion*, *Projects and Actions*.
 
 <figure markdown>
-  ![Fig. 1: Kubernetes profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/kubernetes-profiles/kubernetes-profiles.png "Kubennetes profiles")
-  <figcaption>Fig. 1: Kubernetes profiles</figcaption>
+  ![Figure.1: Kubernetes profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/kubernetes-profiles/kubernetes-profiles.png "Kubennetes profiles")
+  <figcaption>Figure.1: Kubernetes profiles</figcaption>
 </figure>
 
 Expand the table to see the last modification (*Last Modified* and *Last Modified By*).
@@ -18,8 +18,8 @@ Expand the table to see the last modification (*Last Modified* and *Last Modifie
 You can create a new profile where you can enable a few features, which you can customize with CNI plugin.
 
 <figure markdown>
-  ![Fig. 2: Add Kubernetes Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/kubernetes-profiles/add-kubernetes-profile.png)
-  <figcaption>Fig. 2: Add Kubernetes Profile</figcaption>
+  ![Figure.2: Add Kubernetes Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/kubernetes-profiles/add-kubernetes-profile.png)
+  <figcaption>Figure.2: Add Kubernetes Profile</figcaption>
 </figure>
 
 *Organization* - choose organization for your profile

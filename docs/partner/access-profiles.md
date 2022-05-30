@@ -8,8 +8,8 @@
 Without internet access and to keep your security, you can download the packages, docker images, etc. using a proxy server.
 
 <figure markdown>
-  ![Fig. 1: Access Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/access-profiles/access-profiles.png "Access Profiles")
-  <figcaption>Fig. 1: Access Profiles</figcaption>
+  ![Figure.1: Access Profiles](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/access-profiles/access-profiles.png "Access Profiles")
+  <figcaption>Figure.1: Access Profiles</figcaption>
 </figure>
 
 You can extend the table to see the last modification (*Last Modified* and *Last Modified By*).
@@ -25,8 +25,8 @@ You can extend the table to see the last modification (*Last Modified* and *Last
 Create a new profile to access a specific project.
 
 <figure markdown>
-  ![Fig.2: Add Access Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/access-profiles/add-access-profile.png "Add Access Profile")
-  <figcaption>Fig.2: Add Access Profile</figcaption>
+  ![Figure.2: Add Access Profile](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/partner/access-profiles/add-access-profile.png "Add Access Profile")
+  <figcaption>Figure.2: Add Access Profile</figcaption>
 </figure>
 
 *Organization* - choose organization form drop down section

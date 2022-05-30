@@ -34,6 +34,7 @@ If you want to add a new project, use the upper right button![]( https://cloud.t
 * **Allow Spot VM’s** - allow spots in standalone VMs
 * **Allow Full Spot Kubernetes** - allow full spot on kubernetes
 * **Allow Spot Workers** - allow spot on workers
+* **No Spot for Kubernetes**
 
 **Specify Kubernetes Version** - select the kubernetes version for the project
 

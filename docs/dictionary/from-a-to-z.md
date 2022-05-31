@@ -72,7 +72,7 @@
 * HARD - the power to the system is physically turned off and back again causing an initial boot
 * SOFT - system restarts without the need to interrupt the power
 
-**Role** - defines the rights and permissions granted to user accounts. In Taikun there are *User*, *Manager* (Owner) or *Partner*. You can take a look at each role in [User Guide](https://itera.gitbook.io/taikun/user).
+**Role** - defines the rights and permissions granted to user accounts. In Taikun there are *User*, *Manager* (Owner) or *Partner*. You can take a look at each role in [User Guide](../../user).
 
 **Showback** - internal billing set by *Showback Rules*, you can see the price for every *rule* for selected time period. You can also set external source for billing.
 

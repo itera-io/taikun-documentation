@@ -2,8 +2,9 @@
 
 ## :fontawesome-solid-user-tie: **Partner**
 
-Partner role has has the greatest privileges, options and access. Partner can have a several organizations under his control, which he has access to and takes care of - which is the main difference between partner and manager role. Partner can do everything as manager, also for different organizations and more - e.g. add organization or add billing rules to specific billing credentials.
-
+Partner role has has the greatest privileges, options and access. Partner can have a several organizations under his control, 
+which he has access to and takes care of - which is the main difference between partner and manager role. Partner can do everything as manager, 
+also for different organizations and more - e.g. add organization or add billing rules to specific billing credentials.
 
 Use this guide chronologically or visit specific page clicking the links below.
 

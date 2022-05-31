@@ -77,7 +77,7 @@ Some of these features can be added/enabled after project is created: add/detach
 ???+ warning
     **ACCESS PROFILE**
     If you want to use your access profile in a project, you have to create it BEFORE and choose it from drop down selection DURING project creation.   
-    After the project is CREATED you CANNOT ADD ACCESS PROFILE**   
+    After the project is created you cannot add an **ACCESS PROFILE**   
 
 Project can be created only by manager or partner, who then has to assign the project to the user (if they want them to have access to the project).   
 More information about project creation for [Manager](../manager/projects/creating-a-new-project/) and [Partner](../manager/projects/creating-a-new-project/).

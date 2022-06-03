@@ -59,6 +59,13 @@ Before connecting the cloud you have to [create application registration](../gui
 
 If you have trouble adding Azure credentials, see [how fill the fields](../guidelines/add-cloud-credentials/#azure) (at the bottom of the page) and [where to find credentials](../guidelines/add-cloud-credentials/#azure_1).
 
+### **Google**
+<figure markdown>
+  ![Google Cloud credentials](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/add-cc-google.gif "Google Cloud Credentials")
+  <figcaption>Fig .5: Google cloud credentials</figcaption>
+</figure>
+
+
 ## **Project Creation**
 [:fontawesome-solid-user-tie:](../manager/projects/creating-a-new-project/) **Manager**
 [:fontawesome-regular-handshake:](../partner/projects/creating-a-new-project/) **Partner**
@@ -67,7 +74,7 @@ After you have successfully added cloud credentials, you can add a project! Duri
 
 <figure markdown>
   ![Add Project](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/add-project.gif "Add Project")
-  <figcaption>Figure.5: Add project</figcaption>
+  <figcaption>Fig .6: Add project</figcaption>
 </figure>
 
 In *Access Profile*, *Alerting Profile* and *Kubernetes Profile* you have by default option *default*. These profiles are created with every new organization. You can also create a new profile and then choose from drop-down selection. If you want to enable backup, you have to add backup credentials first, same with policy profile.  
@@ -96,7 +103,7 @@ For a functional cluster you need one bastion, at least one kubemaster and at le
 
 <figure markdown>
   ![Create Cluster](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/create-cluster.gif "Create a Cluster")
-  <figcaption>Figure.6: Create cluster</figcaption>
+  <figcaption>Fig .7: Create cluster</figcaption>
 </figure>
 
 You can add and delete servers until you are satisfied with the cluster, then you can commit your changes.
@@ -116,7 +123,7 @@ Add kubeconfig to organize information about clusters, users, namespaces, and au
 
 <figure markdown>
   ![Add Kubeconfig](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/first-steps/kubeconfig.gif "Add Kubeconfigs")
-  <figcaption>Figure.7: Add kubeconfig</figcaption>
+  <figcaption>Fig .8: Add kubeconfig</figcaption>
 </figure>
 
 More about kubeconfigs for [User](../user/projects/project-details-k8s/#kubeconfigs), [Manager](../manager/projects/project-details-k8s/#kubeconfigs) and [Partner](../partner/projects/project-details-k8s/#kubeconfigs).

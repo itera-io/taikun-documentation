@@ -42,7 +42,16 @@ theme:
       - navigation.indexes
       - content.code.annotate
     palette:
-      primary: pink
+      - scheme: default
+        primary: pink
+        toggle:
+          icon: material/toggle-switch
+          name: Switch to dark mode
+      - scheme: slate
+        primary: pink
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to light mode
 
 repo_url: https://github.com/itera-io/taikun-documentation
 repo_name: Taikun Documentation

@@ -2,477 +2,477 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>http://185.22.98.224/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/first-steps/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/dictionary/from-a-to-z/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/guidelines/add-cloud-credentials/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/guidelines/backup-monitoring-lock-reboot/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/guidelines/change-mail-password/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/guidelines/creating-a-cluster/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/guidelines/creating-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/guidelines/login/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/guidelines/taikun-cli/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/guidelines/terraform-provider/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/access-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/alerting-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/audit-log/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/backup-credentials/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/chargeback/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/cloud-credentials/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/flavor-info/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/images/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/kubernetes-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/login/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/my-profile/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/policy-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/project-quotas/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/servers/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/showback-credentials/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/showback-rules/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/showback-summary/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/slack-configuration/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/standalone-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/standalone-vms/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/taikun-requests/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/ticketing/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/usage-reports/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/users/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/dashboard/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/dashboard/charts/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/dashboard/tables/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/dashboard/users/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/projects/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/projects/creating-a-new-project/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/projects/kubernetes/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/projects/project-details-k8s/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/manager/projects/project-details-vms/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/access-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/alerting-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/audit-log/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/backup-credentials/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/billing-credentials/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/billing-rules/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/chargeback/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/cloud-credentials/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/flavor-info/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/images/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/kubernetes-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/login/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/my-profile/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/organizations/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/policy-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/project-quotas/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/servers/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/showback-credentials/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/showback-rules/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/showback-summary/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/slack-configuration/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/standalone-profiles/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/standalone-vms/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/taikun-requests/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/ticketing/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/usage-reports/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/users/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/dashboard/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/dashboard/charts/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/dashboard/select-organization/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/dashboard/tables/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/dashboard/users/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/projects/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/projects/creating-a-new-project/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/projects/kubernetes/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/projects/project-details-k8s/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/partner/projects/project-details-vms/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/tech-book/loadbalancers/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/login/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/my-profile/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/dashboard/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/dashboard/charts/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/dashboard/tables/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/dashboard/users/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/projects/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/projects/kubernetes/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/projects/project-details-k8s/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>http://185.22.98.224/user/projects/project-details-vms/</loc>
-         <lastmod>2022-05-31</lastmod>
+         <lastmod>2022-06-03</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

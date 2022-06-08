@@ -237,6 +237,26 @@ Please be careful when inserting the credentials. If you add incorrect credentia
 
 *Availability Zone* - choose zone for the location
 
+## **Google Cloud Credentials**
+<figure markdown>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/add-google-cc.gif "Add Google Credentials")
+  <figcaption>Fig .4: Google Cloud Credentials</figcaption>
+</figure>
+
+*Cloud Name* - Choose name for your Cloud Credentials (3-30 characters, e.g. cloud-test)
+
+*Import Project* - Import existing project file
+
+*Folder ID* - Project ID from Google Cloud Console
+
+*Choose Config File* - Choose privet key .json file from Google console
+
+*Regions* - Select Region if there are multiple options (e.g. RegionOne)
+
+*Zones* - Select zone accordingly regions  
+
+*Billing Accounts* - Select Billing account details if there are multiple options (e.g. User's billing account (####AA-R#BA#C-######))
+
 ----
 
 ## **Where to find credentials**
@@ -298,13 +318,13 @@ Please be careful when inserting the credentials. If you add incorrect credentia
 </figure>
 
 <figure markdown>
-  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/aws-2.png "AWS 2: Access keys for CLI, SDK, & API access")
-  <figcaption>Figure.9: Azure - All registration: application name</figcaption>
-</figure>
 
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-client-tenant-id-3.png "AWS 2: Access keys for CLI, SDK, & API access")
+  <figcaption>Fig .9: Azure 3: All registration: application name</figcaption>
+</figure>
 <figure markdown>
-  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/aws-2.png "AWS 2: Access keys for CLI, SDK, & API access")
-  <figcaption>Figure.10: Azure - Client and Tenant ID</figcaption>
+  ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/guidelines/add-cc/where-to-find-cc/azure-client-tenant-id-4.png "AWS 2: Access keys for CLI, SDK, & API access")
+  <figcaption>Fig .10: Azure 4: Client and Tenant ID</figcaption>
 </figure>
 
 

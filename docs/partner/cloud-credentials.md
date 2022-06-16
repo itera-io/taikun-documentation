@@ -22,7 +22,7 @@ You can expand all tables to see the last modification made (*Created By*, *Last
   <figcaption>Figure.2: Detailed CC for OpenStack</figcaption>
 </figure>
 
-**Actions**
+## **Actions**
 
 ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/make-default.png "Make Default"){: .middle} Make default - choose credentials which will be then filled during project creation, lighter color indicates selected credentials
 

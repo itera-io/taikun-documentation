@@ -7,7 +7,7 @@ Sort flavors by size of CPU and RAM or use search bar.
 
 ## **Bind To Project**
 
-Choose the *Cloud Type* and *Credentials* where your project is stored. After selecting flavor/s you can bind it/them to the project.
+Choose the *Cloud Type* and *Credentials* where your project is stored. After selecting flavor's you can bind it/them to the project.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/flavor-info/bind-flavor.gif "Bind to Project")

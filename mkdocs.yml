@@ -167,6 +167,9 @@ nav:
     - From A to Z: dictionary/from-a-to-z.md
 extra:
   consent:
+    actions:
+      - accept
+      - reject
     title: Cookie consent
     description: >- 
       We use cookies to recognize your repeated visits and preferences, as well

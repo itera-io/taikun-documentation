@@ -228,7 +228,7 @@ If Kubernetes is active, Kube Info button will take you to the Kubernetes config
 
 ### **Events**
 
-You are redirected to Events, where you can see all Kubernetes changes made in the project. To preview details for more information to each action use![](https://firebasestorage.googleapis.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-MJQrhtis3vRAM281R7J%2F-MNwXBGwTT91-bGRAbAb%2F-MNwbz5QiOnItn3vUmwl%2Fshow.png?alt=media\&token=5311f2d7-e998-4d68-b6dd-019933d28424)button. A green strip indicates a successful action, a brown strip indicates a failed action.​
+You are redirected to Events, where you can see all Kubernetes changes made in the project. To preview details for more information to each action use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/icons/show.png){: .middle} button. A green strip indicates a successful action, a brown strip indicates a failed action.
 
 You can sort Events by:
 

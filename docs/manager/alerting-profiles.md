@@ -5,7 +5,7 @@ If you want to receive notifications when there is some alert in you project, ju
 
 ## **Add Alerting Profile**
 
-If you want a new alerting profile, use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/alerting-profiles/add-alerting-profile-btn.png)button.
+If you want a new alerting profile, use![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/alerting-profiles/add-alerting-profile-btn.png){: .middle}button.
 
 <figure markdown>
   ![](https://cloud.tcpro.cz:30100/swift/v1/KEY_c5d050a1634d4ed1984f3844813f1a1d/doc-images/manager/alerting-profiles/add-alerting-profile.png "Add Alerting Profile")

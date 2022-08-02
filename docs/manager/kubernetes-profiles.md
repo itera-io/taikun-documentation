@@ -36,6 +36,9 @@ Exposes the Service on each Node's IP at a static port, the NodePort. You'll be 
 
 Schedule Pods on control-plane node to maximize resource usage, but we do not recommend it.
 
+???+ note
+     If Allow Scheduling On Master is equal to false then the kube worker should have more than 2 CPU
+
 ???+ info
      Choose this profile with enabled features during [project creation](../projects/creating-a-new-project).
 

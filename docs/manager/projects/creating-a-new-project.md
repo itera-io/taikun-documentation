@@ -38,4 +38,6 @@ If you want to add a new project, use the upper right button![]( https://cloud.t
 
 **Specify Kubernetes Version** - select the kubernetes version for the project
 
+**Specify CIDR** - specify the Classless Inter Domain Routing for the project (example IP: 192.168.0.0, netmask: 16)
+
 **Add Flavor** - bind the flavor to the project, you can bind more than one flavor and un/bind them later in [**Flavor Info**](../flavor-info)
